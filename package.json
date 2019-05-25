@@ -1,0 +1,14 @@
+{
+  "name": "lerna-ts",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean": "lerna run clean",
+    "build": "lerna run build",
+    "pub": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "~3.14.0",
+    "typescript": "~3.4.5"
+  }
+}

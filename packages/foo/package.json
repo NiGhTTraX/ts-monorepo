@@ -1,0 +1,17 @@
+{
+  "name": "@nighttrax/foo",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.build.tsbuildinfo",
+    "compile": "tsc -b tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "~3.4.5"
+  }
+}
