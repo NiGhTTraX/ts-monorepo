@@ -20,10 +20,7 @@ Each package gets a clean build output without any artifacts from other packages
 
 ```shell
 npm install
-npm run bootstrap
 ```
-
-Running `lerna bootstrap` is needed in order to build the packages, but is not needed for code navigation.
 
 ## Docs
 
