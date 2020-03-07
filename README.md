@@ -4,11 +4,17 @@
 
 ## Features
 
-- `Go to definition` works without building the project.
-- Building packages creates the expected `dist/` folder structure.
-- Minimal maintenance of config files.
+### Go to definition works without building the project
 
-![demo](./demo.gif)
+Using the "Go to definition" feature in IDEs works without needing to have up-to-date build artifacts or a watch process.
+
+![find-usage](./media/find-usage.gif)
+
+### Building packages creates the expected folder structure
+
+Each package gets a clean build output without any artifacts from other packages.
+
+![build-output](./media/build-output.png)
 
 ## Setup
 
