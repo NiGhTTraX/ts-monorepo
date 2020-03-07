@@ -4,8 +4,27 @@
 
 ## Features
 
-- `Go to definition` works without building the project.
-- Building packages creates the expected `dist/` folder structure.
-- Minimal maintenance of config files.
+### Go to definition works without building the project
 
-![demo](./demo.gif)
+Using the "Go to definition" feature in IDEs works without needing to have up-to-date build artifacts or a watch process.
+
+![find-usage](./media/find-usage.gif)
+
+### Building packages creates the expected folder structure
+
+Each package gets a clean build output without any artifacts from other packages.
+
+![build-output](./media/build-output.png)
+
+## Setup
+
+```shell
+npm install
+npm run bootstrap
+```
+
+Running `lerna bootstrap` is needed in order to build the packages, but is not needed for code navigation.
+
+## Docs
+
+See [this blog post](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559) for more info. If you're looking for the project references solution checkout the [`project-references`](https://github.com/NiGhTTraX/lerna-ts/tree/project-references) branch.
