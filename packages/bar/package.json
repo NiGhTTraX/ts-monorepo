@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "npm run clean && npm run compile",
-    "clean": "rm -rf ./dist && rm -rf tsconfig.build.tsbuildinfo",
+    "clean": "rimraf -rf ./dist tsconfig.build.tsbuildinfo",
     "compile": "tsc -b tsconfig.build.json",
     "prepublishOnly": "npm run build"
   },
