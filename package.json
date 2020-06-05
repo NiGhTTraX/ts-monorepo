@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "lerna": "~3.14.0",
-    "rimraf": "~3.0.2",
     "typescript": "~3.4.5"
   }
 }
