@@ -1,4 +1,8 @@
 import React from "react";
 import {meaningOfLife} from "foo";
+import {Button} from "components";
 
-export default () => <div>Meaning of life is {meaningOfLife}</div>;
+export default () => <div>
+  <p>Meaning of life is {meaningOfLife}</p>
+  <Button/>
+</div>;

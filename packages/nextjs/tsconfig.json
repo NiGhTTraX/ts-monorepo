@@ -8,7 +8,8 @@
     ],
     "baseUrl": "../",
     "paths": {
-      "foo": ["foo/src"]
+      "foo": ["foo/src"],
+      "components": ["components/src"]
     },
     "allowJs": true,
     "skipLibCheck": true,

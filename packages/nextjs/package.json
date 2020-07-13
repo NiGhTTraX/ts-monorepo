@@ -12,5 +12,8 @@
     "react": "~16.13.1",
     "react-dom": "~16.13.1",
     "typescript": "~3.9.6"
+  },
+  "devDependencies": {
+    "next-transpile-modules": "~3.3.0"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "name": "components",
+  "main": "dist/index",
+  "peerDependencies": {
+    "react": "~16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "~16.9.43"
+  }
+}
