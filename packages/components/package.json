@@ -1,5 +1,5 @@
 {
-  "name": "components",
+  "name": "@nighttrax/components",
   "main": "dist/index",
   "peerDependencies": {
     "react": "~16.13.1"

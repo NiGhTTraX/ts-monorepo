@@ -1,5 +1,5 @@
 {
-  "name": "jest-example",
+  "name": "@nighttrax/jest-example",
   "description": "Example of using jest with a TS monorepo",
   "scripts": {
     "test": "jest"

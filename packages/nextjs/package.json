@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-example",
+  "name": "@nighttrax/nextjs-example",
   "private": true,
   "scripts": {
     "dev": "next dev",
