@@ -1,0 +1,12 @@
+{
+  "name": "jest-example",
+  "description": "Example of using jest with a TS monorepo",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "~26.0.4",
+    "jest": "~26.1.0",
+    "ts-jest": "~26.1.2"
+  }
+}
