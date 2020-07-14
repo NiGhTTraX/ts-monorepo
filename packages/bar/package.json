@@ -10,7 +10,8 @@
     "build": "npm run clean && npm run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "npm run build"
   },
   "dependencies": {
     "@nighttrax/foo": "^1.0.0"

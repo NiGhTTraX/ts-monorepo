@@ -2,7 +2,8 @@
   "name": "@nighttrax/ts-node",
   "description": "Example of using ts-node in a TS monorepo",
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/index.ts"
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "test": "npm run start"
   },
   "devDependencies": {
     "ts-node": "~8.10.2",

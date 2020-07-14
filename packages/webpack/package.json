@@ -2,7 +2,8 @@
   "name": "@nighttrax/webpack-example",
   "description": "Example of using webpack in a TS monorepo",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "npm run build"
   },
   "devDependencies": {
     "webpack": "~4.43.0",
