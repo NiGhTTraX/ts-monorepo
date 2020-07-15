@@ -1,3 +1,6 @@
-const withTM = require('next-transpile-modules')(['components']);
+const withTM = require('next-transpile-modules')(
+    // List all of your dependencies.
+    ['components']
+);
 
 module.exports = withTM();
