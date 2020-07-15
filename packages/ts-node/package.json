@@ -5,6 +5,9 @@
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
     "test": "npm run start"
   },
+  "dependencies": {
+    "@nighttrax/foo": "*"
+  },
   "devDependencies": {
     "ts-node": "~8.10.2",
     "tsconfig-paths": "~3.9.0"

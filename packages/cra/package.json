@@ -2,11 +2,15 @@
   "name": "@nighttrax/cra-example",
   "description": "Example of using create-react-app in a TS monorepo",
   "dependencies": {
+    "@nighttrax/foo": "*",
+    "@nighttrax/components": "*",
+    "react": "~16.13.1",
+    "react-dom": "~16.13.1"
+  },
+  "devDependencies": {
     "@types/node": "~14.0.23",
     "@types/react": "~16.9.43",
     "@types/react-dom": "~16.9.8",
-    "react": "~16.13.1",
-    "react-dom": "~16.13.1",
     "react-scripts": "~3.4.1",
     "react-app-rewired": "~2.1.6",
     "tsconfig-paths-webpack-plugin": "~3.2.0"

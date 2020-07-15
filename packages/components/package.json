@@ -1,5 +1,6 @@
 {
   "name": "@nighttrax/components",
+  "version": "1.0.0",
   "main": "dist/index",
   "peerDependencies": {
     "react": "~16.13.1"
