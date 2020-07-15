@@ -1,6 +1,6 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
-module.exports = function override(config) {
+module.exports = (config) => {
   // Remove the ModuleScopePlugin which throws when we try to import something
   // outside of src/.
   config.resolve.plugins.pop();
