@@ -16,6 +16,15 @@ Each package gets a clean build output without any artifacts from other packages
 
 ![build-output](./media/build-output.png)
 
+### Examples of integrating with tools/frameworks
+
+- [ts-node](packages/ts-node)
+- [webpack](packages/webpack)
+- [jest + babel](packages/jest-babel)
+- [jest + ts-jest](packages/jest-tsjest)
+- [create-react-app](packages/cra)
+- [NextJS](packages/nextjs)
+
 ## Setup
 
 ```shell
