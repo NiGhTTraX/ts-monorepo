@@ -1,0 +1,13 @@
+{
+  "name": "@nighttrax/jest-babel-example",
+  "description": "Example of using jest + babel with a TS monorepo",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "~7.10.4",
+    "@types/jest": "~26.0.4",
+    "babel-plugin-module-resolver": "~4.0.0",
+    "jest": "~26.1.0"
+  }
+}
