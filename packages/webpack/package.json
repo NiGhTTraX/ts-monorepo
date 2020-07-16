@@ -1,6 +1,8 @@
 {
   "name": "@nighttrax/webpack-example",
   "description": "Example of using webpack in a TS monorepo",
+  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "build": "webpack",
     "test": "npm run build"

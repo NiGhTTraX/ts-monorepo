@@ -1,6 +1,8 @@
 {
   "name": "@nighttrax/jest-babel-example",
   "description": "Example of using jest + babel with a TS monorepo",
+  "private": true,
+  "version": "1.0.0",
   "scripts": {
     "test": "jest"
   },

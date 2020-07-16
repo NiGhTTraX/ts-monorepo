@@ -1,6 +1,8 @@
 {
   "name": "@nighttrax/cra-example",
   "description": "Example of using create-react-app in a TS monorepo",
+  "private": true,
+  "version": "1.0.0",
   "dependencies": {
     "@nighttrax/foo": "*",
     "@nighttrax/components": "*",

@@ -28,7 +28,7 @@ Each package gets a clean build output without any artifacts from other packages
 ## Setup
 
 ```shell
-npm install
+yarn
 ```
 
 ## Docs
