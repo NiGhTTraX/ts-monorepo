@@ -31,6 +31,9 @@ Each package gets a clean build output without any artifacts from other packages
 yarn
 ```
 
+If you want to use `npm` then check out the [`npm` branch](https://github.com/NiGhTTraX/lerna-ts/tree/npm).
+
+
 ## Docs
 
 See [this blog post](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559) for more info. If you're looking for the project references solution checkout the [`project-references`](https://github.com/NiGhTTraX/lerna-ts/tree/project-references) branch.
