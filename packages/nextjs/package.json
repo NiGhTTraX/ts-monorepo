@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "test": "npm run build"
+    "test": "yarn run build"
   },
   "dependencies": {
     "next": "~9.4.4",

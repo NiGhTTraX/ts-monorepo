@@ -7,11 +7,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run clean && npm run compile",
+    "build": "yarn run clean && yarn run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "npm run build",
-    "test": "npm run build"
+    "prepublishOnly": "yarn run build",
+    "test": "yarn run build"
   },
   "dependencies": {
     "@nighttrax/foo": "^1.0.0"
