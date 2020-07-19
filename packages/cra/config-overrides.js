@@ -9,8 +9,7 @@ module.exports = (config) => {
   // Resolve the path aliases.
   config.resolve.plugins.push(new TsconfigPathsPlugin());
 
-  // Let Babel compile outside of src/. The rule could be searched for to make
-  // it more reliable against react-scripts updates.
+  // Let Babel compile outside of src/.
   const tsRule = config.module.rules[2].oneOf[1];
   tsRule.include = undefined;
   tsRule.exclude = /node_modules/;
