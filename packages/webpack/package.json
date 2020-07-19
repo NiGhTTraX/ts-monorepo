@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
-    "test": "yarn run build"
+    "test": "npm run build"
   },
   "dependencies": {
     "@nighttrax/bar": "*"

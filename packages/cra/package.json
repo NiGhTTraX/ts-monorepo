@@ -20,7 +20,7 @@
   "scripts": {
     "start": "SKIP_PREFLIGHT_CHECK=true react-app-rewired start",
     "build": "SKIP_PREFLIGHT_CHECK=true react-app-rewired build",
-    "test": "yarn run build"
+    "test": "npm run build"
   },
   "browserslist": {
     "production": [

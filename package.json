@@ -2,8 +2,8 @@
   "name": "ts-monorepo",
   "description": "Template for setting up a TypeScript monorepo",
   "private": true,
-  "workspaces": ["packages/*"],
   "scripts": {
+    "postinstall": "lerna bootstrap --hoist",
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
