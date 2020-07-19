@@ -1,4 +1,6 @@
 <!--suppress HtmlDeprecatedAttribute -->
+[![Build Status](https://travis-ci.com/NiGhTTraX/ts-monorepo.svg?branch=master)](https://travis-ci.com/NiGhTTraX/ts-monorepo)
+
 <div align="center">
 Template project for setting up a TypeScript monorepo
 </div>
