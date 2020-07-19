@@ -9,10 +9,11 @@
     // TODO: extend root config once https://github.com/vercel/next.js/pull/13542 is released
     "baseUrl": "../",
     "paths": {
-      "@nighttrax/*": ["*/src"]
+      "@nighttrax/*": [
+        "*/src"
+      ]
     },
     "allowJs": true,
-    "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -21,7 +22,8 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules"

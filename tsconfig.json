@@ -7,6 +7,7 @@
       "@nighttrax/*": ["packages/*/src"]
     },
     "jsx": "react",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
