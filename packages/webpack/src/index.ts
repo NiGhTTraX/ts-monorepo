@@ -1,1 +1,1 @@
-import '@nighttrax/bar';
+import "@nighttrax/bar";

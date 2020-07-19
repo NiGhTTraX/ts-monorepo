@@ -1,3 +1,3 @@
-import {meaningOfLife} from "@nighttrax/foo";
+import { meaningOfLife } from "@nighttrax/foo";
 
 export const whatIsTheMeaningOfLife = () => meaningOfLife;

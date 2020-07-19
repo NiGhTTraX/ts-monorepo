@@ -1,7 +1,7 @@
-import {whatIsTheMeaningOfLife} from "../src";
+import { whatIsTheMeaningOfLife } from "../src";
 
-describe("meaning of life", function() {
-  it("should be 42", function() {
+describe("meaning of life", () => {
+  it("should be 42", () => {
     expect(whatIsTheMeaningOfLife()).toEqual(42);
   });
 });

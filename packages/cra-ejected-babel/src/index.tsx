@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {meaningOfLife} from "@nighttrax/foo";
-import {Button} from "@nighttrax/components";
+import { meaningOfLife } from "@nighttrax/foo";
+import { Button } from "@nighttrax/components";
 
 ReactDOM.render(
   <React.StrictMode>
     {meaningOfLife}
-    <Button/>
+    <Button />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );

@@ -73,9 +73,6 @@
     "build": "node scripts/build.js",
     "test": "yarn run build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",

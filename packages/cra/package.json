@@ -22,9 +22,6 @@
     "build": "SKIP_PREFLIGHT_CHECK=true react-app-rewired build",
     "test": "yarn run build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
