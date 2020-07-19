@@ -3,6 +3,7 @@
   "private": true,
   "workspaces": ["packages/*"],
   "scripts": {
+    "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
     "pub": "lerna publish",
@@ -10,6 +11,7 @@
   },
   "devDependencies": {
     "@nighttrax/eslint-config-tsx": "~6.1.0",
+    "doctoc": "~1.4.0",
     "eslint": "~7.5.0",
     "lerna": "~3.14.0",
     "typescript": "~3.9.6"
