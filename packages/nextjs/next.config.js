@@ -1,7 +1,9 @@
+const path = require("path");
+
 /* eslint-disable import/no-extraneous-dependencies */
 const withTM = require("next-transpile-modules")(
-  // List all of your dependencies.
-  ["components"]
+  // All of the packages will resolve to our monorepo so we can match that path.
+  [path.resolve(__dirname, "..")]
 );
 
 module.exports = withTM();
