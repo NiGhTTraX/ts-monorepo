@@ -2,7 +2,10 @@
   "name": "ts-monorepo",
   "description": "Template for setting up a TypeScript monorepo",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",

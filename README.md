@@ -55,7 +55,7 @@ If you're looking for the project references solution checkout the [`project-ref
 
 ## Examples
 
-This repo contains full examples of integrating with other tools and frameworks that need to be made aware that they're working with a monorepo. You can find each example in the `packages/` folder.
+This repo contains full examples of integrating with other tools and frameworks that need to be made aware that they're working with a monorepo. You can find each example in the `examples/` folder.
 
 ### ts-node
 
@@ -69,7 +69,7 @@ Use [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) to resolve th
 }
 ```
 
-See the full example [here](packages/ts-node).
+See the full example [here](examples/ts-node).
 
 ### Babel
 
@@ -95,7 +95,7 @@ module.exports = {
 };
 ```
 
-See the full example [here](packages/jest-babel).
+See the full example [here](examples/jest-babel).
 
 ### webpack
 
@@ -111,11 +111,11 @@ module.exports = {
 };
 ```
 
-See the full example [here](packages/webpack).
+See the full example [here](examples/webpack).
 
 ### jest
 
-If you use `Babel` then see [this example](packages/jest-babel) from the [Babel](#babel) section above.
+If you use `Babel` then see [this example](examples/jest-babel) from the [Babel](#babel) section above.
 
 If you use [ts-jest](https://github.com/kulshekhar/ts-jest) then you can use its `pathsToModuleNameMapper` helper: 
 
@@ -133,7 +133,7 @@ module.exports = {
 };
 ```
 
-See the full example [here](packages/jest-tsjest).
+See the full example [here](examples/jest-tsjest).
 
 ### create-react-app
 
@@ -159,7 +159,7 @@ module.exports = (config) => {
 };
 ```
 
-See the full example [here](packages/cra).
+See the full example [here](examples/cra).
 
 
 ### NextJS
@@ -177,4 +177,4 @@ const withTM = require("next-transpile-modules")(
 module.exports = withTM();
 ```
 
-See the full example [here](packages/nextjs).
+See the full example [here](examples/nextjs).

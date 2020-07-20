@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "dependencies": {
+    "@nighttrax/foo": "*"
+  },
   "devDependencies": {
     "@types/jest": "~26.0.4",
     "jest": "~26.1.0",
