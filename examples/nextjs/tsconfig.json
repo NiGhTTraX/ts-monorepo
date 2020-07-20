@@ -7,10 +7,10 @@
       "esnext"
     ],
     // TODO: extend root config once https://github.com/vercel/next.js/pull/13542 is released
-    "baseUrl": "../../packages",
+    "baseUrl": "../..",
     "paths": {
       "@nighttrax/*": [
-        "*/src"
+        "packages/*/src"
       ]
     },
     "allowJs": true,
