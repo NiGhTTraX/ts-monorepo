@@ -6,4 +6,8 @@ const withTM = require("next-transpile-modules")(
   [path.resolve(__dirname, "../../packages")]
 );
 
-module.exports = withTM();
+// Set target for compatibility with Vercel/Now deployments: 
+// Source: https://github.com/vercel/vercel/blob/master/errors/now-next-no-serverless-pages-built.md
+module.exports = withTM({
+  target: "serverless"
+});
