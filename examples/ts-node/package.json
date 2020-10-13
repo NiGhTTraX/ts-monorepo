@@ -1,0 +1,17 @@
+{
+  "name": "@nighttrax/ts-node",
+  "description": "Example of using ts-node in a TS monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "test": "yarn run start"
+  },
+  "dependencies": {
+    "@nighttrax/foo": "*"
+  },
+  "devDependencies": {
+    "ts-node": "~8.10.2",
+    "tsconfig-paths": "~3.9.0"
+  }
+}

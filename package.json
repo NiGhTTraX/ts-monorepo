@@ -1,15 +1,23 @@
 {
-  "name": "lerna-ts",
+  "name": "ts-monorepo",
+  "description": "Template for setting up a TypeScript monorepo",
   "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
-    "postinstall": "npm run bootstrap",
+    "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "pub": "lerna publish"
+    "pub": "lerna publish",
+    "test": "lerna run test"
   },
   "devDependencies": {
-    "lerna": "~3.14.0",
-    "typescript": "~3.4.5"
+    "@nighttrax/eslint-config-tsx": "~6.3.0",
+    "doctoc": "~1.4.0",
+    "eslint": "~7.10.0",
+    "lerna": "~3.22.0",
+    "typescript": "~4.0.0"
   }
 }

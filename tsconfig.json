@@ -5,6 +5,10 @@
     "baseUrl": ".",
     "paths": {
       "@nighttrax/*": ["packages/*/src"]
-    }
+    },
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": []
   }
 }
