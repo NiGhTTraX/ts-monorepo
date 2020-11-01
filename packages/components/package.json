@@ -11,7 +11,7 @@
     "test": "yarn run build"
   },
   "peerDependencies": {
-    "react": "~16.13.1"
+    "react": "~17.0.0"
   },
   "dependencies": {
     "@nighttrax/foo": "*"
