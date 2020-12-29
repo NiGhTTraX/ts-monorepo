@@ -17,6 +17,6 @@
     "@nighttrax/foo": "*"
   },
   "devDependencies": {
-    "@types/react": "~16.9.43"
+    "@types/react": "~17.0.0"
   }
 }
