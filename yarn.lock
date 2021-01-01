@@ -2536,17 +2536,17 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.4.4.tgz#d94cbb3b354a07f1f5b80e554d6b9e34aba99e41"
   integrity sha512-9nKENeWRI6kQk44TbeqleIVtNLfcS3klVUepzl/ZCqzR5Bi06uqBCD277hdVvG/wL1pxA+R/pgJQLqnF5E2wPQ==
 
-"@nighttrax/eslint-config-base@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@nighttrax/eslint-config-base/-/eslint-config-base-5.1.1.tgz#419dcccb3b16c47b5e31c647d4bff73930d6a118"
-  integrity sha512-PsmHb7h8RRkKuCWJQL5hfU9G5wxIGSgwLjGxGTmGFLcfVVZYpQ6ZcnW/BTvKzlrOsTY9B+vCjSXRVW5HbucEWQ==
+"@nighttrax/eslint-config-base@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@nighttrax/eslint-config-base/-/eslint-config-base-6.0.0.tgz#d59d37427b414ff24b862fd6b373d2385bdc9627"
+  integrity sha512-fvFyrcmOuSyxjcCDmrKifeqX1Ore5c7iyZCria92MEjJID/Dirgdldm9NXK8HIM3/aYYHf0tY2vYeS+9xKoKSg==
   dependencies:
-    eslint-config-airbnb-base "^14.0.0"
-    eslint-config-prettier "^6.9.0"
-    eslint-import-resolver-typescript "^2.0.0"
-    eslint-plugin-import "^2.19.1"
-    eslint-plugin-prettier "^3.1.2"
-    prettier "^2.0.0"
+    eslint-config-airbnb-base "~14.2.1"
+    eslint-config-prettier "~7.0.0"
+    eslint-import-resolver-typescript "~2.3.0"
+    eslint-plugin-import "~2.22.1"
+    eslint-plugin-prettier "~3.3.0"
+    prettier "~2.2.1"
 
 "@nighttrax/eslint-config-react@^4.0.1":
   version "4.0.1"
@@ -2557,22 +2557,22 @@
     eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-react "^7.16.0"
 
-"@nighttrax/eslint-config-ts@^6.3.1":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@nighttrax/eslint-config-ts/-/eslint-config-ts-6.3.1.tgz#8b5730a5b9130fb62585f760f3e88466a108710e"
-  integrity sha512-q+m8qm29yqmMG24hxI+5iHmSrfwbvHoEfjxvyiASpG+5cAku4wV5AaFIu+V+yWFCmqSZzazlk49WSs/swb37ZA==
+"@nighttrax/eslint-config-ts@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@nighttrax/eslint-config-ts/-/eslint-config-ts-7.0.0.tgz#77c641afc43b44f96e2abe7cb4451a9bd4023759"
+  integrity sha512-IiIAOe0nr90hDIitGu1VhwJ0jbkZO+QEdnED7rktV1Zo6qvBrZqYwTHBiV9bV7DByR9TWGJH0hN4rJXkbQjxUQ==
   dependencies:
-    "@nighttrax/eslint-config-base" "^5.1.1"
+    "@nighttrax/eslint-config-base" "^6.0.0"
     "@typescript-eslint/eslint-plugin" "~3.10.0"
     "@typescript-eslint/parser" "~3.10.0"
 
-"@nighttrax/eslint-config-tsx@~6.3.0":
-  version "6.3.1"
-  resolved "https://registry.yarnpkg.com/@nighttrax/eslint-config-tsx/-/eslint-config-tsx-6.3.1.tgz#65d25ec1123d623dce3fccc299e46ba36633ade2"
-  integrity sha512-VMqkFndRtc4ESTlPBh+rbA2PN+8UAA0/KYF1QB542XpIXnuGkhqROcIJtwBuRhWzlpb6046oH4NylmdaQA6hHw==
+"@nighttrax/eslint-config-tsx@~7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@nighttrax/eslint-config-tsx/-/eslint-config-tsx-7.0.0.tgz#874979e4b137fbc7f1d5669f868ad20185737160"
+  integrity sha512-wbt6p+ezljOchxzZLs/fE7zMwuVxpmjwq6sGNhgHsWII4DvMoPZcxwHLbQsAn5zEIhAW9fYYdBOPdCP4UQJ+Yw==
   dependencies:
     "@nighttrax/eslint-config-react" "^4.0.1"
-    "@nighttrax/eslint-config-ts" "^6.3.1"
+    "@nighttrax/eslint-config-ts" "^7.0.0"
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
@@ -6553,7 +6553,7 @@ escodegen@^1.11.0, escodegen@^1.14.1, escodegen@^1.9.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-airbnb-base@^14.0.0, eslint-config-airbnb-base@^14.2.1:
+eslint-config-airbnb-base@^14.2.1, eslint-config-airbnb-base@~14.2.1:
   version "14.2.1"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.2.1.tgz#8a2eb38455dc5a312550193b319cdaeef042cd1e"
   integrity sha512-GOrQyDtVEc1Xy20U7vsB2yAoB4nBlfH5HZJeatRXHleO+OS5Ot+MWij4Dpltw4/DyIkqUfqz1epfhVR5XWWQPA==
@@ -6571,12 +6571,10 @@ eslint-config-airbnb@^18.0.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-config-prettier@^6.9.0:
-  version "6.15.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.15.0.tgz#7f93f6cb7d45a92f1537a70ecc06366e1ac6fed9"
-  integrity sha512-a1+kOYLR8wMGustcgAjdydMsQ2A/2ipRPwRKUmfYaSxc9ZPcrku080Ctl6zrZzZNs/U82MjSv+qKREkoq3bJaw==
-  dependencies:
-    get-stdin "^6.0.0"
+eslint-config-prettier@~7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-7.0.0.tgz#c1ae4106f74e6c0357f44adb076771d032ac0e97"
+  integrity sha512-8Y8lGLVPPZdaNA7JXqnvETVC7IiVRgAP6afQu9gOQRn90YY3otMNh+x7Vr2vMePQntF+5erdSUBqSzCmU/AxaQ==
 
 eslint-config-react-app@^5.2.1, eslint-config-react-app@~5.2.1:
   version "5.2.1"
@@ -6593,7 +6591,7 @@ eslint-import-resolver-node@^0.3.2, eslint-import-resolver-node@^0.3.4:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-import-resolver-typescript@^2.0.0:
+eslint-import-resolver-typescript@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.3.0.tgz#0870988098bc6c6419c87705e6b42bee89425445"
   integrity sha512-MHSXvmj5e0SGOOBhBbt7C+fWj1bJbtSYFAD85Xeg8nvUtuooTod2HQb8bfhE9f5QyyNxEfgzqOYFCvmdDIcCuw==
@@ -6648,7 +6646,7 @@ eslint-plugin-import@2.20.1:
     read-pkg-up "^2.0.0"
     resolve "^1.12.0"
 
-eslint-plugin-import@^2.19.1:
+eslint-plugin-import@~2.22.1:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
   integrity sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
@@ -6699,7 +6697,7 @@ eslint-plugin-jsx-a11y@^6.2.3:
     jsx-ast-utils "^3.1.0"
     language-tags "^1.0.5"
 
-eslint-plugin-prettier@^3.1.2:
+eslint-plugin-prettier@~3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.3.0.tgz#61e295349a65688ffac0b7808ef0a8244bdd8d40"
   integrity sha512-tMTwO8iUWlSRZIwS9k7/E4vrTsfvsrcM5p1eftyuqWH25nKsz/o6/54I7jwQ/3zobISyC7wMy9ZsFwgTxOcOpQ==
@@ -7668,11 +7666,6 @@ get-stdin@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
   integrity sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=
-
-get-stdin@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
-  integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
 
 get-stream@^4.0.0, get-stream@^4.1.0:
   version "4.1.0"
@@ -12760,7 +12753,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.0.0:
+prettier@~2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
   integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
