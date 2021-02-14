@@ -5,6 +5,8 @@
 
 Template project for setting up a TypeScript monorepo
 
+![Build Status](https://github.com/NiGhTTraX/ts-monorepo/workflows/Tests/badge.svg)
+
 </div>
 
 ----
