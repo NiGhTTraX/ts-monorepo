@@ -14,7 +14,7 @@
     "test": "lerna run test"
   },
   "devDependencies": {
-    "@nighttrax/eslint-config-tsx": "~7.0.0",
+    "@nighttrax/eslint-config-tsx": "~8.0.0",
     "doctoc": "~2.0.0",
     "eslint": "~7.19.0",
     "lerna": "~3.22.0",
