@@ -11,10 +11,10 @@
     "test": "lerna run test"
   },
   "devDependencies": {
-    "@nighttrax/eslint-config-tsx": "~6.1.0",
-    "doctoc": "~1.4.0",
-    "eslint": "~7.5.0",
-    "lerna": "~3.14.0",
-    "typescript": "~3.9.6"
+    "@nighttrax/eslint-config-tsx": "~7.0.0",
+    "doctoc": "~2.0.0",
+    "eslint": "~7.19.0",
+    "lerna": "~3.22.0",
+    "typescript": "~4.1.0"
   }
 }

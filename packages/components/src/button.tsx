@@ -1,8 +1,12 @@
+/* eslint-disable no-alert */
+import { meaningOfLife } from "@nighttrax/foo";
 import React from "react";
 
 export const Button = () => (
-  // eslint-disable-next-line no-alert
-  <button type="button" onClick={() => alert("you clicked me")}>
+  <button
+    type="button"
+    onClick={() => alert(`the meaning if life is ${meaningOfLife}`)}
+  >
     Click me
   </button>
 );

@@ -1,0 +1,34 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.yarn
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: Install dependencies
+        run: yarn --frozen-lockfile
+
+      - name: Test
+        run: yarn test
