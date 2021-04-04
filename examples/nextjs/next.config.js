@@ -1,13 +1,12 @@
-const path = require("path");
+module.exports = {
+  webpack: (config) => {
+    // Let Babel compile outside of src/.
+    const tsRule = config.module.rules.find(
+      (rule) => rule.test && rule.test.toString().includes("tsx|ts")
+    );
+    tsRule.include = undefined;
+    tsRule.exclude = /node_modules/;
 
-/* eslint-disable import/no-extraneous-dependencies */
-const withTM = require("next-transpile-modules")(
-  // All of the packages will resolve to our monorepo so we can match that path.
-  [path.resolve(__dirname, "../../packages")]
-);
-
-// Set target for compatibility with Vercel/Now deployments:
-// Source: https://github.com/vercel/vercel/blob/master/errors/now-next-no-serverless-pages-built.md
-module.exports = withTM({
-  target: "serverless",
-});
+    return config;
+  },
+};
