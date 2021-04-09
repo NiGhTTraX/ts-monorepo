@@ -25,6 +25,7 @@ Template project for setting up a TypeScript monorepo
   - [jest](#jest)
   - [create-react-app](#create-react-app)
   - [NextJS](#nextjs)
+  - [NestJS](#nestjs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -189,3 +190,20 @@ module.exports = {
 ```
 
 See the full example [here](examples/nextjs).
+
+### NestJS
+
+Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS to use `webpack`:
+
+```js
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+
+  "compilerOptions": {
+    "webpack": true
+  }
+}
+```
+
+See the full example [here](examples/nestjs).
