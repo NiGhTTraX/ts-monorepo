@@ -3,9 +3,12 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "types": [],
+    "jsx": "react"
   },
-
   "exclude": [
     "node_modules",
     "dist"

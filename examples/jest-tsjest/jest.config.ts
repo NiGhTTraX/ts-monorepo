@@ -1,9 +1,10 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const { pathsToModuleNameMapper } = require("ts-jest/utils");
+import type { Config } from "@jest/types";
+import { pathsToModuleNameMapper } from "ts-jest";
 // Load the config which holds the path aliases.
-const { compilerOptions } = require("../../tsconfig.json");
+import { compilerOptions } from "../../tsconfig.json";
 
-module.exports = {
+const config: Config.InitialOptions = {
   preset: "ts-jest",
 
   moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
@@ -11,3 +12,5 @@ module.exports = {
     prefix: "<rootDir>/../../",
   }),
 };
+
+export default config;

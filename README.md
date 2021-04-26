@@ -25,6 +25,7 @@ Template project for setting up a TypeScript monorepo
   - [jest](#jest)
   - [create-react-app](#create-react-app)
   - [NextJS](#nextjs)
+  - [NestJS](#nestjs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -169,17 +170,38 @@ See the full example [here](examples/cra).
 
 ### NextJS
 
-Use [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to tell NextJS to compile your dependencies:
+Extend Next's webpack config to enable compiling packages from the monorepo:
 
 ```js
-const path = require("path");
+module.exports = {
+  webpack: (config) => {
+    // Let Babel compile outside of src/.
+    const tsRule = config.module.rules.find(
+      (rule) => rule.test && rule.test.toString().includes("tsx|ts")
+    );
+    tsRule.include = undefined;
+    tsRule.exclude = /node_modules/;
 
-const withTM = require("next-transpile-modules")(
-  // All of the packages will resolve to our monorepo so we can match that path.
-  [path.resolve(__dirname, "..")]
-);
-
-module.exports = withTM();
+    return config;
+  },
+};
 ```
 
 See the full example [here](examples/nextjs).
+
+### NestJS
+
+Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS to use `webpack`:
+
+```js
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+
+  "compilerOptions": {
+    "webpack": true
+  }
+}
+```
+
+See the full example [here](examples/nestjs).
