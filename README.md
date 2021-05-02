@@ -42,7 +42,7 @@ The secondary focus is to remove surprises when publishing packages. The repo is
 
 ## Setup
 
-This repo uses [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [Lerna](https://lerna.js.org/). I recommend `yarn` for monorepos due to its easier setup, but everything here works with `npm` and `lerna bootstrap` as well and you can check that out in the [`npm` branch](https://github.com/NiGhTTraX/ts-monorepo/tree/npm).
+This main branch of this repo uses [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), while the [`npm` branch](https://github.com/NiGhTTraX/ts-monorepo/tree/npm) uses [npm 7 workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces).
 
 ```
 yarn install
