@@ -1,9 +1,12 @@
 {
   "name": "ts-monorepo",
   "description": "Template for setting up a TypeScript monorepo",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
   "private": true,
   "scripts": {
-    "postinstall": "lerna bootstrap --hoist",
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
@@ -18,5 +21,8 @@
     "lerna": "~4.0.0",
     "react": "~17.0.0",
     "typescript": "~4.2.0"
+  },
+  "engines": {
+    "npm": ">=7"
   }
 }
