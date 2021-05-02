@@ -191,16 +191,13 @@ See the full example [here](examples/nextjs).
 
 ### NestJS
 
-Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS to use `webpack`:
+Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS where to find the `main.js` file:
 
 ```js
 {
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
-
-  "compilerOptions": {
-    "webpack": true
-  }
+  "entryFile": "examples/nestjs/src/main"
 }
 ```
 
