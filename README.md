@@ -39,6 +39,7 @@ Template project for setting up a TypeScript monorepo
 
 ![build-output](./media/build-output.png)
 
+> Everything else is kept to a minimum. Apart from my personal [ESLint config](.eslintrc.js) to keep the code clean, there are no extra tools included — you're free to customize this to your own needs after cloning. 
 
 ## Setup
 
