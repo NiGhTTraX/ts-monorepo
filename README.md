@@ -31,14 +31,15 @@ Template project for setting up a TypeScript monorepo
 
 ## Features
 
-The main focus of this repo is making the `Go to definition` feature in IDEs work without any surprises, meaning it will work after a fresh clone without needing to build the project.
+> The main focus of this repo is making the `Go to definition` feature in IDEs work without any surprises, meaning it will work after a fresh clone without needing to build the project.
 
 ![find-usage](./media/find-usage.gif)
 
-The secondary focus is to remove surprises when publishing packages. The repo is set up so that each package gets a clean build output without any artifacts from other packages.
+> The secondary focus is to remove surprises when publishing packages. The repo is set up so that each package gets a clean build output without any artifacts from other packages.
 
 ![build-output](./media/build-output.png)
 
+> Everything else is kept to a minimum. Apart from my personal [ESLint config](.eslintrc.js) to keep the code clean, there are no extra tools included — you're free to customize this to your own needs after cloning. 
 
 ## Setup
 
