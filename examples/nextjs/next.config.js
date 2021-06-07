@@ -7,10 +7,6 @@ module.exports = {
   // experimental: {
   //   externalDir: true,
   // },
-  future: {
-    // Improved tree shaking.
-    webpack5: true,
-  },
   webpack: (config) => {
     // Let Babel compile outside of src/.
     const tsRule = config.module.rules.find(
