@@ -5,7 +5,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
-    "start:prod": "node dist/main",
+    "start:prod": "node dist/examples/nestjs/src/main",
     "start:dev": "nest start --watch",
     "test": "yarn run build"
   },
