@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -6,12 +7,6 @@
       "dom.iterable",
       "esnext"
     ],
-    // TODO: extend root config once https://github.com/vercel/next.js/pull/13542 is released
-    "baseUrl": "../..",
-    "paths": {
-      "@nighttrax/components/*": ["packages/components/src/*"],
-      "@nighttrax/*": ["packages/*/src"]
-    },
     "allowJs": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
