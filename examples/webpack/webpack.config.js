@@ -12,6 +12,12 @@ module.exports = {
     plugins: [new TsconfigPathsPlugin()],
   },
   module: {
-    rules: [{ test: /\.tsx?$/, loader: "ts-loader" }],
+    rules: [
+      {
+        test: /\.tsx?$/,
+        loader: "ts-loader",
+        options: { configFile: "tsconfig.build.json" },
+      },
+    ],
   },
 };
