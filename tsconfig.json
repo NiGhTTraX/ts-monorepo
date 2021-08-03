@@ -6,6 +6,10 @@
     "paths": {
       "@nighttrax/components/*": ["packages/components/src/*"],
       "@nighttrax/*": ["packages/*/src"]
-    }
+    },
+    /* Avoid littering the projects with build artifacts from accidental
+     builds e.g. started from the IDE. The build configs should turn
+     this off. */
+    "noEmit": true
   }
 }
