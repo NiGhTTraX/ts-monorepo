@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: 12
 
+      - name: Install npm7
+        run: npm i -g npm@latest
+
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
