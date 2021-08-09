@@ -20,8 +20,8 @@
     "tsconfig-paths-webpack-plugin": "~3.2.0"
   },
   "scripts": {
-    "start": "cross-env SKIP_PREFLIGHT_CHECK=true DISABLE_ESLINT_PLUGIN=true craco start",
-    "build": "cross-env SKIP_PREFLIGHT_CHECK=true DISABLE_ESLINT_PLUGIN=true craco build",
+    "start": "cross-env SKIP_PREFLIGHT_CHECK=true craco start",
+    "build": "cross-env SKIP_PREFLIGHT_CHECK=true craco build",
     "test": "yarn run build"
   },
   "browserslist": {
