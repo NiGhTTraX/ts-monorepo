@@ -3,6 +3,7 @@ const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const ForkTSCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 
 module.exports = {
+  eslint: { enable: false },
   webpack: {
     configure: (config) => {
       // Remove ModuleScopePlugin which throws when we try to import something
