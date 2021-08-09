@@ -141,7 +141,7 @@ See the full example [here](examples/jest-tsjest).
 
 ### create-react-app
 
-Use [react-app-rewired](https://www.npmjs.com/package/react-app-rewired) to extend CRA's webpack config and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
+Use [craco](https://www.npmjs.com/package/@craco/craco) or [react-app-rewired](https://www.npmjs.com/package/react-app-rewired) to extend CRA's webpack config and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
 
 ```js
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
