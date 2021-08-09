@@ -1,5 +1,4 @@
 {
-  /* The aliases are defined here so CRA doesn't try to remove them. */
   "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es5",
