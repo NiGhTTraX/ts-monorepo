@@ -2,8 +2,11 @@ name: yarn
 
 on:
   push:
+    branches-ignore:
+      - npm
   pull_request:
-    branches: [ $default-branch ]
+    branches:
+      - $default-branch
 
 jobs:
   tests:
