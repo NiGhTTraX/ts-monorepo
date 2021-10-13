@@ -7108,16 +7108,16 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-doctoc@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/doctoc/-/doctoc-2.0.0.tgz#3c5c51ba89acb9b8e1924cc429500d6de2dfb90e"
-  integrity sha512-thvCndtwVPe3GCDUG09NYPu9D72Ons3MFh/Fe5A3bePMHGa1XSMgJWyL04bkxa0DyyaylEB2UrqigbQM0fcj7w==
+doctoc@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/doctoc/-/doctoc-2.1.0.tgz#e7cbcd1f9e65519c295461423b2e7195d9e0d7ab"
+  integrity sha512-0darEVEuWKLyIlpGOzE5cILf/pgUu25qUs6YwCqLqfxb8+3b9Cl4iakA8vwYrBQOkJ5SwpHKEPVMu2KOMrTA7A==
   dependencies:
     "@textlint/markdown-to-ast" "~6.1.7"
     anchor-markdown-header "~0.5.7"
     htmlparser2 "~4.1.0"
     minimist "~1.2.5"
-    underscore "~1.10.2"
+    underscore "~1.12.1"
     update-section "~0.3.3"
 
 doctrine@1.5.0:
@@ -16286,10 +16286,10 @@ unbox-primitive@^1.0.0:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
-underscore@~1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
-  integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
+underscore@~1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.1.tgz#7bb8cc9b3d397e201cf8553336d262544ead829e"
+  integrity sha512-hEQt0+ZLDVUMhebKxL4x1BTtDY7bavVofhZ9KZ4aI26X9SRaE+Y3m83XUL1UP2jn8ynjndwCCpEHdUG+9pP1Tw==
 
 unherit@^1.0.4:
   version "1.1.3"
