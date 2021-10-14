@@ -11,6 +11,7 @@
     "target": "es2017",
     "sourceMap": true,
     "outDir": "./dist",
-    "incremental": true
+    "incremental": true,
+    "noEmit": false
   }
 }
