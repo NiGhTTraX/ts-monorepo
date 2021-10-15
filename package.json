@@ -15,7 +15,7 @@
     "lint": "eslint --ext js,ts,tsx ."
   },
   "devDependencies": {
-    "@nighttrax/eslint-config-tsx": "~8.0.0",
+    "@nighttrax/eslint-config-tsx": "~9.0.0",
     "doctoc": "~2.1.0",
     "eslint": "~8.0.0",
     "eslint-plugin-import": "~2.25.0",
