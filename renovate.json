@@ -2,7 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "ignorePresets": [":ignoreModulesAndTests"].
+  "ignorePresets": [":ignoreModulesAndTests"],
   "rangeStrategy": "replace",
   "automerge": true
 }
