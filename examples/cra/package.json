@@ -17,7 +17,7 @@
     "cross-env": "~7.0.2",
     "react-scripts": "~4.0.1",
     "fork-ts-checker-webpack-plugin": "~6.2.10",
-    "tsconfig-paths-webpack-plugin": "~3.2.0"
+    "tsconfig-paths-webpack-plugin": "~3.5.0"
   },
   "scripts": {
     "start": "cross-env SKIP_PREFLIGHT_CHECK=true craco start",
