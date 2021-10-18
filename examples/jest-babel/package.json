@@ -13,7 +13,7 @@
     "@babel/core": "~7.15.0",
     "@babel/preset-env": "~7.15.0",
     "@babel/preset-typescript": "~7.15.0",
-    "@types/jest": "~26.0.4",
+    "@types/jest": "~27.0.0",
     "babel-plugin-module-resolver": "~4.1.0",
     "jest": "~27.3.0"
   }
