@@ -10,7 +10,7 @@
     "react-dom": "~17.0.0"
   },
   "devDependencies": {
-    "@types/node": "~14.0.23",
+    "@types/node": "~14.17.0",
     "@types/react": "~17.0.0",
     "@types/react-dom": "~17.0.0",
     "@craco/craco": "~6.3.0",
