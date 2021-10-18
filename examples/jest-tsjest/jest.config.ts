@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import type { Config } from "@jest/types";
-import { pathsToModuleNameMapper } from "ts-jest";
+import { pathsToModuleNameMapper } from "ts-jest/utils";
 // Load the config which holds the path aliases.
 import { compilerOptions } from "../../tsconfig.json";
 
