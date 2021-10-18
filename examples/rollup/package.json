@@ -12,7 +12,7 @@
     "@nighttrax/foo": "*"
   },
   "devDependencies": {
-    "@rollup/plugin-typescript": "~6.0.0",
+    "@rollup/plugin-typescript": "~6.1.0",
     "@types/node": "~14.11.2",
     "rollup": "~2.28.1",
     "tslib": "~2.2.0"
