@@ -11,7 +11,7 @@
     "@nighttrax/foo": "*"
   },
   "devDependencies": {
-    "ts-node": "~10.3.0",
+    "ts-node": "~10.4.0",
     "tsconfig-paths": "~3.11.0"
   }
 }
