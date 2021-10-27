@@ -17,7 +17,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "incremental": true
   },
   "exclude": [
     "node_modules"
