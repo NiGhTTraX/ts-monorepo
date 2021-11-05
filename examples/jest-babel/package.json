@@ -10,11 +10,11 @@
     "@nighttrax/foo": "*"
   },
   "devDependencies": {
-    "@babel/core": "~7.13.16",
-    "@babel/preset-env": "~7.15.0",
-    "@babel/preset-typescript": "~7.10.4",
-    "@types/jest": "~26.0.4",
-    "babel-plugin-module-resolver": "~4.0.0",
-    "jest": "~26.1.0"
+    "@babel/core": "~7.16.0",
+    "@babel/preset-env": "~7.16.0",
+    "@babel/preset-typescript": "~7.16.0",
+    "@types/jest": "~27.0.0",
+    "babel-plugin-module-resolver": "~4.1.0",
+    "jest": "~27.3.0"
   }
 }

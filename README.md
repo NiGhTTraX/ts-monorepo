@@ -5,7 +5,7 @@
 
 Template project for setting up a TypeScript monorepo
 
-![Build Status](https://github.com/NiGhTTraX/ts-monorepo/workflows/Tests/badge.svg)
+[![yarn](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/yarn.yml/badge.svg)](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/yarn.yml) [![npm](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/npm.yml/badge.svg)](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/npm.yml)
 
 </div>
 
