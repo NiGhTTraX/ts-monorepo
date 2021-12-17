@@ -17,7 +17,7 @@
   "devDependencies": {
     "@nighttrax/eslint-config-tsx": "~9.0.0",
     "doctoc": "~2.1.0",
-    "eslint": "~8.4.0",
+    "eslint": "~8.5.0",
     "eslint-plugin-import": "~2.25.0",
     "lerna": "~4.0.0",
     "react": "~17.0.0",
