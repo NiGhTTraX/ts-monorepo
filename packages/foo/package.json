@@ -11,10 +11,13 @@
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "yarn run build",
-    "test": "yarn run build"
+    "test": "jest"
   },
   "devDependencies": {
     "rimraf": "~3.0.2",
-    "typescript": "~4.5.0"
+    "typescript": "~4.5.0",
+    "@types/jest": "~27.0.0",
+    "jest": "~27.4.0",
+    "ts-jest": "~27.1.0"
   }
 }
