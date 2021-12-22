@@ -10,8 +10,8 @@
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "pub": "lerna publish",
     "test": "lerna run test",
+    "pub": "lerna publish",
     "lint": "eslint --ext js,ts,tsx ."
   },
   "devDependencies": {

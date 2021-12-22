@@ -21,8 +21,7 @@
   },
   "scripts": {
     "start": "cross-env SKIP_PREFLIGHT_CHECK=true craco start",
-    "build": "cross-env SKIP_PREFLIGHT_CHECK=true craco build",
-    "test": "yarn run build"
+    "build": "cross-env SKIP_PREFLIGHT_CHECK=true craco build"
   },
   "browserslist": {
     "production": [

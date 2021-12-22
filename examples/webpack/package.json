@@ -4,8 +4,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack",
-    "test": "yarn run build"
+    "build": "webpack"
   },
   "dependencies": {
     "@nighttrax/bar": "*"
