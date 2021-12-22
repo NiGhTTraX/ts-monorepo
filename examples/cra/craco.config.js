@@ -57,10 +57,6 @@ module.exports = {
     },
   },
   jest: {
-    babel: {
-      addPresets: true,
-      addPlugins: true,
-    },
     configure: {
       preset: "ts-jest",
       testEnvironment: "jsdom",
