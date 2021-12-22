@@ -166,7 +166,7 @@ module.exports = (config) => {
 };
 ```
 
-See the full example [here](examples/cra).
+See the full example [here](examples/cra). For tests, see the [jest example](#jest).
 
 
 ### NextJS
@@ -194,7 +194,7 @@ See the full example [here](examples/nextjs).
 
 Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS where to find the `main.js` file:
 
-```js
+```json
 {
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
