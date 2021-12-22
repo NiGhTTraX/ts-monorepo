@@ -6,8 +6,7 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "start:prod": "node dist/examples/nestjs/src/main",
-    "start:dev": "nest start --watch",
-    "test": "yarn run build"
+    "start:dev": "nest start --watch"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",

@@ -10,14 +10,13 @@
     "build": "npm run clean && npm run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -p tsconfig.build.json",
-    "prepublishOnly": "npm run build",
-    "test": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@nighttrax/foo": "^1.0.0"
   },
   "devDependencies": {
     "rimraf": "~3.0.2",
-    "typescript": "~4.4.0"
+    "typescript": "~4.5.0"
   }
 }

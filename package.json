@@ -10,8 +10,8 @@
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "pub": "lerna publish",
     "test": "lerna run test",
+    "pub": "lerna publish",
     "lint": "eslint --ext js,ts,tsx ."
   },
   "devDependencies": {
@@ -21,7 +21,7 @@
     "eslint-plugin-import": "~2.25.0",
     "lerna": "~4.0.0",
     "react": "~17.0.0",
-    "typescript": "~4.4.0"
+    "typescript": "~4.5.0"
   },
   "engines": {
     "npm": ">=7"
