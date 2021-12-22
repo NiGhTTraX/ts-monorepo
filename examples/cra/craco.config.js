@@ -1,7 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const ForkTSCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
-
+const { pathsToModuleNameMapper } = require("ts-jest/utils");
+const { compilerOptions } = require("./tsconfig.paths.json");
 module.exports = {
   eslint: { enable: false },
   webpack: {
@@ -53,6 +54,21 @@ module.exports = {
           },
         }),
       ],
+    },
+  },
+  jest: {
+    babel: {
+      addPresets: true,
+      addPlugins: true,
+    },
+    configure: {
+      preset: "ts-jest",
+      testEnvironment: "jsdom",
+      moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+        // This has to match the baseUrl defined in tsconfig.json.
+        prefix: "<rootDir>/",
+      }),
+      setupFilesAfterEnv: ["<rootDir>/setupTests.ts"],
     },
   },
 };

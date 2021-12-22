@@ -28,7 +28,7 @@
   "scripts": {
     "start": "cross-env SKIP_PREFLIGHT_CHECK=true craco start",
     "build": "cross-env SKIP_PREFLIGHT_CHECK=true craco build",
-    "test": "cross-env SKIP_PREFLIGHT_CHECK=true craco test --transformIgnorePatterns \"node_modules/(?!@nighttrax/cra-example)/\" --watchAll=false --env=jsdom"
+    "test": "cross-env SKIP_PREFLIGHT_CHECK=true craco test --watchAll false"
   },
   "browserslist": {
     "production": [

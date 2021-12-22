@@ -2,12 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
 
-    "paths": {
-      /* Redefine the root path aliases relative to this package. */
+    "paths": {      
       "@nighttrax/components/*": ["../../packages/components/src/*"],
       "@nighttrax/*": ["../../packages/*/src"],
-
-      /* Define aliases specific to this package. */
+      
       "@components/*": ["./src/components/*"],
       "@hooks/*": ["./src/hooks/*"]
     }
