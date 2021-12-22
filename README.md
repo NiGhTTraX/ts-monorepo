@@ -168,7 +168,7 @@ module.exports = (config) => {
 };
 ```
 
-See the full example [here](examples/cra).
+See the full example [here](examples/cra). For tests, see the [jest example](#jest).
 
 
 ### NextJS
