@@ -1,6 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const ForkTSCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+const { pathsToModuleNameMapper } = require("ts-jest");
+const { compilerOptions } = require("./tsconfig.paths.json");
 
 module.exports = {
   eslint: { enable: false },
@@ -53,6 +55,16 @@ module.exports = {
           },
         }),
       ],
+    },
+  },
+  jest: {
+    configure: {
+      preset: "ts-jest",
+
+      moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+        // This has to match the baseUrl defined in tsconfig.json.
+        prefix: "<rootDir>/",
+      }),
     },
   },
 };
