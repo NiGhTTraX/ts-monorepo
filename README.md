@@ -18,14 +18,16 @@ Template project for setting up a TypeScript monorepo
 - [Features](#features)
 - [Setup](#setup)
 - [Docs](#docs)
-- [Examples](#examples)
-  - [ts-node](#ts-node)
-  - [Babel](#babel)
-  - [webpack](#webpack)
-  - [jest](#jest)
-  - [create-react-app](#create-react-app)
-  - [NextJS](#nextjs)
-  - [NestJS](#nestjs)
+- [Repo structure](#repo-structure)
+  - [Publishable packages](#publishable-packages)
+  - [Frameworks and tools integrations](#frameworks-and-tools-integrations)
+    - [ts-node](#ts-node)
+    - [Babel](#babel)
+    - [webpack](#webpack)
+    - [jest](#jest)
+    - [create-react-app](#create-react-app)
+    - [NextJS](#nextjs)
+    - [NestJS](#nestjs)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -49,7 +51,6 @@ This main branch of this repo uses [yarn workspaces](https://classic.yarnpkg.com
 yarn install
 ```
 
-
 ## Docs
 
 See the following blog posts:
@@ -59,11 +60,19 @@ See the following blog posts:
 
 If you're looking for the project references solution checkout the [`project-references`](https://github.com/NiGhTTraX/lerna-ts/tree/project-references) branch.
 
-## Examples
+## Repo structure
 
-This repo contains full examples of integrating with other tools and frameworks that need to be made aware that they're working with a monorepo. You can find each example in the `examples/` folder.
+### Publishable packages
 
-### ts-node
+The [`packages`](packages) folder contains examples of packages you would usually end up publishing to `npm`. Therefore, the configs and build process are tailored to producing publishable artifacts that will depend on other packages from the monorepo.
+
+
+### Frameworks and tools integrations
+
+The [`examples`](examples) folder contains examples of integrating with frameworks and tools that need to be configured for monorepos. The configs and build process will produce/execute a single artifact that will bundle up all necessary packages from the monorepo.
+
+
+#### ts-node
 
 Use [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) to resolve the path aliases at runtime:
 
@@ -77,7 +86,7 @@ Use [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) to resolve th
 
 See the full example [here](examples/ts-node).
 
-### Babel
+#### Babel
 
 Use [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to resolve the path aliases:
 
@@ -103,7 +112,7 @@ module.exports = {
 
 See the full example [here](examples/jest-babel).
 
-### webpack
+#### webpack
 
 Use [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin) to resolve the path aliases:
 
@@ -119,7 +128,7 @@ module.exports = {
 
 See the full example [here](examples/webpack).
 
-### jest
+#### jest
 
 If you use `Babel` then see [this example](examples/jest-babel) from the [Babel](#babel) section above.
 
@@ -141,7 +150,7 @@ module.exports = {
 
 See the full example [here](examples/jest-tsjest).
 
-### create-react-app
+#### create-react-app
 
 Use [craco](https://www.npmjs.com/package/@craco/craco) or [react-app-rewired](https://www.npmjs.com/package/react-app-rewired) to extend CRA's webpack config and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
 
@@ -171,7 +180,7 @@ module.exports = (config) => {
 See the full example [here](examples/cra). For tests, see the [jest example](#jest).
 
 
-### NextJS
+#### NextJS
 
 Extend Next's webpack config to enable compiling packages from the monorepo:
 
@@ -192,7 +201,7 @@ module.exports = {
 
 See the full example [here](examples/nextjs).
 
-### NestJS
+#### NestJS
 
 Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS where to find the `main.js` file:
 
