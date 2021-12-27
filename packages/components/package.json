@@ -1,8 +1,6 @@
 {
   "name": "@nighttrax/components",
   "version": "1.0.0",
-  "main": "dist/index",
-  "types": "dist/index",
   "scripts": {
     "build": "yarn run clean && yarn run compile",
     "clean": "rimraf -rf ./dist",
