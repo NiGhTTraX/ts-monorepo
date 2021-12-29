@@ -66,11 +66,9 @@ If you're looking for the project references solution checkout the [`project-ref
 
 The [`packages`](packages) folder contains examples of packages you would usually end up publishing to `npm`. Therefore, the configs and build process are tailored to producing publishable artifacts that will depend on other packages from the monorepo.
 
-
 ### Frameworks and tools integrations
 
 The [`examples`](examples) folder contains examples of integrating with frameworks and tools that need to be configured for monorepos. The configs and build process will produce/execute a single artifact that will bundle up all necessary packages from the monorepo.
-
 
 #### ts-node
 
@@ -178,7 +176,6 @@ module.exports = (config) => {
 ```
 
 See the full example [here](examples/cra). For tests, see the [jest example](#jest).
-
 
 #### NextJS
 
