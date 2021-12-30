@@ -4,6 +4,7 @@ on:
   push:
     branches-ignore:
       - npm
+      - 'renovate/npm*'
   pull_request:
     branches:
       - $default-branch
