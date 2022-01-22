@@ -2,9 +2,8 @@ name: yarn
 
 on:
   push:
-    branches-ignore:
-      - npm
-      - 'renovate/npm*'
+    branches:
+      - $default-branch
   pull_request:
     branches:
       - $default-branch
