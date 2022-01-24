@@ -5,7 +5,7 @@
 
 Template project for setting up a TypeScript monorepo
 
-[![yarn](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/yarn.yml/badge.svg)](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/yarn.yml) [![npm](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/npm.yml/badge.svg)](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/npm.yml)
+[![tests](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/tests.yml/badge.svg)](https://github.com/NiGhTTraX/ts-monorepo/actions/workflows/tests.yml)
 
 </div>
 
@@ -45,10 +45,20 @@ Template project for setting up a TypeScript monorepo
 
 ## Setup
 
-This main branch of this repo uses [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), while the [`npm` branch](https://github.com/NiGhTTraX/ts-monorepo/tree/npm) uses [npm 7 workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces).
+This repo uses [pnpm](https://pnpm.io/), but should work fine with any of the following:
 
-```
-yarn install
+- [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+- [npm 7 workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces)
+- [npm < 7 and `lerna bootstrap`](https://github.com/lerna/lerna/blob/main/commands/bootstrap/README.md)
+
+I strongly recommend `pnpm` over the other solutions, not only because it's usually faster, but because it avoids dependency problems caused by hoisting (see https://github.com/NiGhTTraX/ts-monorepo/commit/d93139166b25fab15e9538df58a7d06270b846c9 as an example).
+
+```sh
+# Install pnpm with your preferred method: https://pnpm.io/installation.
+npm i -g pnpm
+
+# Install all dependencies.
+pnpm i
 ```
 
 ## Docs
