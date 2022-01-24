@@ -142,14 +142,14 @@ importers:
       '@nighttrax/foo': '*'
       '@rollup/plugin-typescript': ~8.3.0
       '@types/node': ~16.11.0
-      rollup: ~2.65.0
+      rollup: ~2.66.0
       tslib: ~2.3.0
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 8.3.0_932f6065fb4be37743c3d1474b3b49c2
+      '@rollup/plugin-typescript': 8.3.0_db7de9f057e15ec305ef8f03586ea0a2
       '@types/node': 16.11.21
-      rollup: 2.65.0
+      rollup: 2.66.0
       tslib: 2.3.1
 
   examples/ts-node:
@@ -3277,7 +3277,7 @@ packages:
       rollup: 2.66.0
     dev: true
 
-  /@rollup/plugin-typescript/8.3.0_932f6065fb4be37743c3d1474b3b49c2:
+  /@rollup/plugin-typescript/8.3.0_db7de9f057e15ec305ef8f03586ea0a2:
     resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -3285,23 +3285,11 @@ packages:
       tslib: '*'
       typescript: '>=3.7.0'
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.65.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.66.0
       resolve: 1.22.0
-      rollup: 2.65.0
+      rollup: 2.66.0
       tslib: 2.3.1
       typescript: 4.5.5
-    dev: true
-
-  /@rollup/pluginutils/3.1.0_rollup@2.65.0:
-    resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
-    engines: {node: '>= 8.0.0'}
-    peerDependencies:
-      rollup: ^1.20.0||^2.0.0
-    dependencies:
-      '@types/estree': 0.0.39
-      estree-walker: 1.0.1
-      picomatch: 2.3.1
-      rollup: 2.65.0
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.66.0:
@@ -12035,14 +12023,6 @@ packages:
       terser: 5.10.0
     transitivePeerDependencies:
       - acorn
-    dev: true
-
-  /rollup/2.65.0:
-    resolution: {integrity: sha512-ohZVYrhtVMTqqeqH26sngfMiyGDg6gCUReOsoflXvYpzUkDHp8sVG8F9FQxjs72OfnLWpXP2nNNqQ9I0vkRovA==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: true
 
   /rollup/2.66.0:
