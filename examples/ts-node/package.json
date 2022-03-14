@@ -13,6 +13,6 @@
   "devDependencies": {
     "@types/node": "~16.11.0",
     "ts-node": "~10.7.0",
-    "tsconfig-paths": "~3.13.0"
+    "tsconfig-paths": "~3.14.0"
   }
 }
