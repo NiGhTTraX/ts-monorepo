@@ -157,13 +157,13 @@ importers:
       '@nighttrax/foo': '*'
       '@types/node': ~16.11.0
       ts-node: ~10.7.0
-      tsconfig-paths: ~3.13.0
+      tsconfig-paths: ~3.14.0
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
       '@types/node': 16.11.21
       ts-node: 10.7.0_3f17888b327e71d0e1cbc70bd6f82f1d
-      tsconfig-paths: 3.13.0
+      tsconfig-paths: 3.14.0
 
   examples/webpack:
     specifiers:
@@ -15309,8 +15309,8 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsconfig-paths/3.13.0:
-    resolution: {integrity: sha512-nWuffZppoaYK0vQ1SQmkSsQzJoHA4s6uzdb2waRpD806x9yfq153AdVsWz4je2qZcW+pENrMQXbGQ3sMCkXuhw==}
+  /tsconfig-paths/3.14.0:
+    resolution: {integrity: sha512-cg/1jAZoL57R39+wiw4u/SCC6Ic9Q5NqjBOb+9xISedOYurfog9ZNmKJSxAnb2m/5Bq4lE9lhUcau33Ml8DM0g==}
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
