@@ -25,7 +25,7 @@ importers:
       '@nighttrax/foo': '*'
       '@types/jest': ~27.4.0
       '@types/node': ~16.11.0
-      '@types/react': ~17.0.0
+      '@types/react': ~18.0.0
       '@types/react-dom': ~17.0.0
       cross-env: ~7.0.2
       react: ~17.0.0
@@ -42,7 +42,7 @@ importers:
       '@craco/craco': 6.4.3_6881d3a4e544768f81860bdb3794d2b8
       '@types/jest': 27.4.0
       '@types/node': 16.11.21
-      '@types/react': 17.0.38
+      '@types/react': 18.0.0
       '@types/react-dom': 17.0.11
       cross-env: 7.0.3
       react-scripts: 5.0.0_react@17.0.2+typescript@4.6.2
@@ -120,7 +120,7 @@ importers:
     specifiers:
       '@nighttrax/components': '*'
       '@types/node': ~16.11.0
-      '@types/react': ~17.0.0
+      '@types/react': ~18.0.0
       '@types/react-dom': ~17.0.0
       next: ~12.1.0
       react: ~17.0.0
@@ -133,7 +133,7 @@ importers:
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
       '@types/node': 16.11.21
-      '@types/react': 17.0.38
+      '@types/react': 18.0.0
       '@types/react-dom': 17.0.11
       typescript: 4.6.2
 
@@ -194,14 +194,14 @@ importers:
   packages/components:
     specifiers:
       '@nighttrax/foo': '*'
-      '@types/react': ~17.0.0
+      '@types/react': ~18.0.0
       react: ~17.0.0
       react-dom: ~17.0.0
       rimraf: ~3.0.2
     dependencies:
       '@nighttrax/foo': link:../foo
     devDependencies:
-      '@types/react': 17.0.38
+      '@types/react': 18.0.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       rimraf: 3.0.2
@@ -4882,11 +4882,11 @@ packages:
   /@types/react-dom/17.0.11:
     resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
     dependencies:
-      '@types/react': 17.0.38
+      '@types/react': 18.0.0
     dev: true
 
-  /@types/react/17.0.38:
-    resolution: {integrity: sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==}
+  /@types/react/18.0.0:
+    resolution: {integrity: sha512-7+K7zEQYu7NzOwQGLR91KwWXXDzmTFODRVizJyIALf6RfLv2GDpqpknX64pvRVILXCpXi7O/pua8NGk44dLvJw==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2

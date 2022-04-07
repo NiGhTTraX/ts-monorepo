@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/node": "~16.11.0",
     "@types/jest": "~27.4.0",
-    "@types/react": "~17.0.0",
+    "@types/react": "~18.0.0",
     "@types/react-dom": "~17.0.0",
     "@craco/craco": "~6.4.0",
     "cross-env": "~7.0.2",

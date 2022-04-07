@@ -14,7 +14,7 @@
     "@nighttrax/foo": "*"
   },
   "devDependencies": {
-    "@types/react": "~17.0.0",
+    "@types/react": "~18.0.0",
     "react": "~17.0.0",
     "react-dom": "~17.0.0",
     "rimraf": "~3.0.2"
