@@ -142,14 +142,14 @@ importers:
       '@nighttrax/foo': '*'
       '@rollup/plugin-typescript': ~8.3.0
       '@types/node': ~16.11.0
-      rollup: ~2.70.0
+      rollup: ~2.71.0
       tslib: ~2.4.0
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 8.3.0_381fde56c9f65d169292427bca67b33d
+      '@rollup/plugin-typescript': 8.3.0_986769e924a7a9a64d0ada70734f65ad
       '@types/node': 16.11.21
-      rollup: 2.70.0
+      rollup: 2.71.0
       tslib: 2.4.0
 
   examples/ts-node:
@@ -4647,7 +4647,7 @@ packages:
       rollup: 2.66.0
     dev: true
 
-  /@rollup/plugin-typescript/8.3.0_381fde56c9f65d169292427bca67b33d:
+  /@rollup/plugin-typescript/8.3.0_986769e924a7a9a64d0ada70734f65ad:
     resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -4655,9 +4655,9 @@ packages:
       tslib: '*'
       typescript: '>=3.7.0'
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.70.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.71.0
       resolve: 1.22.0
-      rollup: 2.70.0
+      rollup: 2.71.0
       tslib: 2.4.0
       typescript: 4.6.2
     dev: true
@@ -4674,7 +4674,7 @@ packages:
       rollup: 2.66.0
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.70.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.71.0:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -4683,7 +4683,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.70.0
+      rollup: 2.71.0
     dev: true
 
   /@rushstack/eslint-patch/1.1.0:
@@ -14237,8 +14237,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/2.70.0:
-    resolution: {integrity: sha512-iEzYw+syFxQ0X9RefVwhr8BA2TNJsTaX8L8dhyeyMECDbmiba+8UQzcu+xZdji0+JQ+s7kouQnw+9Oz5M19XKA==}
+  /rollup/2.71.0:
+    resolution: {integrity: sha512-kZWB4FA9N/iZU/O9tVp08pPdxLM0i2iUDvcS77XT92DI81s3wYQcU/cA2FCXWj+HgJj8RUC2M0dXECwoOfDBYA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
