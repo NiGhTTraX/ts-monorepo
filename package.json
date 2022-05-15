@@ -8,9 +8,9 @@
   ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",
-    "clean": "lerna run clean",
-    "build": "lerna run build",
-    "test": "lerna run test",
+    "clean": "pnpm run -r clean",
+    "build": "pnpm run -r build",
+    "test": "pnpm run -r test",
     "pub": "lerna publish",
     "lint": "eslint --ext js,ts,tsx ."
   },
@@ -19,7 +19,6 @@
     "doctoc": "~2.1.0",
     "eslint": "~8.14.0",
     "eslint-plugin-import": "~2.26.0",
-    "lerna": "~4.0.0",
     "typescript": "~4.6.0"
   }
 }
