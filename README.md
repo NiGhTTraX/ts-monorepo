@@ -143,7 +143,7 @@ If you use `Babel` then see [this example](examples/jest-babel) from the [Babel]
 If you use [ts-jest](https://github.com/kulshekhar/ts-jest) then you can use its `pathsToModuleNameMapper` helper: 
 
 ```js
-const { pathsToModuleNameMapper } = require("ts-jest/utils");
+const { pathsToModuleNameMapper } = require("ts-jest");
 const { compilerOptions } = require("../../tsconfig.json");
 
 module.exports = {
