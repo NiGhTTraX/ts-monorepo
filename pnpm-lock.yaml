@@ -77,6 +77,7 @@ importers:
       jest: ~27.5.0
       ts-jest: ~27.1.0
       ts-node: ~10.7.0
+      typescript: ~4.6.4
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
@@ -84,8 +85,9 @@ importers:
       '@types/jest': 27.4.0
       '@types/node': 17.0.10
       jest: 27.5.0_ts-node@10.7.0
-      ts-jest: 27.1.3_6nwemoqaupp6jc2ioighn46w5m
-      ts-node: 10.7.0_@types+node@17.0.10
+      ts-jest: 27.1.3_7tedb65nbqzwmspquo3xq6kzdy
+      ts-node: 10.7.0_uwbuecs7noohzmx3r72fdqfvjm
+      typescript: 4.6.4
 
   examples/nestjs:
     specifiers:
@@ -149,14 +151,16 @@ importers:
       rimraf: ~3.0.2
       rollup: ~2.71.0
       tslib: ~2.4.0
+      typescript: ~4.6.4
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 8.3.0_rollup@2.71.0+tslib@2.4.0
+      '@rollup/plugin-typescript': 8.3.0_re24zmnjrf5c62g5en3grzfn24
       '@types/node': 16.11.21
       rimraf: 3.0.2
       rollup: 2.71.0
       tslib: 2.4.0
+      typescript: 4.6.4
 
   examples/ts-node:
     specifiers:
@@ -164,12 +168,14 @@ importers:
       '@types/node': ~16.11.0
       ts-node: ~10.7.0
       tsconfig-paths: ~3.14.0
+      typescript: ~4.6.4
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
       '@types/node': 16.11.21
-      ts-node: 10.7.0_@types+node@16.11.21
+      ts-node: 10.7.0_ooumvl53nkvujhnkkp37zhf5va
       tsconfig-paths: 3.14.0
+      typescript: 4.6.4
 
   examples/webpack:
     specifiers:
@@ -177,14 +183,16 @@ importers:
       rimraf: ~3.0.2
       ts-loader: ~9.3.0
       tsconfig-paths-webpack-plugin: ~3.5.0
+      typescript: ~4.6.4
       webpack: ~5.72.0
       webpack-cli: ~4.9.0
     dependencies:
       '@nighttrax/bar': link:../../packages/bar
     devDependencies:
       rimraf: 3.0.2
-      ts-loader: 9.3.0_webpack@5.72.0
+      ts-loader: 9.3.0_dgip6vjrhmffcc4ihrseicj6om
       tsconfig-paths-webpack-plugin: 3.5.2
+      typescript: 4.6.4
       webpack: 5.72.0_webpack-cli@4.9.2
       webpack-cli: 4.9.2_webpack@5.72.0
 
@@ -3783,7 +3791,7 @@ packages:
       rollup: 2.66.0
     dev: true
 
-  /@rollup/plugin-typescript/8.3.0_rollup@2.71.0+tslib@2.4.0:
+  /@rollup/plugin-typescript/8.3.0_re24zmnjrf5c62g5en3grzfn24:
     resolution: {integrity: sha512-I5FpSvLbtAdwJ+naznv+B4sjXZUcIvLLceYpITAn7wAP8W0wqc5noLdGIp9HGVntNhRWXctwPYrSSFQxtl0FPA==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -3795,6 +3803,7 @@ packages:
       resolve: 1.22.0
       rollup: 2.71.0
       tslib: 2.4.0
+      typescript: 4.6.4
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.66.0:
@@ -8970,7 +8979,7 @@ packages:
       micromatch: 4.0.4
       pretty-format: 27.5.0
       slash: 3.0.0
-      ts-node: 10.7.0_@types+node@17.0.10
+      ts-node: 10.7.0_uwbuecs7noohzmx3r72fdqfvjm
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -13098,7 +13107,7 @@ packages:
     resolution: {integrity: sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==}
     dev: true
 
-  /ts-jest/27.1.3_6nwemoqaupp6jc2ioighn46w5m:
+  /ts-jest/27.1.3_7tedb65nbqzwmspquo3xq6kzdy:
     resolution: {integrity: sha512-6Nlura7s6uM9BVUAoqLH7JHyMXjz8gluryjpPXxr3IxZdAXnU6FhjvVLHFtfd1vsE1p8zD1OJfskkc0jhTSnkA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -13128,6 +13137,7 @@ packages:
       lodash.memoize: 4.1.2
       make-error: 1.3.6
       semver: 7.3.5
+      typescript: 4.6.4
       yargs-parser: 20.2.9
     dev: true
 
@@ -13163,7 +13173,7 @@ packages:
       yargs-parser: 20.2.9
     dev: true
 
-  /ts-loader/9.3.0_webpack@5.72.0:
+  /ts-loader/9.3.0_dgip6vjrhmffcc4ihrseicj6om:
     resolution: {integrity: sha512-2kLLAdAD+FCKijvGKi9sS0OzoqxLCF3CxHpok7rVgCZ5UldRzH0TkbwG9XECKjBzHsAewntC5oDaI/FwKzEUog==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -13174,6 +13184,7 @@ packages:
       enhanced-resolve: 5.9.2
       micromatch: 4.0.4
       semver: 7.3.5
+      typescript: 4.6.4
       webpack: 5.72.0_webpack-cli@4.9.2
     dev: true
 
@@ -13235,7 +13246,7 @@ packages:
       yn: 3.1.1
     dev: true
 
-  /ts-node/10.7.0_@types+node@16.11.21:
+  /ts-node/10.7.0_ooumvl53nkvujhnkkp37zhf5va:
     resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
     peerDependencies:
@@ -13261,11 +13272,12 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
+      typescript: 4.6.4
       v8-compile-cache-lib: 3.0.0
       yn: 3.1.1
     dev: true
 
-  /ts-node/10.7.0_@types+node@17.0.10:
+  /ts-node/10.7.0_uwbuecs7noohzmx3r72fdqfvjm:
     resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
     peerDependencies:
@@ -13291,6 +13303,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
+      typescript: 4.6.4
       v8-compile-cache-lib: 3.0.0
       yn: 3.1.1
     dev: true
@@ -13449,6 +13462,12 @@ packages:
 
   /typescript/4.6.2:
     resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
