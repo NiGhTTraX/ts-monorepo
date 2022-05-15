@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "prebuild": "rimraf dist",
+    "clean": "rimraf dist",
+    "prebuild": "pnpm run clean",
     "build": "nest build",
     "start:prod": "node dist/examples/nestjs/src/main",
     "start:dev": "nest start --watch"
