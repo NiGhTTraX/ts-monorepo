@@ -118,7 +118,7 @@ importers:
       rimraf: ~3.0.2
       rxjs: ~7.5.5
       ts-node: ~10.0.0
-      tsconfig-paths: ~3.9.0
+      tsconfig-paths: ~4.0.0
       typescript: ~4.2.3
     dependencies:
       '@nestjs/common': 8.4.5_47vcjb2de6lyibr6g4enoa5lyu
@@ -133,7 +133,7 @@ importers:
       '@types/express': 4.17.13
       '@types/node': 16.11.21
       ts-node: 10.0.0_bfordnxv32myxghf3rh4o4adly
-      tsconfig-paths: 3.9.0
+      tsconfig-paths: 4.0.0
       typescript: 4.2.4
 
   examples/nextjs:
@@ -183,14 +183,14 @@ importers:
       '@nighttrax/foo': '*'
       '@types/node': ~16.11.0
       ts-node: ~10.7.0
-      tsconfig-paths: ~3.14.0
+      tsconfig-paths: ~4.0.0
       typescript: ~4.6.4
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
       '@types/node': 16.11.21
       ts-node: 10.7.0_ooumvl53nkvujhnkkp37zhf5va
-      tsconfig-paths: 3.14.0
+      tsconfig-paths: 4.0.0
       typescript: 4.6.4
 
   examples/webpack:
@@ -12733,15 +12733,6 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsconfig-paths/3.14.0:
-    resolution: {integrity: sha512-cg/1jAZoL57R39+wiw4u/SCC6Ic9Q5NqjBOb+9xISedOYurfog9ZNmKJSxAnb2m/5Bq4lE9lhUcau33Ml8DM0g==}
-    dependencies:
-      '@types/json5': 0.0.29
-      json5: 1.0.1
-      minimist: 1.2.5
-      strip-bom: 3.0.0
-    dev: true
-
   /tsconfig-paths/3.14.1:
     resolution: {integrity: sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==}
     dependencies:
@@ -12751,11 +12742,10 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsconfig-paths/3.9.0:
-    resolution: {integrity: sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==}
+  /tsconfig-paths/4.0.0:
+    resolution: {integrity: sha512-SLBg2GBKlR6bVtMgJJlud/o3waplKtL7skmLkExomIiaAtLGtVsoXIqP3SYdjbcH9lq/KVv7pMZeCBpLYOit6Q==}
     dependencies:
-      '@types/json5': 0.0.29
-      json5: 1.0.1
+      json5: 2.2.1
       minimist: 1.2.6
       strip-bom: 3.0.0
     dev: true
