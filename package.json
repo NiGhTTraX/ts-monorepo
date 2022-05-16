@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@nighttrax/eslint-config-tsx": "~10.0.0-beta.0",
-    "doctoc": "~2.1.0",
+    "doctoc": "~2.2.0",
     "eslint": "~8.14.0",
     "eslint-plugin-import": "~2.26.0",
     "typescript": "~4.6.0"
