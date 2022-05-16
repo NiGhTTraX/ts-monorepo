@@ -29,7 +29,7 @@ importers:
       '@types/node': ~16.11.0
       '@types/react': ~18.0.0
       '@types/react-dom': ~18.0.0
-      autoprefixer: ~10.0.2
+      autoprefixer: ~10.4.0
       cross-env: ~7.0.2
       jest: ~27.0.0
       postcss: ~8.4.13
@@ -55,11 +55,11 @@ importers:
       '@types/node': 16.11.21
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.0
-      autoprefixer: 10.0.4_postcss@8.4.13
+      autoprefixer: 10.4.2_postcss@8.4.13
       cross-env: 7.0.3
       jest: 27.0.6
       postcss: 8.4.13
-      react-scripts: 5.0.0_scs4pbcpnqzhadu5fldseqazgu
+      react-scripts: 5.0.0_iqcvp6ckc55ncu2q4cjx6frog4
       rimraf: 3.0.2
       ts-jest: 27.1.3_j43lqo2e6sjf5dtdgsnozzqxlq
       tsconfig-paths-webpack-plugin: 3.5.2
@@ -2791,7 +2791,7 @@ packages:
       cosmiconfig-typescript-loader: 1.0.4_ooumvl53nkvujhnkkp37zhf5va
       cross-spawn: 7.0.3
       lodash: 4.17.21
-      react-scripts: 5.0.0_scs4pbcpnqzhadu5fldseqazgu
+      react-scripts: 5.0.0_iqcvp6ckc55ncu2q4cjx6frog4
       semver: 7.3.5
       webpack-merge: 4.2.2
     transitivePeerDependencies:
@@ -4772,22 +4772,6 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer/10.0.4_postcss@8.4.13:
-    resolution: {integrity: sha512-hmjYejN/WTyPP9cdNmiwtwqM8/ACVJPD5ExtwoOceQohNbgnFNiwpL2+U4bXS8aXozBL00WvH6WhqbuHf0Fgfg==}
-    engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
-    peerDependencies:
-      postcss: ^8.1.0
-    dependencies:
-      browserslist: 4.20.3
-      caniuse-lite: 1.0.30001334
-      colorette: 1.4.0
-      normalize-range: 0.1.2
-      num2fraction: 1.2.2
-      postcss: 8.4.13
-      postcss-value-parser: 4.2.0
-    dev: true
-
   /autoprefixer/10.4.2_postcss@8.4.13:
     resolution: {integrity: sha512-9fOPpHKuDW1w/0EKfRmVnxTDt8166MAnLI3mgZ1JCnhNtYWxcJ6Ud5CO/AVOZi/AvFa8DY9RTy3h3+tFBlrrdQ==}
     engines: {node: ^10 || ^12 || >=14}
@@ -5547,10 +5531,6 @@ packages:
 
   /colord/2.9.2:
     resolution: {integrity: sha512-Uqbg+J445nc1TKn4FoDPS6ZZqAvEDnwrH42yo8B40JSOgSLxMZ/gt3h4nmCtPLQeXhjJJkqBx7SCY35WnIixaQ==}
-    dev: true
-
-  /colorette/1.4.0:
-    resolution: {integrity: sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==}
     dev: true
 
   /colorette/2.0.16:
@@ -9751,10 +9731,6 @@ packages:
       boolbase: 1.0.0
     dev: true
 
-  /num2fraction/1.2.2:
-    resolution: {integrity: sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=}
-    dev: true
-
   /nwsapi/2.2.0:
     resolution: {integrity: sha512-h2AatdwYH+JHiZpv7pt/gSX1XoRGb7L/qSIeuqA6GwYoF9w1vP1cw42TO0aI2pNyshRK5893hNSl+1//vHK7hQ==}
     dev: true
@@ -11098,7 +11074,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-scripts/5.0.0_scs4pbcpnqzhadu5fldseqazgu:
+  /react-scripts/5.0.0_iqcvp6ckc55ncu2q4cjx6frog4:
     resolution: {integrity: sha512-3i0L2CyIlROz7mxETEdfif6Sfhh9Lfpzi10CtcGs1emDQStmZfWjJbAIMtRD0opVUjQuFWqHZyRZ9PPzKCFxWg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -11151,7 +11127,7 @@ packages:
       semver: 7.3.5
       source-map-loader: 3.0.1_webpack@5.67.0
       style-loader: 3.3.1_webpack@5.67.0
-      tailwindcss: 3.0.16_oxmijsgdcvofjkwkobtf7fh2nu
+      tailwindcss: 3.0.16_5qra6gepxxsatklaalrxvrysrm
       terser-webpack-plugin: 5.3.0_webpack@5.67.0
       typescript: 4.6.4
       webpack: 5.67.0
@@ -12233,7 +12209,7 @@ packages:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
     dev: true
 
-  /tailwindcss/3.0.16_oxmijsgdcvofjkwkobtf7fh2nu:
+  /tailwindcss/3.0.16_5qra6gepxxsatklaalrxvrysrm:
     resolution: {integrity: sha512-1L8E5Wr+o1c4kxxObNz2owJe94a7BLEMV+2Lz6wzprJdcs3ENSRR9t4OZf2OqtRNS/q/zFPuOKoLtQoy3Lrhhw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -12242,7 +12218,7 @@ packages:
       postcss: ^8.0.9
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.0.4_postcss@8.4.13
+      autoprefixer: 10.4.2_postcss@8.4.13
       chalk: 4.1.2
       chokidar: 3.5.3
       color-name: 1.1.4
