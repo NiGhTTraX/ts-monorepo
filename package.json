@@ -11,7 +11,6 @@
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build",
     "test": "pnpm run -r test",
-    "pub": "lerna publish",
     "lint": "eslint --ext js,ts,tsx ."
   },
   "devDependencies": {
