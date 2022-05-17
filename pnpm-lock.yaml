@@ -33,8 +33,8 @@ importers:
       cross-env: ~7.0.2
       jest: ~28.1.0
       postcss: ~8.4.13
-      react: ~17.0.0
-      react-dom: ~17.0.0
+      react: ~18.1.0
+      react-dom: ~18.1.0
       react-scripts: ~5.0.0
       rimraf: ~3.0.2
       ts-jest: ~28.0.0
@@ -43,8 +43,8 @@ importers:
     dependencies:
       '@nighttrax/components': link:../../packages/components
       '@nighttrax/foo': link:../../packages/foo
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
     devDependencies:
       '@babel/core': 7.17.10
       '@babel/plugin-syntax-flow': 7.17.12_@babel+core@7.17.10
@@ -59,7 +59,7 @@ importers:
       cross-env: 7.0.3
       jest: 28.1.0_@types+node@16.11.21
       postcss: 8.4.13
-      react-scripts: 5.0.0_542wf3mpm2gfa4qfwyfdhefk74
+      react-scripts: 5.0.0_jdgjmir4shlqpdh3b4i2e45j34
       rimraf: 3.0.2
       ts-jest: 28.0.2_7ba6w3dqujb3z2hhr3kd3ksuge
       tsconfig-paths-webpack-plugin: 3.5.2
@@ -143,15 +143,15 @@ importers:
       '@types/react': ~18.0.0
       '@types/react-dom': ~18.0.0
       next: ~12.1.6
-      react: ~17.0.0
-      react-dom: ~17.0.0
+      react: ~18.1.0
+      react-dom: ~18.1.0
       rimraf: ~3.0.2
       typescript: ~4.6.0
     dependencies:
       '@nighttrax/components': link:../../packages/components
-      next: 12.1.6_sfoxds7t5ydpegc3knd667wn6m
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
     devDependencies:
       '@types/node': 16.11.21
       '@types/react': 18.0.0
@@ -227,15 +227,15 @@ importers:
     specifiers:
       '@nighttrax/foo': '*'
       '@types/react': ~18.0.0
-      react: ~17.0.0
-      react-dom: ~17.0.0
+      react: ~18.1.0
+      react-dom: ~18.1.0
       rimraf: ~3.0.2
     dependencies:
       '@nighttrax/foo': link:../foo
     devDependencies:
       '@types/react': 18.0.0
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
       rimraf: 3.0.2
 
   packages/foo:
@@ -2784,7 +2784,7 @@ packages:
       cosmiconfig-typescript-loader: 1.0.4_ooumvl53nkvujhnkkp37zhf5va
       cross-spawn: 7.0.3
       lodash: 4.17.21
-      react-scripts: 5.0.0_542wf3mpm2gfa4qfwyfdhefk74
+      react-scripts: 5.0.0_jdgjmir4shlqpdh3b4i2e45j34
       semver: 7.3.5
       webpack-merge: 4.2.2
     transitivePeerDependencies:
@@ -10491,7 +10491,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
-  /next/12.1.6_sfoxds7t5ydpegc3knd667wn6m:
+  /next/12.1.6_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-cebwKxL3/DhNKfg9tPZDQmbRKjueqykHHbgaoG4VBRH3AHQJ2HO0dbKFiS1hPhe1/qgc2d/hFeadsbPicmLD+A==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -10512,9 +10512,9 @@ packages:
       '@next/env': 12.1.6
       caniuse-lite: 1.0.30001334
       postcss: 8.4.5
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      styled-jsx: 5.0.2_react@17.0.2
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      styled-jsx: 5.0.2_react@18.1.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.6
       '@next/swc-android-arm64': 12.1.6
@@ -11937,15 +11937,14 @@ packages:
       - webpack
     dev: true
 
-  /react-dom/17.0.2_react@17.0.2:
-    resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
+  /react-dom/18.1.0_react@18.1.0:
+    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
     peerDependencies:
-      react: 17.0.2
+      react: ^18.1.0
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
-      react: 17.0.2
-      scheduler: 0.20.2
+      react: 18.1.0
+      scheduler: 0.22.0
 
   /react-error-overlay/6.0.10:
     resolution: {integrity: sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA==}
@@ -11968,7 +11967,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-scripts/5.0.0_542wf3mpm2gfa4qfwyfdhefk74:
+  /react-scripts/5.0.0_jdgjmir4shlqpdh3b4i2e45j34:
     resolution: {integrity: sha512-3i0L2CyIlROz7mxETEdfif6Sfhh9Lfpzi10CtcGs1emDQStmZfWjJbAIMtRD0opVUjQuFWqHZyRZ9PPzKCFxWg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -12011,7 +12010,7 @@ packages:
       postcss-normalize: 10.0.1_texoy56pdn6md6ivyv53tmptkq
       postcss-preset-env: 7.2.3_postcss@8.4.13
       prompts: 2.4.2
-      react: 17.0.2
+      react: 18.1.0
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.0_r53oml7x6oubvtrdpg4df4k7pe
       react-refresh: 0.11.0
@@ -12065,12 +12064,11 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /react/17.0.2:
-    resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
+  /react/18.1.0:
+    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
 
   /readable-stream/1.1.14:
     resolution: {integrity: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=}
@@ -12478,11 +12476,10 @@ packages:
       xmlchars: 2.2.0
     dev: true
 
-  /scheduler/0.20.2:
-    resolution: {integrity: sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==}
+  /scheduler/0.22.0:
+    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
     dependencies:
       loose-envify: 1.4.0
-      object-assign: 4.1.1
 
   /schema-utils/2.7.0:
     resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
@@ -12973,7 +12970,7 @@ packages:
       webpack: 5.67.0
     dev: true
 
-  /styled-jsx/5.0.2_react@17.0.2:
+  /styled-jsx/5.0.2_react@18.1.0:
     resolution: {integrity: sha512-LqPQrbBh3egD57NBcHET4qcgshPks+yblyhPlH2GY8oaDgKs8SK4C3dBh3oSJjgzJ3G5t1SYEZGHkP+QEpX9EQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -12986,7 +12983,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 17.0.2
+      react: 18.1.0
     dev: false
 
   /stylehacks/5.0.2_postcss@8.4.13:
