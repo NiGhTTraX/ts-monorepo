@@ -28,6 +28,7 @@ Template project for setting up a TypeScript monorepo
     - [create-react-app](#create-react-app)
     - [NextJS](#nextjs)
     - [NestJS](#nestjs)
+    - [Storybook](#storybook)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -221,3 +222,25 @@ Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and t
 ```
 
 See the full example [here](examples/nestjs).
+
+#### Storybook
+
+[Extend Storybook's webpack config](https://storybook.js.org/docs/react/builders/webpack#typescript-module-resolution) and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
+
+```js
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+
+module.exports = {
+  webpackFinal: async (config) => {
+    config.resolve.plugins = [
+      ...(config.resolve.plugins || []),
+      new TsconfigPathsPlugin({
+        extensions: config.resolve.extensions,
+      }),
+    ];
+    return config;
+  },
+};
+```
+
+See the full example [here](examples/storybook).
