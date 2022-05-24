@@ -18,7 +18,7 @@
     "doctoc": "~2.2.0",
     "eslint": "~8.16.0",
     "eslint-plugin-import": "~2.26.0",
-    "typescript": "~4.6.0"
+    "typescript": "~4.7.0"
   },
   "pnpm": {
     "peerDependencyRules": {
