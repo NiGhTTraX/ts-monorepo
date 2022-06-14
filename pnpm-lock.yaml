@@ -33,8 +33,8 @@ importers:
       cross-env: ~7.0.2
       jest: ~28.1.0
       postcss: ~8.4.13
-      react: ~18.1.0
-      react-dom: ~18.1.0
+      react: ~18.2.0
+      react-dom: ~18.2.0
       react-scripts: ~5.0.0
       rimraf: ~3.0.2
       ts-jest: ~28.0.0
@@ -43,8 +43,8 @@ importers:
     dependencies:
       '@nighttrax/components': link:../../packages/components
       '@nighttrax/foo': link:../../packages/foo
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@babel/core': 7.18.0
       '@babel/plugin-syntax-flow': 7.17.12_@babel+core@7.18.0
@@ -59,7 +59,7 @@ importers:
       cross-env: 7.0.3
       jest: 28.1.0_@types+node@16.11.21
       postcss: 8.4.13
-      react-scripts: 5.0.0_puypazf3bgv3g5vv3n5bviu7gu
+      react-scripts: 5.0.0_s5hkl6ix3f7xsvq7w3duvb753e
       rimraf: 3.0.2
       ts-jest: 28.0.2_qvwkh7p5vdw7psr53yxwiknsqy
       tsconfig-paths-webpack-plugin: 3.5.2
@@ -143,15 +143,15 @@ importers:
       '@types/react': ~18.0.0
       '@types/react-dom': ~18.0.0
       next: ~12.1.6
-      react: ~18.1.0
-      react-dom: ~18.1.0
+      react: ~18.2.0
+      react-dom: ~18.2.0
       rimraf: ~3.0.2
       typescript: ~4.7.0
     dependencies:
       '@nighttrax/components': link:../../packages/components
-      next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      next: 12.1.6_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/node': 16.11.21
       '@types/react': 18.0.0
@@ -260,15 +260,15 @@ importers:
     specifiers:
       '@nighttrax/foo': '*'
       '@types/react': ~18.0.0
-      react: ~18.1.0
-      react-dom: ~18.1.0
+      react: ~18.2.0
+      react-dom: ~18.2.0
       rimraf: ~3.0.2
     dependencies:
       '@nighttrax/foo': link:../foo
     devDependencies:
       '@types/react': 18.0.0
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       rimraf: 3.0.2
 
   packages/foo:
@@ -2584,7 +2584,7 @@ packages:
       cosmiconfig-typescript-loader: 1.0.4_cq6gurddakxctly5iq5pzlu3ai
       cross-spawn: 7.0.3
       lodash: 4.17.21
-      react-scripts: 5.0.0_puypazf3bgv3g5vv3n5bviu7gu
+      react-scripts: 5.0.0_s5hkl6ix3f7xsvq7w3duvb753e
       semver: 7.3.5
       webpack-merge: 4.2.2
     transitivePeerDependencies:
@@ -13721,7 +13721,7 @@ packages:
     resolution: {integrity: sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==}
     dev: true
 
-  /next/12.1.6_ef5jwxihqo6n7gxfmzogljlgcm:
+  /next/12.1.6_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-cebwKxL3/DhNKfg9tPZDQmbRKjueqykHHbgaoG4VBRH3AHQJ2HO0dbKFiS1hPhe1/qgc2d/hFeadsbPicmLD+A==}
     engines: {node: '>=12.22.0'}
     hasBin: true
@@ -13742,9 +13742,9 @@ packages:
       '@next/env': 12.1.6
       caniuse-lite: 1.0.30001334
       postcss: 8.4.5
-      react: 18.1.0
-      react-dom: 18.1.0_react@18.1.0
-      styled-jsx: 5.0.2_react@18.1.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      styled-jsx: 5.0.2_react@18.2.0
     optionalDependencies:
       '@next/swc-android-arm-eabi': 12.1.6
       '@next/swc-android-arm64': 12.1.6
@@ -15701,14 +15701,14 @@ packages:
       react: 17.0.2
       scheduler: 0.20.2
 
-  /react-dom/18.1.0_react@18.1.0:
-    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
-      react: ^18.1.0
+      react: ^18.2.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.1.0
-      scheduler: 0.22.0
+      react: 18.2.0
+      scheduler: 0.23.0
 
   /react-element-to-jsx-string/14.3.4_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-t4ZwvV6vwNxzujDQ+37bspnLwA4JlgUPWhLjBJWsNIDceAf6ZKUTCjdm08cN6WeZ5pTMKiCJkmAYnpmR4Bm+dg==}
@@ -15744,7 +15744,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-scripts/5.0.0_puypazf3bgv3g5vv3n5bviu7gu:
+  /react-scripts/5.0.0_s5hkl6ix3f7xsvq7w3duvb753e:
     resolution: {integrity: sha512-3i0L2CyIlROz7mxETEdfif6Sfhh9Lfpzi10CtcGs1emDQStmZfWjJbAIMtRD0opVUjQuFWqHZyRZ9PPzKCFxWg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -15787,7 +15787,7 @@ packages:
       postcss-normalize: 10.0.1_texoy56pdn6md6ivyv53tmptkq
       postcss-preset-env: 7.2.3_postcss@8.4.13
       prompts: 2.4.2
-      react: 18.1.0
+      react: 18.2.0
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.0_gs2ysyb3wlz5yzfbja2rp5vus4
       react-refresh: 0.11.0
@@ -15861,8 +15861,8 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
 
-  /react/18.1.0:
-    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
+  /react/18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -16468,8 +16468,8 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
 
-  /scheduler/0.22.0:
-    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
+  /scheduler/0.23.0:
+    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
 
@@ -17231,7 +17231,7 @@ packages:
       inline-style-parser: 0.1.1
     dev: true
 
-  /styled-jsx/5.0.2_react@18.1.0:
+  /styled-jsx/5.0.2_react@18.2.0:
     resolution: {integrity: sha512-LqPQrbBh3egD57NBcHET4qcgshPks+yblyhPlH2GY8oaDgKs8SK4C3dBh3oSJjgzJ3G5t1SYEZGHkP+QEpX9EQ==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
@@ -17244,7 +17244,7 @@ packages:
       babel-plugin-macros:
         optional: true
     dependencies:
-      react: 18.1.0
+      react: 18.2.0
     dev: false
 
   /stylehacks/5.0.2_postcss@8.4.13:
