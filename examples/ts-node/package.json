@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@types/node": "~16.11.0",
-    "ts-node": "~10.8.0",
+    "ts-node": "~10.9.0",
     "tsconfig-paths": "~4.0.0",
     "typescript": "~4.7.0"
   }
