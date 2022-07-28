@@ -18,17 +18,16 @@ Template project for setting up a TypeScript monorepo
 - [Features](#features)
 - [Setup](#setup)
 - [Docs](#docs)
-- [Repo structure](#repo-structure)
-  - [Publishable packages](#publishable-packages)
-  - [Frameworks and tools integrations](#frameworks-and-tools-integrations)
-    - [ts-node](#ts-node)
-    - [Babel](#babel)
-    - [webpack](#webpack)
-    - [jest](#jest)
-    - [create-react-app](#create-react-app)
-    - [NextJS](#nextjs)
-    - [NestJS](#nestjs)
-    - [Storybook](#storybook)
+- [Packages vs apps](#packages-vs-apps)
+- [Integrations](#integrations)
+  - [ts-node](#ts-node)
+  - [Babel](#babel)
+  - [webpack](#webpack)
+  - [jest](#jest)
+  - [create-react-app](#create-react-app)
+  - [NextJS](#nextjs)
+  - [NestJS](#nestjs)
+  - [Storybook](#storybook)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -71,17 +70,20 @@ See the following blog posts:
 
 If you're looking for the project references solution checkout the [`project-references`](https://github.com/NiGhTTraX/ts-monorepo/tree/project-references) branch.
 
-## Repo structure
+## Packages vs apps
 
-### Publishable packages
+This repo contains two types of workspaces:
 
-The [`packages`](packages) folder contains examples of packages you would usually end up publishing to `npm`. Therefore, the configs and build process are tailored to producing publishable artifacts that will depend on other packages from the monorepo.
+- `packages`: meant to be published to npm and installed,
+- `apps`: meant to be executed.
 
-### Frameworks and tools integrations
+A good example to illustrate the difference is `create-react-app`: you wouldn't publish an app like this to npm, you would run it, more specifically you would build the JS bundle and then deploy that somewhere.
 
-The [`examples`](examples) folder contains examples of integrating with frameworks and tools that need to be configured for monorepos. The configs and build process will produce/execute a single artifact that will bundle up all necessary packages from the monorepo.
+For packages, you don't want to bundle all the monorepo dependencies, and instead publish them individually. That's why packages have a separate build `tsconfig.json` that resolves monorepo dependencies to `node_modules`.
 
-#### ts-node
+## Integrations
+
+### ts-node
 
 Use [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) to resolve the path aliases at runtime:
 
@@ -93,9 +95,9 @@ Use [tsconfig-paths](https://www.npmjs.com/package/tsconfig-paths) to resolve th
 }
 ```
 
-See the full example [here](examples/ts-node).
+See the full example [here](apps/ts-node).
 
-#### Babel
+### Babel
 
 Use [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) to resolve the path aliases:
 
@@ -119,9 +121,9 @@ module.exports = {
 };
 ```
 
-See the full example [here](examples/jest-babel).
+See the full example [here](apps/jest-babel).
 
-#### webpack
+### webpack
 
 Use [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin) to resolve the path aliases:
 
@@ -135,11 +137,11 @@ module.exports = {
 };
 ```
 
-See the full example [here](examples/webpack).
+See the full example [here](apps/webpack).
 
-#### jest
+### jest
 
-If you use `Babel` then see [this example](examples/jest-babel) from the [Babel](#babel) section above.
+If you use `Babel` then see [this example](apps/jest-babel) from the [Babel](#babel) section above.
 
 If you use [ts-jest](https://github.com/kulshekhar/ts-jest) then you can use its `pathsToModuleNameMapper` helper: 
 
@@ -157,9 +159,9 @@ module.exports = {
 };
 ```
 
-See the full example [here](examples/jest-tsjest).
+See the full example [here](apps/jest-tsjest).
 
-#### create-react-app
+### create-react-app
 
 Use [craco](https://www.npmjs.com/package/@craco/craco) or [react-app-rewired](https://www.npmjs.com/package/react-app-rewired) to extend CRA's webpack config and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
 
@@ -186,9 +188,9 @@ module.exports = (config) => {
 };
 ```
 
-See the full example [here](examples/cra). For tests, see the [jest example](#jest).
+See the full example [here](apps/cra). For tests, see the [jest example](#jest).
 
-#### NextJS
+### NextJS
 
 Extend Next's webpack config to enable compiling packages from the monorepo:
 
@@ -207,9 +209,9 @@ module.exports = {
 };
 ```
 
-See the full example [here](examples/nextjs).
+See the full example [here](apps/nextjs).
 
-#### NestJS
+### NestJS
 
 Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and tell NestJS where to find the `main.js` file:
 
@@ -217,13 +219,13 @@ Include the path aliases in both `tsconfig.json` and `tsconfig.build.json` and t
 {
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
-  "entryFile": "examples/nestjs/src/main"
+  "entryFile": "apps/nestjs/src/main"
 }
 ```
 
-See the full example [here](examples/nestjs).
+See the full example [here](apps/nestjs).
 
-#### Storybook
+### Storybook
 
 [Extend Storybook's webpack config](https://storybook.js.org/docs/react/builders/webpack#typescript-module-resolution) and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
 
@@ -243,4 +245,4 @@ module.exports = {
 };
 ```
 
-See the full example [here](examples/storybook).
+See the full example [here](apps/storybook).

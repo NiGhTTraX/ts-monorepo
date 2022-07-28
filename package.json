@@ -4,7 +4,7 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "examples/*"
+    "apps/*"
   ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",

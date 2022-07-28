@@ -6,7 +6,7 @@
     "clean": "rimraf dist",
     "prebuild": "pnpm run clean",
     "build": "nest build",
-    "start:prod": "node dist/examples/nestjs/src/main",
+    "start:prod": "node dist/apps/nestjs/src/main",
     "start:dev": "nest start --watch"
   },
   "dependencies": {
