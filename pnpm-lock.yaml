@@ -118,7 +118,7 @@ importers:
       rimraf: ~3.0.2
       rxjs: ~7.5.5
       ts-node: ~10.9.0
-      tsconfig-paths: ~4.0.0
+      tsconfig-paths: ~4.1.0
       typescript: ~4.7.0
     dependencies:
       '@nestjs/common': 9.0.1_47vcjb2de6lyibr6g4enoa5lyu
@@ -133,7 +133,7 @@ importers:
       '@types/express': 4.17.13
       '@types/node': 16.11.21
       ts-node: 10.9.0_34uafma2v7g2sbnzhoxxuaxgau
-      tsconfig-paths: 4.0.0
+      tsconfig-paths: 4.1.0
       typescript: 4.7.4
 
   apps/nextjs:
@@ -216,14 +216,14 @@ importers:
       '@nighttrax/foo': '*'
       '@types/node': ~16.11.0
       ts-node: ~10.9.0
-      tsconfig-paths: ~4.0.0
+      tsconfig-paths: ~4.1.0
       typescript: ~4.7.0
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
       '@types/node': 16.11.21
       ts-node: 10.9.0_34uafma2v7g2sbnzhoxxuaxgau
-      tsconfig-paths: 4.0.0
+      tsconfig-paths: 4.1.0
       typescript: 4.7.4
 
   apps/webpack:
@@ -6223,7 +6223,7 @@ packages:
       mississippi: 3.0.0
       mkdirp: 0.5.5
       move-concurrently: 1.0.1
-      promise-inflight: 1.0.1
+      promise-inflight: 1.0.1_bluebird@3.7.2
       rimraf: 2.7.1
       ssri: 6.0.2
       unique-filename: 1.1.1
@@ -14367,6 +14367,17 @@ packages:
         optional: true
     dev: true
 
+  /promise-inflight/1.0.1_bluebird@3.7.2:
+    resolution: {integrity: sha512-6zWPyEOFaQBJYcGMHBKTKJ3u6TBsnMFOIZSa6ce1e/ZrrsOlnHRHbabMjLiBYKp+n44X9eUI6VUPaukCXHuG4g==}
+    peerDependencies:
+      bluebird: '*'
+    peerDependenciesMeta:
+      bluebird:
+        optional: true
+    dependencies:
+      bluebird: 3.7.2
+    dev: true
+
   /promise.allsettled/1.0.5:
     resolution: {integrity: sha512-tVDqeZPoBC0SlzJHzWGZ2NKAguVq2oiYj7gbggbiTvH2itHohijTp7njOUA0aQ/nl+0lr/r6egmhoYu63UZ/pQ==}
     engines: {node: '>= 0.4'}
@@ -16754,6 +16765,15 @@ packages:
 
   /tsconfig-paths/4.0.0:
     resolution: {integrity: sha512-SLBg2GBKlR6bVtMgJJlud/o3waplKtL7skmLkExomIiaAtLGtVsoXIqP3SYdjbcH9lq/KVv7pMZeCBpLYOit6Q==}
+    dependencies:
+      json5: 2.2.1
+      minimist: 1.2.6
+      strip-bom: 3.0.0
+    dev: true
+
+  /tsconfig-paths/4.1.0:
+    resolution: {integrity: sha512-AHx4Euop/dXFC+Vx589alFba8QItjF+8hf8LtmuiCwHyI4rHXQtOOENaM8kvYf5fR0dRChy3wzWIZ9WbB7FWow==}
+    engines: {node: '>=6'}
     dependencies:
       json5: 2.2.1
       minimist: 1.2.6
