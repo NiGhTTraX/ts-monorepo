@@ -165,16 +165,16 @@ importers:
       '@rollup/plugin-typescript': ~8.4.0
       '@types/node': ~16.11.0
       rimraf: ~3.0.2
-      rollup: ~2.78.0
+      rollup: ~2.79.0
       tslib: ~2.4.0
       typescript: ~4.7.0
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 8.4.0_ri53vstxz3knarnrxbs5keiw5y
+      '@rollup/plugin-typescript': 8.4.0_ppxule2mhlgb6ds3e4gxjflaqy
       '@types/node': 16.11.21
       rimraf: 3.0.2
-      rollup: 2.78.0
+      rollup: 2.79.0
       tslib: 2.4.0
       typescript: 4.7.4
 
@@ -3016,7 +3016,7 @@ packages:
       rollup: 2.77.0
     dev: true
 
-  /@rollup/plugin-typescript/8.4.0_ri53vstxz3knarnrxbs5keiw5y:
+  /@rollup/plugin-typescript/8.4.0_ppxule2mhlgb6ds3e4gxjflaqy:
     resolution: {integrity: sha512-QssfoOP6V4/6skX12EfOW5UzJAv/c334F4OJWmQpe2kg3agEa0JwVCckwmfuvEgDixyX+XyxjFenH7M2rDKUyQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
@@ -3027,9 +3027,9 @@ packages:
       tslib:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@2.78.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.79.0
       resolve: 1.22.0
-      rollup: 2.78.0
+      rollup: 2.79.0
       tslib: 2.4.0
       typescript: 4.7.4
     dev: true
@@ -3046,7 +3046,7 @@ packages:
       rollup: 2.77.0
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.78.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.79.0:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -3055,7 +3055,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.3.1
-      rollup: 2.78.0
+      rollup: 2.79.0
     dev: true
 
   /@rushstack/eslint-patch/1.1.0:
@@ -4557,7 +4557,7 @@ packages:
     dependencies:
       '@types/node': 17.0.10
       '@types/source-list-map': 0.1.2
-      source-map: 0.7.3
+      source-map: 0.7.4
     dev: true
 
   /@types/webpack/4.41.32:
@@ -15376,8 +15376,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/2.78.0:
-    resolution: {integrity: sha512-4+YfbQC9QEVvKTanHhIAFVUFSRsezvQF8vFOJwtGfb9Bb+r014S+qryr9PSmw8x6sMnPkmFBGAvIFVQxvJxjtg==}
+  /rollup/2.79.0:
+    resolution: {integrity: sha512-x4KsrCgwQ7ZJPcFA/SUu6QVcYlO7uRLfLAy0DSA4NS2eG8japdbpM50ToH7z4iObodRYOJ0soneF0iaQRJ6zhA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
