@@ -162,7 +162,7 @@ importers:
   apps/rollup:
     specifiers:
       '@nighttrax/foo': '*'
-      '@rollup/plugin-typescript': ~8.4.0
+      '@rollup/plugin-typescript': ~8.5.0
       '@types/node': ~16.11.0
       rimraf: ~3.0.2
       rollup: ~2.79.0
@@ -171,7 +171,7 @@ importers:
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 8.4.0_ppxule2mhlgb6ds3e4gxjflaqy
+      '@rollup/plugin-typescript': 8.5.0_ppxule2mhlgb6ds3e4gxjflaqy
       '@types/node': 16.11.21
       rimraf: 3.0.2
       rollup: 2.79.0
@@ -3016,8 +3016,8 @@ packages:
       rollup: 2.77.0
     dev: true
 
-  /@rollup/plugin-typescript/8.4.0_ppxule2mhlgb6ds3e4gxjflaqy:
-    resolution: {integrity: sha512-QssfoOP6V4/6skX12EfOW5UzJAv/c334F4OJWmQpe2kg3agEa0JwVCckwmfuvEgDixyX+XyxjFenH7M2rDKUyQ==}
+  /@rollup/plugin-typescript/8.5.0_ppxule2mhlgb6ds3e4gxjflaqy:
+    resolution: {integrity: sha512-wMv1/scv0m/rXx21wD2IsBbJFba8wGF3ErJIr6IKRfRj49S85Lszbxb4DCo8iILpluTjk2GAAu9CoZt4G3ppgQ==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       rollup: ^2.14.0
