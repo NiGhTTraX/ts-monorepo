@@ -230,7 +230,7 @@ importers:
     specifiers:
       '@nighttrax/bar': '*'
       rimraf: ~3.0.2
-      ts-loader: ~9.3.0
+      ts-loader: ~9.4.0
       tsconfig-paths-webpack-plugin: ~4.0.0
       typescript: ~4.7.0
       webpack: ~5.74.0
@@ -239,7 +239,7 @@ importers:
       '@nighttrax/bar': link:../../packages/bar
     devDependencies:
       rimraf: 3.0.2
-      ts-loader: 9.3.0_xnp4kzegbjokq62cajex2ovgkm
+      ts-loader: 9.4.0_xnp4kzegbjokq62cajex2ovgkm
       tsconfig-paths-webpack-plugin: 4.0.0
       typescript: 4.7.4
       webpack: 5.74.0_webpack-cli@4.10.0
@@ -16954,8 +16954,8 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /ts-loader/9.3.0_xnp4kzegbjokq62cajex2ovgkm:
-    resolution: {integrity: sha512-2kLLAdAD+FCKijvGKi9sS0OzoqxLCF3CxHpok7rVgCZ5UldRzH0TkbwG9XECKjBzHsAewntC5oDaI/FwKzEUog==}
+  /ts-loader/9.4.0_xnp4kzegbjokq62cajex2ovgkm:
+    resolution: {integrity: sha512-0G3UMhk1bjgsgiwF4rnZRAeTi69j9XMDtmDDMghGSqlWESIAS3LFgJe//GYfE4vcjbyzuURLB9Us2RZIWp2clQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       typescript: '*'
