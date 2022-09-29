@@ -25,7 +25,7 @@ importers:
       '@nighttrax/components': '*'
       '@nighttrax/foo': '*'
       '@types/express': ~4.17.13
-      '@types/jest': ~29.0.0
+      '@types/jest': ~29.1.0
       '@types/node': ~16.11.0
       '@types/react': ~18.0.0
       '@types/react-dom': ~18.0.0
@@ -51,7 +51,7 @@ importers:
       '@babel/plugin-transform-react-jsx': 7.19.0_@babel+core@7.19.0
       '@craco/craco': 6.4.3_7rlwnqux6vn4tevhzmif26muua
       '@types/express': 4.17.13
-      '@types/jest': 29.0.0
+      '@types/jest': 29.1.0
       '@types/node': 16.11.21
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.0
@@ -71,7 +71,7 @@ importers:
       '@babel/preset-env': ~7.19.0
       '@babel/preset-typescript': ~7.18.0
       '@nighttrax/foo': '*'
-      '@types/jest': ~29.0.0
+      '@types/jest': ~29.1.0
       babel-plugin-module-resolver: ~4.1.0
       jest: ~29.1.0
     dependencies:
@@ -80,7 +80,7 @@ importers:
       '@babel/core': 7.19.0
       '@babel/preset-env': 7.19.0_@babel+core@7.19.0
       '@babel/preset-typescript': 7.18.6_@babel+core@7.19.0
-      '@types/jest': 29.0.0
+      '@types/jest': 29.1.0
       babel-plugin-module-resolver: 4.1.0
       jest: 29.1.0
 
@@ -88,7 +88,7 @@ importers:
     specifiers:
       '@jest/types': ~29.1.0
       '@nighttrax/foo': '*'
-      '@types/jest': ~29.0.0
+      '@types/jest': ~29.1.0
       '@types/node': ~17.0.5
       jest: ~29.1.0
       ts-jest: ~29.0.0
@@ -98,7 +98,7 @@ importers:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
       '@jest/types': 29.1.0
-      '@types/jest': 29.0.0
+      '@types/jest': 29.1.0
       '@types/node': 17.0.10
       jest: 29.1.0_zhytnfskir3k62o2xhk3o6fbpe
       ts-jest: 29.0.0_fnnoc35xhslb7fxn5nycdth32m
@@ -4550,11 +4550,11 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.0.0:
-    resolution: {integrity: sha512-X6Zjz3WO4cT39Gkl0lZ2baFRaEMqJl5NC1OjElkwtNzAlbkr2K/WJXkBkH5VP0zx4Hgsd2TZYdOEfvp2Dxia+Q==}
+  /@types/jest/29.1.0:
+    resolution: {integrity: sha512-CqlKkMNaUhFSRvqVKniNhbcy9fc/Rj2cmFD5t8Jtu4HlHzSit27h7XKfP5kkxBeROQ8WAvQQmy93FIz9or8jKg==}
     dependencies:
-      expect: 29.0.2
-      pretty-format: 29.0.2
+      expect: 29.1.0
+      pretty-format: 29.1.0
     dev: true
 
   /@types/json-schema/7.0.9:
@@ -8865,17 +8865,6 @@ packages:
       jest-get-type: 27.5.0
       jest-matcher-utils: 27.5.0
       jest-message-util: 27.5.0
-    dev: true
-
-  /expect/29.0.2:
-    resolution: {integrity: sha512-JeJlAiLKn4aApT4pzUXBVxl3NaZidWIOdg//smaIlP9ZMBDkHZGFd9ubphUZP9pUyDEo7bC6M0IIZR51o75qQw==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@jest/expect-utils': 29.1.0
-      jest-get-type: 29.0.0
-      jest-matcher-utils: 29.1.0
-      jest-message-util: 29.1.0
-      jest-util: 29.1.0
     dev: true
 
   /expect/29.1.0:
@@ -14608,15 +14597,6 @@ packages:
       ansi-regex: 5.0.1
       ansi-styles: 5.2.0
       react-is: 17.0.2
-    dev: true
-
-  /pretty-format/29.0.2:
-    resolution: {integrity: sha512-wp3CdtUa3cSJVFn3Miu5a1+pxc1iPIQTenOAn+x5erXeN1+ryTcLesV5pbK/rlW5EKwp27x38MoYfNGaNXDDhg==}
-    engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
-    dependencies:
-      '@jest/schemas': 29.0.0
-      ansi-styles: 5.2.0
-      react-is: 18.1.0
     dev: true
 
   /pretty-format/29.1.0:
