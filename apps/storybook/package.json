@@ -13,7 +13,7 @@
     "@storybook/builder-webpack5": "~6.5.3",
     "@storybook/manager-webpack5": "~6.5.3",
     "@storybook/react": "~6.5.3",
-    "babel-loader": "~8.2.5",
+    "babel-loader": "~9.0.0",
     "require-from-string": "~2.0.2",
     "rimraf": "~3.0.2",
     "tsconfig-paths-webpack-plugin": "~4.0.0",
