@@ -188,7 +188,7 @@ importers:
       '@storybook/core-common': ~6.5.3
       '@storybook/manager-webpack5': ~6.5.3
       '@storybook/react': ~6.5.3
-      babel-loader: ~9.0.0
+      babel-loader: ~9.1.0
       react: ~18.2.0
       react-dom: ~18.2.0
       require-from-string: ~2.0.2
@@ -206,7 +206,7 @@ importers:
       '@storybook/core-common': 6.5.3_xrxvbtylmve4l2tr3vmmqgfp7q
       '@storybook/manager-webpack5': 6.5.3_xrxvbtylmve4l2tr3vmmqgfp7q
       '@storybook/react': 6.5.3_dqyj4237ziettr2miu4hab7fxm
-      babel-loader: 9.0.0_z22tmofudeh3tyeifpjvwjl5ei
+      babel-loader: 9.1.0_z22tmofudeh3tyeifpjvwjl5ei
       require-from-string: 2.0.2
       rimraf: 3.0.2
       tsconfig-paths-webpack-plugin: 4.0.0
@@ -5939,8 +5939,8 @@ packages:
       webpack: 5.74.0
     dev: true
 
-  /babel-loader/9.0.0_z22tmofudeh3tyeifpjvwjl5ei:
-    resolution: {integrity: sha512-qVGQb0PNw/B1sGhPf0/KKsHZAPfa2Bk+JbjkW7yGjAHZyvjAULXYq0et0+/+7DL/rGYU+y8UoGPzA32NP29pVQ==}
+  /babel-loader/9.1.0_z22tmofudeh3tyeifpjvwjl5ei:
+    resolution: {integrity: sha512-Antt61KJPinUMwHwIIz9T5zfMgevnfZkEVWYDWlG888fgdvRRGD0JTuf/fFozQnfT+uq64sk1bmdHDy/mOEWnA==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       '@babel/core': ^7.12.0
