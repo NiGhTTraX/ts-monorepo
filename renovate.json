@@ -4,5 +4,6 @@
   ],
   "ignorePresets": [":ignoreModulesAndTests"],
   "rangeStrategy": "replace",
-  "automerge": true
+  "automerge": true,
+  "automergeType": "branch"
 }
