@@ -10,9 +10,9 @@
     "start:dev": "nest start --watch"
   },
   "dependencies": {
-    "@nestjs/common": "~9.1.0",
-    "@nestjs/core": "~9.1.0",
-    "@nestjs/platform-express": "~9.1.0",
+    "@nestjs/common": "~9.2.0",
+    "@nestjs/core": "~9.2.0",
+    "@nestjs/platform-express": "~9.2.0",
     "@nighttrax/foo": "*",
     "reflect-metadata": "~0.1.13",
     "rimraf": "~3.0.2",
