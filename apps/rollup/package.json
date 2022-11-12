@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "rollup -c"
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "dependencies": {
     "@nighttrax/foo": "*"
