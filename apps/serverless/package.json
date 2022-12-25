@@ -1,0 +1,30 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "Serverless framework TypeScript",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development sls offline start --stage offline",
+    "tail-log": "sls logs -f app -t",
+    "deploy-prod": "cross-env NODE_ENV=production sls deploy --stage prod",
+    "remove-prod": "cross-env NODE_ENV=production sls remove --stage prod",
+    "clean": "rimraf dist .webpack .serverless",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --fix  --ext .js,.ts .",
+    "build-types": "tsc --noEmit --pretty",
+    "deploy": "npm run deploy-prod"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "serverless-http": "^3.1.0",
+    "@nighttrax/foo": "~1.0.0"
+  },
+  "devDependencies": {
+    "@types/supertest": "^2.0.12",
+    "cross-env": "^7.0.3",
+    "rimraf": "^3.0.2",
+    "serverless": "^3.22.0",
+    "serverless-bundle": "^5.4.0",
+    "serverless-offline": "^9.2.5",
+    "typescript": "~4.9.0"
+  }
+}

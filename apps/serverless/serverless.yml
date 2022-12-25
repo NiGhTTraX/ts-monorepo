@@ -1,0 +1,40 @@
+service: serverless
+
+custom:
+  # Our stage is based on what is passed in when running serverless
+  # commands. Or falls back to what we have set in the provider section.
+  stage: ${opt:stage, 'offline'}
+  region: ${opt:region, 'ap-southeast-1'}
+  bundle:
+    linting: false
+    excludeFiles: "**/*.test.ts"
+  serverless-offline:
+    httpPort: 4000
+    noPrependStageInUrl: true
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  memorySize: 512
+  timeout: 10
+  logRetentionInDays: 90
+  logs:
+    httpApi: true
+  httpApi:
+    # metrics: true # Enable if you need
+    cors: true
+
+functions:
+  app:
+    handler: src/handler.handler
+    events:
+      - httpApi:
+          path: '/{proxy+}'
+          method: '*'
+
+package:
+  individually: true
+
+plugins:
+  - serverless-bundle
+  - serverless-offline
