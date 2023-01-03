@@ -25,6 +25,7 @@ Template project for setting up a TypeScript monorepo
   - [webpack](#webpack)
   - [jest](#jest)
   - [create-react-app](#create-react-app)
+  - [Vite](#vite)
   - [NextJS](#nextjs)
   - [NestJS](#nestjs)
   - [Storybook](#storybook)
@@ -189,6 +190,25 @@ module.exports = (config) => {
 ```
 
 See the full example [here](apps/cra). For tests, see the [jest example](#jest).
+
+### Vite
+
+Use [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) in the Vite config:
+
+```typescript
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tsconfigPaths from "vite-tsconfig-paths";
+
+export default defineConfig({
+  plugins: [
+    react(), 
+    tsconfigPaths()
+  ],
+});
+```
+
+See full example [here](apps/vite).
 
 ### NextJS
 
