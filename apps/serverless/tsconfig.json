@@ -1,4 +1,6 @@
 {
+  "extends": "../../tsconfig.json",
+
   "compilerOptions": {
     "lib": ["es2017"],
     "module": "esnext",
@@ -28,12 +30,8 @@
     "allowSyntheticDefaultImports": true,
     "allowJs": false,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["./dist/**/*", "./node_modules/**/*"]
+
+  "exclude": ["./dist"]
 }

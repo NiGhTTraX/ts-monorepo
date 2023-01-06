@@ -1,7 +1,7 @@
 import { meaningOfLife } from "@nighttrax/foo";
-import express from "express";
+import express, { Express } from "express";
 
-const app = express();
+const app: Express = express();
 
 app.get("/", (_, res) => {
   res.header("Content-Type", "application/json; charset=utf-8").json({

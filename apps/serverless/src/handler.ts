@@ -1,7 +1,6 @@
 import type { Handler } from "serverless-http";
 import serverlessHttp from "serverless-http";
-
-import { app } from "@/app";
+import { app } from "./app";
 
 const handlerWithServerless: Handler = serverlessHttp(app);
 
