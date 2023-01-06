@@ -164,7 +164,7 @@ importers:
   apps/rollup:
     specifiers:
       '@nighttrax/foo': '*'
-      '@rollup/plugin-typescript': ~10.0.0
+      '@rollup/plugin-typescript': ~11.0.0
       '@types/node': ~18.11.0
       rimraf: ~3.0.2
       rollup: ~3.9.0
@@ -173,7 +173,7 @@ importers:
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 10.0.0_mcvo6lyehtwijg7pni6g6xqk7a
+      '@rollup/plugin-typescript': 11.0.0_mcvo6lyehtwijg7pni6g6xqk7a
       '@types/node': 18.11.5
       rimraf: 3.0.2
       rollup: 3.9.0
@@ -4707,8 +4707,8 @@ packages:
       rollup: 2.79.0
     dev: true
 
-  /@rollup/plugin-typescript/10.0.0_mcvo6lyehtwijg7pni6g6xqk7a:
-    resolution: {integrity: sha512-iaTcQCbqTBA+vYS8uAVqvZvYXPobHBkz/tPYudqdMIz8QIjlPFNNFLpFX18rHGjLvGT9vUghd6GwE4ZpLhCnfA==}
+  /@rollup/plugin-typescript/11.0.0_mcvo6lyehtwijg7pni6g6xqk7a:
+    resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
@@ -17013,6 +17013,12 @@ packages:
   /react-dev-utils/12.0.0_b262mvte46pzcv362bj7vsaxou:
     resolution: {integrity: sha512-xBQkitdxozPxt1YZ9O1097EJiVpwHr9FoAuEVURCKV0Av8NBERovJauzP7bo1ThvuhZ4shsQ1AJiu4vQpoT1AQ==}
     engines: {node: '>=14'}
+    peerDependencies:
+      typescript: '>=2.7'
+      webpack: '>=4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
     dependencies:
       '@babel/code-frame': 7.18.6
       address: 1.1.2
@@ -17043,9 +17049,7 @@ packages:
     transitivePeerDependencies:
       - eslint
       - supports-color
-      - typescript
       - vue-template-compiler
-      - webpack
     dev: true
 
   /react-docgen-typescript/2.2.2_typescript@4.9.3:
