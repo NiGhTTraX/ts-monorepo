@@ -167,16 +167,16 @@ importers:
       '@rollup/plugin-typescript': ~11.0.0
       '@types/node': ~18.11.0
       rimraf: ~3.0.2
-      rollup: ~3.9.0
+      rollup: ~3.10.0
       tslib: ~2.4.0
       typescript: ~4.9.0
     dependencies:
       '@nighttrax/foo': link:../../packages/foo
     devDependencies:
-      '@rollup/plugin-typescript': 11.0.0_mcvo6lyehtwijg7pni6g6xqk7a
+      '@rollup/plugin-typescript': 11.0.0_mmoevq4zhhdb3yy4644i2nhgua
       '@types/node': 18.11.5
       rimraf: 3.0.2
-      rollup: 3.9.0
+      rollup: 3.10.0
       tslib: 2.4.0
       typescript: 4.9.3
 
@@ -4707,7 +4707,7 @@ packages:
       rollup: 2.79.0
     dev: true
 
-  /@rollup/plugin-typescript/11.0.0_mcvo6lyehtwijg7pni6g6xqk7a:
+  /@rollup/plugin-typescript/11.0.0_mmoevq4zhhdb3yy4644i2nhgua:
     resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -4720,9 +4720,9 @@ packages:
       tslib:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.9.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.10.0
       resolve: 1.22.1
-      rollup: 3.9.0
+      rollup: 3.10.0
       tslib: 2.4.0
       typescript: 4.9.3
     dev: true
@@ -4739,7 +4739,7 @@ packages:
       rollup: 2.79.0
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.9.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.10.0:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -4751,7 +4751,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.9.0
+      rollup: 3.10.0
     dev: true
 
   /@rushstack/eslint-patch/1.1.0:
@@ -17638,8 +17638,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup/3.9.0:
-    resolution: {integrity: sha512-nGGylpmblyjTpF4lEUPgmOw6OVxRvnI6Iuuh6Lz4O/X66cVOX1XJSsqP1YamxQ+mPuFE7qJxLFDSCk8rNv5dDw==}
+  /rollup/3.10.0:
+    resolution: {integrity: sha512-JmRYz44NjC1MjVF2VKxc0M1a97vn+cDxeqWmnwyAF4FvpjK8YFdHpaqvQB+3IxCvX05vJxKZkoMDU8TShhmJVA==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -19722,7 +19722,7 @@ packages:
       esbuild: 0.16.14
       postcss: 8.4.20
       resolve: 1.22.1
-      rollup: 3.9.0
+      rollup: 3.10.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
