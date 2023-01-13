@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",
-    "clean": "rimraf -rf ./dist",
+    "clean": "rimraf ./dist",
     "compile": "tsc -p tsconfig.build.json",
     "prepublishOnly": "pnpm run build"
   },
@@ -17,6 +17,6 @@
     "@types/react": "~18.0.0",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
-    "rimraf": "~3.0.2"
+    "rimraf": "~4.0.0"
   }
 }
