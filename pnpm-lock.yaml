@@ -36,7 +36,7 @@ importers:
       react: ~18.2.0
       react-dom: ~18.2.0
       react-scripts: ~5.0.0
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       ts-jest: ~29.0.0
       ts-node: ~10.9.1
       tsconfig-paths-webpack-plugin: ~4.0.0
@@ -61,7 +61,7 @@ importers:
       jest: 29.3.0_bimiyqfyeisf6iaicaf27pucpq
       postcss: 8.4.13
       react-scripts: 5.0.0_5rwt5sgvbsjjgt2hwgzjzye3eu
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       ts-jest: 29.0.0_bjlxipbnswkh2r5xnab5i32zz4
       ts-node: 10.9.1_6otzymbje2onqleqh7njzcaeza
       tsconfig-paths-webpack-plugin: 4.0.0
@@ -117,7 +117,7 @@ importers:
       '@types/express': ~4.17.11
       '@types/node': ~18.11.0
       reflect-metadata: ~0.1.13
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       rxjs: ~7.8.0
       ts-node: ~10.9.0
       tsconfig-paths: ~4.1.0
@@ -128,7 +128,7 @@ importers:
       '@nestjs/platform-express': 9.2.0_pf2fb646rsvo5szivgkaevcpvi
       '@nighttrax/foo': link:../../packages/foo
       reflect-metadata: 0.1.13
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       rxjs: 7.8.0
     devDependencies:
       '@nestjs/cli': 9.1.1
@@ -147,7 +147,7 @@ importers:
       next: ~13.1.0
       react: ~18.2.0
       react-dom: ~18.2.0
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       typescript: ~4.9.0
     dependencies:
       '@nighttrax/components': link:../../packages/components
@@ -158,7 +158,7 @@ importers:
       '@types/node': 18.11.5
       '@types/react': 18.0.0
       '@types/react-dom': 18.0.0
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       typescript: 4.9.3
 
   apps/rollup:
@@ -166,7 +166,7 @@ importers:
       '@nighttrax/foo': '*'
       '@rollup/plugin-typescript': ~11.0.0
       '@types/node': ~18.11.0
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       rollup: ~3.10.0
       tslib: ~2.4.0
       typescript: ~4.9.0
@@ -175,7 +175,7 @@ importers:
     devDependencies:
       '@rollup/plugin-typescript': 11.0.0_mmoevq4zhhdb3yy4644i2nhgua
       '@types/node': 18.11.5
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       rollup: 3.10.0
       tslib: 2.4.0
       typescript: 4.9.3
@@ -192,7 +192,7 @@ importers:
       react: ~17.0.2
       react-dom: ~17.0.2
       require-from-string: ~2.0.2
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       tsconfig-paths-webpack-plugin: ~4.0.0
       typescript: ~4.9.0
       webpack: ~5.75.0
@@ -208,7 +208,7 @@ importers:
       '@storybook/react': 6.5.3_mn53ytahiodlm763toceyxw7bm
       babel-loader: 9.1.0_npabyccmuonwo2rku4k53xo3hi
       require-from-string: 2.0.2
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       tsconfig-paths-webpack-plugin: 4.0.0
       typescript: 4.9.3
       webpack: 5.75.0
@@ -237,7 +237,7 @@ importers:
       '@vitejs/plugin-react': ~3.0.0
       react: ~18.2.0
       react-dom: ~18.2.0
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       typescript: ~4.9.3
       vite: ~4.0.0
       vite-tsconfig-paths: ~4.0.3
@@ -250,7 +250,7 @@ importers:
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.10
       '@vitejs/plugin-react': 3.0.1_vite@4.0.4
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       typescript: 4.9.3
       vite: 4.0.4
       vite-tsconfig-paths: 4.0.3_oqaisjyoksahwfteckfuo7j4mu
@@ -258,7 +258,7 @@ importers:
   apps/webpack:
     specifiers:
       '@nighttrax/bar': '*'
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       ts-loader: ~9.4.0
       tsconfig-paths-webpack-plugin: ~4.0.0
       typescript: ~4.9.0
@@ -267,7 +267,7 @@ importers:
     dependencies:
       '@nighttrax/bar': link:../../packages/bar
     devDependencies:
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       ts-loader: 9.4.0_vfotqvx6lgcbf3upbs6hgaza4q
       tsconfig-paths-webpack-plugin: 4.0.0
       typescript: 4.9.3
@@ -277,12 +277,12 @@ importers:
   packages/bar:
     specifiers:
       '@nighttrax/foo': ~1.0.0
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       typescript: ~4.9.0
     dependencies:
       '@nighttrax/foo': link:../foo
     devDependencies:
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       typescript: 4.9.3
 
   packages/components:
@@ -291,21 +291,21 @@ importers:
       '@types/react': ~18.0.0
       react: ~18.2.0
       react-dom: ~18.2.0
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
     dependencies:
       '@nighttrax/foo': link:../foo
     devDependencies:
       '@types/react': 18.0.0
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      rimraf: 4.0.4
+      rimraf: 4.1.0
 
   packages/foo:
     specifiers:
-      rimraf: ~4.0.0
+      rimraf: ~4.1.0
       typescript: ~4.9.0
     devDependencies:
-      rimraf: 4.0.4
+      rimraf: 4.1.0
       typescript: 4.9.3
 
 packages:
@@ -17556,8 +17556,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rimraf/4.0.4:
-    resolution: {integrity: sha512-R0hoVr9xTwemarQjoWlNt/nb5dEGVTBhVdkRmEX2zEkT8T6onH0XKiGjuaC7rNNj/gYzY2p4NVRJ3sjO1ascHQ==}
+  /rimraf/4.1.0:
+    resolution: {integrity: sha512-ZJdkUR5/dRrRJHdcSKJLrpRn6tVjl9ALxd4yrTCxFsMpjQNzwHF6GLqMsuEzEYIXxHlFPDSk21Vr8VPuFBEz0g==}
     engines: {node: '>=14'}
     hasBin: true
 

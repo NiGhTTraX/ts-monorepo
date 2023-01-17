@@ -15,7 +15,7 @@
     "@nestjs/platform-express": "~9.2.0",
     "@nighttrax/foo": "*",
     "reflect-metadata": "~0.1.13",
-    "rimraf": "~4.0.0",
+    "rimraf": "~4.1.0",
     "rxjs": "~7.8.0"
   },
   "devDependencies": {
