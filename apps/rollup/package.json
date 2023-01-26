@@ -16,7 +16,7 @@
     "@types/node": "~18.11.0",
     "rimraf": "~4.1.0",
     "rollup": "~3.11.0",
-    "tslib": "~2.4.0",
+    "tslib": "~2.5.0",
     "typescript": "~4.9.0"
   }
 }
