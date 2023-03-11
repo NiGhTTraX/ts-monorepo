@@ -21,7 +21,7 @@ importers:
       '@babel/core': ~7.21.0
       '@babel/plugin-syntax-flow': ~7.18.0
       '@babel/plugin-transform-react-jsx': ~7.21.0
-      '@craco/craco': ~7.0.0
+      '@craco/craco': ~7.1.0
       '@nighttrax/components': '*'
       '@nighttrax/foo': '*'
       '@types/express': ~4.17.13
@@ -50,7 +50,7 @@ importers:
       '@babel/core': 7.21.0
       '@babel/plugin-syntax-flow': 7.18.6_@babel+core@7.21.0
       '@babel/plugin-transform-react-jsx': 7.21.0_@babel+core@7.21.0
-      '@craco/craco': 7.0.0_ovx7ru6saaxijjymmqfvbm5fbe
+      '@craco/craco': 7.1.0_ovx7ru6saaxijjymmqfvbm5fbe
       '@types/express': 4.17.13
       '@types/jest': 29.4.0
       '@types/node': 18.15.0
@@ -2155,8 +2155,8 @@ packages:
     dev: true
     optional: true
 
-  /@craco/craco/7.0.0_ovx7ru6saaxijjymmqfvbm5fbe:
-    resolution: {integrity: sha512-OyjL9zpURB6Ha1HO62Hlt27Xd7UYJ8DRiBNuE4DBB8Ue0iQ9q/xsv3ze7ROm6gCZqV6I2Gxjnq0EHCCye+4xDQ==}
+  /@craco/craco/7.1.0_ovx7ru6saaxijjymmqfvbm5fbe:
+    resolution: {integrity: sha512-oRAcPIKYrfPXp9rSzlsDNeOaVtDiKhoyqSXUoqiK24jCkHr4T8m/a2f74yXIzCbIheoUWDOIfWZyRgFgT+cpqA==}
     engines: {node: '>=6'}
     hasBin: true
     peerDependencies:
