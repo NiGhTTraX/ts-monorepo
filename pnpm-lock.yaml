@@ -116,7 +116,7 @@ importers:
         version: 5.0.0
       jest:
         specifier: ~29.5.0
-        version: 29.5.0(@types/node@18.15.0)(ts-node@10.9.1)
+        version: 29.5.0(@types/node@18.15.0)(ts-node@10.9.0)
 
   apps/jest-tsjest:
     dependencies:
@@ -183,8 +183,8 @@ importers:
         specifier: ~10.9.0
         version: 10.9.0(@types/node@18.15.0)(typescript@4.9.3)
       tsconfig-paths:
-        specifier: ~4.1.0
-        version: 4.1.0
+        specifier: ~4.2.0
+        version: 4.2.0
       typescript:
         specifier: ~4.9.0
         version: 4.9.3
@@ -313,8 +313,8 @@ importers:
         specifier: ~10.9.0
         version: 10.9.0(@types/node@18.15.0)(typescript@4.9.3)
       tsconfig-paths:
-        specifier: ~4.1.0
-        version: 4.1.0
+        specifier: ~4.2.0
+        version: 4.2.0
       typescript:
         specifier: ~4.9.0
         version: 4.9.3
@@ -14723,7 +14723,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.10.0
-      tsconfig-paths: 4.1.2
+      tsconfig-paths: 4.2.0
     dev: true
 
   /tsconfig-paths@3.14.1:
@@ -14743,17 +14743,17 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsconfig-paths@4.1.0:
-    resolution: {integrity: sha512-AHx4Euop/dXFC+Vx589alFba8QItjF+8hf8LtmuiCwHyI4rHXQtOOENaM8kvYf5fR0dRChy3wzWIZ9WbB7FWow==}
+  /tsconfig-paths@4.1.2:
+    resolution: {integrity: sha512-uhxiMgnXQp1IR622dUXI+9Ehnws7i/y6xvpZB9IbUVOPy0muvdvgXeZOn88UcGPiT98Vp3rJPTa8bFoalZ3Qhw==}
     engines: {node: '>=6'}
     dependencies:
-      json5: 2.2.1
+      json5: 2.2.3
       minimist: 1.2.6
       strip-bom: 3.0.0
     dev: true
 
-  /tsconfig-paths@4.1.2:
-    resolution: {integrity: sha512-uhxiMgnXQp1IR622dUXI+9Ehnws7i/y6xvpZB9IbUVOPy0muvdvgXeZOn88UcGPiT98Vp3rJPTa8bFoalZ3Qhw==}
+  /tsconfig-paths@4.2.0:
+    resolution: {integrity: sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==}
     engines: {node: '>=6'}
     dependencies:
       json5: 2.2.3
