@@ -227,8 +227,8 @@ importers:
         version: link:../../packages/foo
     devDependencies:
       '@rollup/plugin-typescript':
-        specifier: ~11.0.0
-        version: 11.0.0(rollup@3.20.0)(tslib@2.5.0)(typescript@4.9.3)
+        specifier: ~11.1.0
+        version: 11.1.0(rollup@3.20.0)(tslib@2.5.0)(typescript@4.9.3)
       '@types/node':
         specifier: ~18.15.0
         version: 18.15.0
@@ -3411,8 +3411,8 @@ packages:
       rollup: 2.79.0
     dev: true
 
-  /@rollup/plugin-typescript@11.0.0(rollup@3.20.0)(tslib@2.5.0)(typescript@4.9.3):
-    resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}
+  /@rollup/plugin-typescript@11.1.0(rollup@3.20.0)(tslib@2.5.0)(typescript@4.9.3):
+    resolution: {integrity: sha512-86flrfE+bSHB69znnTV6kVjkncs2LBMhcTCyxWgRxLyfXfQrxg4UwlAqENnjrrxnSNS/XKCDJCl8EkdFJVHOxw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0
@@ -3783,7 +3783,7 @@ packages:
       '@storybook/core-events': 7.0.0-rc.10
       '@storybook/csf': 0.0.2-next.11
       '@storybook/csf-tools': 7.0.0-rc.10
-      '@storybook/docs-mdx': 0.0.1-next.6
+      '@storybook/docs-mdx': 0.0.1-next.7
       '@storybook/global': 5.0.0
       '@storybook/manager': 7.0.0-rc.10
       '@storybook/node-logger': 7.0.0-rc.10
@@ -3859,8 +3859,8 @@ packages:
       type-fest: 2.19.0
     dev: true
 
-  /@storybook/docs-mdx@0.0.1-next.6:
-    resolution: {integrity: sha512-DjoSIXADmLJtdroXAjUotFiZlcZ2usWhqrS7aeOtZs0DVR0Ws5WQjnwtpDUXt8gryTSd+OZJ0cNsDcqg4JDEvQ==}
+  /@storybook/docs-mdx@0.0.1-next.7:
+    resolution: {integrity: sha512-JbgBf/EMBtx65iXtB3pOiX3818UeL9jZ+KAY241OAPqJVXjMQ5KaVOdg/57MSmd508HDIGx7CiImOMEmWwQ9/g==}
     dev: true
 
   /@storybook/docs-tools@7.0.0-rc.10:
