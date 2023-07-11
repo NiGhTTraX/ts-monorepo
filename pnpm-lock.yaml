@@ -91,8 +91,8 @@ importers:
         specifier: ~10.9.1
         version: 10.9.1(@types/node@18.16.0)(typescript@4.9.3)
       tsconfig-paths-webpack-plugin:
-        specifier: ~4.0.0
-        version: 4.0.0
+        specifier: ~4.1.0
+        version: 4.1.0
       typescript:
         specifier: ~4.9.0
         version: 4.9.3
@@ -295,8 +295,8 @@ importers:
         specifier: ~7.0.7
         version: 7.0.7
       tsconfig-paths-webpack-plugin:
-        specifier: ~4.0.0
-        version: 4.0.0
+        specifier: ~4.1.0
+        version: 4.1.0
       typescript:
         specifier: ~4.9.0
         version: 4.9.3
@@ -373,8 +373,8 @@ importers:
         specifier: ~9.4.0
         version: 9.4.0(typescript@4.9.3)(webpack@5.88.0)
       tsconfig-paths-webpack-plugin:
-        specifier: ~4.0.0
-        version: 4.0.0
+        specifier: ~4.1.0
+        version: 4.1.0
       typescript:
         specifier: ~4.9.0
         version: 4.9.3
@@ -16816,17 +16816,17 @@ packages:
       typescript: 4.9.3
     dev: true
 
-  /tsconfig-paths-webpack-plugin@4.0.0:
-    resolution: {integrity: sha512-fw/7265mIWukrSHd0i+wSwx64kYUSAKPfxRDksjKIYTxSAp9W9/xcZVBF4Kl0eqQd5eBpAQ/oQrc5RyM/0c1GQ==}
+  /tsconfig-paths-webpack-plugin@4.0.1:
+    resolution: {integrity: sha512-m5//KzLoKmqu2MVix+dgLKq70MnFi8YL8sdzQZ6DblmCdfuq/y3OqvJd5vMndg2KEVCOeNz8Es4WVZhYInteLw==}
     engines: {node: '>=10.13.0'}
     dependencies:
       chalk: 4.1.2
-      enhanced-resolve: 5.10.0
-      tsconfig-paths: 4.0.0
+      enhanced-resolve: 5.15.0
+      tsconfig-paths: 4.2.0
     dev: true
 
-  /tsconfig-paths-webpack-plugin@4.0.1:
-    resolution: {integrity: sha512-m5//KzLoKmqu2MVix+dgLKq70MnFi8YL8sdzQZ6DblmCdfuq/y3OqvJd5vMndg2KEVCOeNz8Es4WVZhYInteLw==}
+  /tsconfig-paths-webpack-plugin@4.1.0:
+    resolution: {integrity: sha512-xWFISjviPydmtmgeUAuXp4N1fky+VCtfhOkDUFIv5ea7p4wuTomI4QTrXvFBX2S4jZsmyTSrStQl+E+4w+RzxA==}
     engines: {node: '>=10.13.0'}
     dependencies:
       chalk: 4.1.2
@@ -16839,14 +16839,6 @@ packages:
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
-      minimist: 1.2.6
-      strip-bom: 3.0.0
-    dev: true
-
-  /tsconfig-paths@4.0.0:
-    resolution: {integrity: sha512-SLBg2GBKlR6bVtMgJJlud/o3waplKtL7skmLkExomIiaAtLGtVsoXIqP3SYdjbcH9lq/KVv7pMZeCBpLYOit6Q==}
-    dependencies:
-      json5: 2.2.3
       minimist: 1.2.6
       strip-bom: 3.0.0
     dev: true
