@@ -9,6 +9,9 @@ const config: StorybookConfig = {
     name: "@storybook/react-webpack5",
     options: {},
   },
+  typescript: {
+    check: true,
+  },
   webpackFinal: async (config) => {
     // eslint-disable-next-line no-param-reassign
     config.resolve.plugins = [
