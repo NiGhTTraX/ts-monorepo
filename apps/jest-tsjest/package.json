@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nighttrax/foo": "*"
+    "@nighttrax/foo": "workspace:*"
   },
   "devDependencies": {
     "@types/jest": "~29.5.0",

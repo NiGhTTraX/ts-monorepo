@@ -4,8 +4,8 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "@nighttrax/foo": "*",
-    "@nighttrax/components": "*",
+    "@nighttrax/foo": "workspace:*",
+    "@nighttrax/components": "workspace:*",
     "react": "~18.2.0",
     "react-dom": "~18.2.0"
   },

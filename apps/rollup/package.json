@@ -9,7 +9,7 @@
     "build": "rollup -c --bundleConfigAsCjs"
   },
   "dependencies": {
-    "@nighttrax/foo": "*"
+    "@nighttrax/foo": "workspace:*"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "~11.1.0",

@@ -27,10 +27,10 @@ importers:
   apps/cra:
     dependencies:
       '@nighttrax/components':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/components
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
       react:
         specifier: ~18.2.0
@@ -100,7 +100,7 @@ importers:
   apps/jest-babel:
     dependencies:
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
     devDependencies:
       '@babel/core':
@@ -125,7 +125,7 @@ importers:
   apps/jest-tsjest:
     dependencies:
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
     devDependencies:
       '@jest/types':
@@ -162,7 +162,7 @@ importers:
         specifier: ~10.2.0
         version: 10.2.0(@nestjs/common@10.2.0)(@nestjs/core@10.2.0)
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
       reflect-metadata:
         specifier: ~0.1.13
@@ -196,7 +196,7 @@ importers:
   apps/nextjs:
     dependencies:
       '@nighttrax/components':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/components
       next:
         specifier: ~13.4.0
@@ -227,7 +227,7 @@ importers:
   apps/rollup:
     dependencies:
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
     devDependencies:
       '@rollup/plugin-typescript':
@@ -252,7 +252,7 @@ importers:
   apps/storybook:
     dependencies:
       '@nighttrax/components':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/components
       react:
         specifier: ~18.2.0
@@ -313,7 +313,7 @@ importers:
   apps/ts-node:
     dependencies:
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
     devDependencies:
       '@types/node':
@@ -332,10 +332,10 @@ importers:
   apps/vite:
     dependencies:
       '@nighttrax/components':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/components
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/foo
       react:
         specifier: ~18.2.0
@@ -369,7 +369,7 @@ importers:
   apps/webpack:
     dependencies:
       '@nighttrax/bar':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/bar
     devDependencies:
       rimraf:
@@ -407,7 +407,7 @@ importers:
   packages/components:
     dependencies:
       '@nighttrax/foo':
-        specifier: '*'
+        specifier: workspace:*
         version: link:../foo
     devDependencies:
       '@types/react':
