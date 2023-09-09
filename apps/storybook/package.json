@@ -15,6 +15,8 @@
     "@storybook/core-common": "~7.4.0",
     "@storybook/react": "~7.4.0",
     "@storybook/react-webpack5": "~7.4.0",
+    "@types/react": "~18.2.21",
+    "@types/react-dom": "~18.2.7",
     "babel-loader": "~9.1.0",
     "require-from-string": "~2.0.2",
     "rimraf": "~5.0.0",
