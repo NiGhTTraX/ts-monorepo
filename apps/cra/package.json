@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@types/node": "~18.17.0",
-    "@babel/core": "~7.22.0",
+    "@babel/core": "~7.23.0",
     "@babel/plugin-syntax-flow": "~7.22.0",
     "@babel/plugin-transform-react-jsx": "~7.22.0",
     "@craco/craco": "~7.1.0",

@@ -8,10 +8,10 @@
     "react-dom": "~18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.22.0",
+    "@babel/core": "~7.23.0",
     "@babel/preset-env": "~7.22.0",
     "@babel/preset-react": "~7.22.0",
-    "@babel/preset-typescript": "~7.22.0",
+    "@babel/preset-typescript": "~7.23.0",
     "@storybook/core-common": "~7.4.0",
     "@storybook/react": "~7.4.0",
     "@storybook/react-webpack5": "~7.4.0",
