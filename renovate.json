@@ -5,5 +5,7 @@
   "ignorePresets": [":ignoreModulesAndTests"],
   "rangeStrategy": "replace",
   "automerge": true,
-  "automergeType": "branch"
+  "automergeType": "branch",
+  "minimumReleaseAge": "14 days",
+  "internalChecksFilter": "strict"
 }
