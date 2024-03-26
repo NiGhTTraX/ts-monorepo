@@ -14,7 +14,7 @@
     "@nestjs/core": "~10.3.0",
     "@nestjs/platform-express": "~10.3.0",
     "@nighttrax/foo": "workspace:*",
-    "reflect-metadata": "~0.1.13",
+    "reflect-metadata": "~0.2.0",
     "rimraf": "~5.0.0",
     "rxjs": "~7.8.0"
   },
