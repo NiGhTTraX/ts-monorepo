@@ -394,7 +394,7 @@ importers:
   packages/bar:
     dependencies:
       '@nighttrax/foo':
-        specifier: ~1.0.0
+        specifier: workspace:*
         version: link:../foo
     devDependencies:
       rimraf:
