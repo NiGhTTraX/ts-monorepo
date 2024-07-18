@@ -1,10 +1,10 @@
-import { useHook } from "@hooks/hook";
 import { Button } from "@nighttrax/components/button";
+import { useMeaningOfLife } from "@nighttrax/components/hooks/useMeaningOfLife";
 import { meaningOfLife } from "@nighttrax/foo";
 import React from "react";
 
 export const App = () => {
-  useHook();
+  useMeaningOfLife();
 
   return (
     <div>

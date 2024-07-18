@@ -5,7 +5,8 @@
     "baseUrl": ".",
     "paths": {
       "@nighttrax/components/*": ["packages/components/src/*"],
-      "@nighttrax/*": ["packages/*/src"]
+      "@nighttrax/*": ["packages/*/src"],
+      "@components/hooks/*": ["packages/components/src/hooks/*"]
     },
     "noEmit": true
   }

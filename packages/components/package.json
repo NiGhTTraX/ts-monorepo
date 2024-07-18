@@ -4,7 +4,7 @@
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",
     "clean": "rimraf ./dist",
-    "compile": "tsc -p tsconfig.build.json",
+    "compile": "babel --extensions .ts,.tsx --out-dir ./dist ./src",
     "prepublishOnly": "pnpm run build"
   },
   "peerDependencies": {
@@ -14,6 +14,11 @@
     "@nighttrax/foo": "workspace:*"
   },
   "devDependencies": {
+    "@babel/core": "~7.24.0",
+    "@babel/preset-env": "~7.24.0",
+    "@babel/preset-typescript": "~7.24.0",
+    "@babel/cli": "~7.24.8",
+    "babel-plugin-module-resolver": "~5.0.0",
     "@types/react": "~18.2.0",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
