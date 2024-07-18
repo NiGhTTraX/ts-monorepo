@@ -1,10 +1,10 @@
-import React from "react";
+import { useHook } from "@hooks/hook";
 import { Button } from "@nighttrax/components/button";
 import { meaningOfLife } from "@nighttrax/foo";
-import { useTest } from "@hooks/test";
+import React from "react";
 
 export const App = () => {
-  useTest();
+  useHook();
 
   return (
     <div>
