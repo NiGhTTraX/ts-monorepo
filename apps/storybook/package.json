@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@babel/core": "~7.24.0",
-    "@babel/preset-env": "~7.24.0",
+    "@babel/preset-env": "~7.25.0",
     "@babel/preset-react": "~7.24.0",
     "@babel/preset-typescript": "~7.24.0",
     "@storybook/core-common": "~7.6.0",
