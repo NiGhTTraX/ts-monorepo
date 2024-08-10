@@ -14,7 +14,7 @@
   "devDependencies": {
     "@rollup/plugin-typescript": "~11.1.5",
     "@types/node": "~20.14.0",
-    "rimraf": "~5.0.0",
+    "rimraf": "~6.0.0",
     "rollup": "~4.19.0",
     "tslib": "~2.6.0",
     "typescript": "~4.9.0"
