@@ -33,11 +33,11 @@ importers:
         specifier: workspace:*
         version: link:../../packages/foo
       react:
-        specifier: ~18.2.0
-        version: 18.2.0
+        specifier: ~18.3.0
+        version: 18.3.1
       react-dom:
-        specifier: ~18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ~18.3.0
+        version: 18.3.1(react@18.3.1)
     devDependencies:
       '@babel/core':
         specifier: ~7.24.0
@@ -50,7 +50,7 @@ importers:
         version: 7.24.7(@babel/core@7.24.0)
       '@craco/craco':
         specifier: ~7.1.0
-        version: 7.1.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(postcss@8.4.31)(react-scripts@5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1))(typescript@4.9.3)
+        version: 7.1.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(postcss@8.4.31)(react-scripts@5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.3.1)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1))(typescript@4.9.3)
       '@types/express':
         specifier: ~4.17.13
         version: 4.17.13
@@ -61,11 +61,11 @@ importers:
         specifier: ~20.14.0
         version: 20.14.15
       '@types/react':
-        specifier: ~18.2.0
-        version: 18.2.21
+        specifier: ~18.3.0
+        version: 18.3.3
       '@types/react-dom':
-        specifier: ~18.2.0
-        version: 18.2.7
+        specifier: ~18.3.0
+        version: 18.3.0
       autoprefixer:
         specifier: ~10.4.0
         version: 10.4.2(postcss@8.4.31)
@@ -80,7 +80,7 @@ importers:
         version: 8.4.31
       react-scripts:
         specifier: ~5.0.0
-        version: 5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1)
+        version: 5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.3.1)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1)
       rimraf:
         specifier: ~5.0.0
         version: 5.0.0
@@ -200,23 +200,23 @@ importers:
         version: link:../../packages/components
       next:
         specifier: ~14.0.0
-        version: 14.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 14.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
-        specifier: ~18.2.0
-        version: 18.2.0
+        specifier: ~18.3.0
+        version: 18.3.1
       react-dom:
-        specifier: ~18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ~18.3.0
+        version: 18.3.1(react@18.3.1)
     devDependencies:
       '@types/node':
         specifier: ~20.14.0
         version: 20.14.15
       '@types/react':
-        specifier: ~18.2.0
-        version: 18.2.21
+        specifier: ~18.3.0
+        version: 18.3.3
       '@types/react-dom':
-        specifier: ~18.2.0
-        version: 18.2.7
+        specifier: ~18.3.0
+        version: 18.3.0
       rimraf:
         specifier: ~5.0.0
         version: 5.0.0
@@ -255,11 +255,11 @@ importers:
         specifier: workspace:*
         version: link:../../packages/components
       react:
-        specifier: ~18.2.0
-        version: 18.2.0
+        specifier: ~18.3.0
+        version: 18.3.1
       react-dom:
-        specifier: ~18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ~18.3.0
+        version: 18.3.1(react@18.3.1)
     devDependencies:
       '@babel/core':
         specifier: ~7.24.0
@@ -278,16 +278,16 @@ importers:
         version: 7.6.4
       '@storybook/react':
         specifier: ~7.6.0
-        version: 7.6.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@4.9.3)
+        version: 7.6.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.3)
       '@storybook/react-webpack5':
         specifier: ~7.6.0
-        version: 7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(@swc/helpers@0.5.2)(esbuild@0.18.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)
+        version: 7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(@swc/helpers@0.5.2)(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)
       '@types/react':
-        specifier: ~18.2.21
-        version: 18.2.21
+        specifier: ~18.3.0
+        version: 18.3.3
       '@types/react-dom':
-        specifier: ~18.2.7
-        version: 18.2.7
+        specifier: ~18.3.0
+        version: 18.3.0
       babel-loader:
         specifier: ~9.1.0
         version: 9.1.0(@babel/core@7.24.0)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20))
@@ -338,18 +338,18 @@ importers:
         specifier: workspace:*
         version: link:../../packages/foo
       react:
-        specifier: ~18.2.0
-        version: 18.2.0
+        specifier: ~18.3.0
+        version: 18.3.1
       react-dom:
-        specifier: ~18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ~18.3.0
+        version: 18.3.1(react@18.3.1)
     devDependencies:
       '@types/react':
-        specifier: ~18.2.0
-        version: 18.2.21
+        specifier: ~18.3.0
+        version: 18.3.3
       '@types/react-dom':
-        specifier: ~18.2.0
-        version: 18.2.7
+        specifier: ~18.3.0
+        version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ~4.3.0
         version: 4.3.1(vite@5.3.5(@types/node@20.14.15)(terser@5.27.0))
@@ -411,14 +411,14 @@ importers:
         version: link:../foo
     devDependencies:
       '@types/react':
-        specifier: ~18.2.0
-        version: 18.2.21
+        specifier: ~18.3.0
+        version: 18.3.3
       react:
-        specifier: ~18.2.0
-        version: 18.2.0
+        specifier: ~18.3.0
+        version: 18.3.1
       react-dom:
-        specifier: ~18.2.0
-        version: 18.2.0(react@18.2.0)
+        specifier: ~18.3.0
+        version: 18.3.1(react@18.3.1)
       rimraf:
         specifier: ~5.0.0
         version: 5.0.0
@@ -2877,11 +2877,11 @@ packages:
   '@types/range-parser@1.2.4':
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
 
-  '@types/react-dom@18.2.7':
-    resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
+  '@types/react-dom@18.3.0':
+    resolution: {integrity: sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==}
 
-  '@types/react@18.2.21':
-    resolution: {integrity: sha512-neFKG/sBAwGxHgXiIxnbm3/AAVQ/cMRS93hvBpg8xYRbeQSPVABp9U2bRnPf0iI4+Ucdv3plSxKK+3CW2ENJxA==}
+  '@types/react@18.3.3':
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
 
   '@types/resolve@1.17.1':
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
@@ -2891,9 +2891,6 @@ packages:
 
   '@types/retry@0.12.1':
     resolution: {integrity: sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==}
-
-  '@types/scheduler@0.16.2':
-    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
 
   '@types/semver@7.3.13':
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
@@ -7391,10 +7388,10 @@ packages:
     resolution: {integrity: sha512-rCz0HBIT0LWbIM+///LfRrJoTKftIzzwsYDf0ns5KwaEjejMHQRtphcns+IXFHDNY9pnz6G8l/JbbI6pD4EAIA==}
     engines: {node: '>=16.14.0'}
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
+  react-dom@18.3.1:
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
-      react: ^18.2.0
+      react: ^18.3.1
 
   react-element-to-jsx-string@15.0.0:
     resolution: {integrity: sha512-UDg4lXB6BzlobN60P8fHWVPX3Kyw8ORrTeBtClmIlGdkOOE+GYQSFvmEU5iLLpwp/6v42DINwNcwOhOLfQ//FQ==}
@@ -7438,8 +7435,8 @@ packages:
       typescript:
         optional: true
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
   read-pkg-up@7.0.1:
@@ -7704,8 +7701,8 @@ packages:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
     engines: {node: '>=10'}
 
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+  scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
   schema-utils@2.7.0:
     resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
@@ -10313,14 +10310,14 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@craco/craco@7.1.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(postcss@8.4.31)(react-scripts@5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1))(typescript@4.9.3)':
+  '@craco/craco@7.1.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(postcss@8.4.31)(react-scripts@5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.3.1)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1))(typescript@4.9.3)':
     dependencies:
       autoprefixer: 10.4.12(postcss@8.4.31)
       cosmiconfig: 7.0.1
       cosmiconfig-typescript-loader: 1.0.9(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(cosmiconfig@7.0.1)(typescript@4.9.3)
       cross-spawn: 7.0.3
       lodash: 4.17.21
-      react-scripts: 5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1)
+      react-scripts: 5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.3.1)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1)
       semver: 7.3.7
       webpack-merge: 5.8.0
     transitivePeerDependencies:
@@ -11669,7 +11666,7 @@ snapshots:
 
   '@storybook/node-logger@7.6.4': {}
 
-  '@storybook/preset-react-webpack@7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)':
+  '@storybook/preset-react-webpack@7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)':
     dependencies:
       '@babel/preset-flow': 7.23.3(@babel/core@7.24.0)
       '@babel/preset-react': 7.24.1(@babel/core@7.24.0)
@@ -11677,16 +11674,16 @@ snapshots:
       '@storybook/core-webpack': 7.6.4
       '@storybook/docs-tools': 7.6.4
       '@storybook/node-logger': 7.6.4
-      '@storybook/react': 7.6.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@4.9.3)
+      '@storybook/react': 7.6.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.3)
       '@storybook/react-docgen-typescript-plugin': 1.0.6--canary.9.0c3f3b7.0(typescript@4.9.3)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20))
       '@types/node': 18.18.8
       '@types/semver': 7.3.13
       babel-plugin-add-react-displayname: 0.0.5
       fs-extra: 11.1.1
       magic-string: 0.30.5
-      react: 18.2.0
+      react: 18.3.1
       react-docgen: 7.0.1
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.3.1)
       react-refresh: 0.14.0
       semver: 7.5.4
       webpack: 5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)
@@ -11740,19 +11737,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@storybook/react-dom-shim@7.6.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@storybook/react-dom-shim@7.6.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
-  '@storybook/react-webpack5@7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(@swc/helpers@0.5.2)(esbuild@0.18.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)':
+  '@storybook/react-webpack5@7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(@swc/helpers@0.5.2)(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)':
     dependencies:
       '@storybook/builder-webpack5': 7.6.4(@swc/helpers@0.5.2)(esbuild@0.18.20)(typescript@4.9.3)
-      '@storybook/preset-react-webpack': 7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)
-      '@storybook/react': 7.6.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@4.9.3)
+      '@storybook/preset-react-webpack': 7.6.4(@babel/core@7.24.0)(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(type-fest@2.19.0)(typescript@4.9.3)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)))(webpack-hot-middleware@2.25.1)
+      '@storybook/react': 7.6.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.3)
       '@types/node': 18.18.8
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
     optionalDependencies:
       '@babel/core': 7.24.0
       typescript: 4.9.3
@@ -11771,14 +11768,14 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  '@storybook/react@7.6.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(typescript@4.9.3)':
+  '@storybook/react@7.6.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.3)':
     dependencies:
       '@storybook/client-logger': 7.6.4
       '@storybook/core-client': 7.6.4
       '@storybook/docs-tools': 7.6.4
       '@storybook/global': 5.0.0
       '@storybook/preview-api': 7.6.4
-      '@storybook/react-dom-shim': 7.6.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@storybook/react-dom-shim': 7.6.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@storybook/types': 7.6.4
       '@types/escodegen': 0.0.6
       '@types/estree': 0.0.51
@@ -11790,9 +11787,9 @@ snapshots:
       html-tags: 3.2.0
       lodash: 4.17.21
       prop-types: 15.8.1
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      react-element-to-jsx-string: 15.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      react-element-to-jsx-string: 15.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       ts-dedent: 2.2.0
       type-fest: 2.19.0
       util-deprecate: 1.0.2
@@ -12148,14 +12145,13 @@ snapshots:
 
   '@types/range-parser@1.2.4': {}
 
-  '@types/react-dom@18.2.7':
+  '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.2.21
+      '@types/react': 18.3.3
 
-  '@types/react@18.2.21':
+  '@types/react@18.3.3':
     dependencies:
       '@types/prop-types': 15.7.4
-      '@types/scheduler': 0.16.2
       csstype: 3.0.10
 
   '@types/resolve@1.17.1':
@@ -12165,8 +12161,6 @@ snapshots:
   '@types/resolve@1.20.6': {}
 
   '@types/retry@0.12.1': {}
-
-  '@types/scheduler@0.16.2': {}
 
   '@types/semver@7.3.13': {}
 
@@ -17110,16 +17104,16 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@14.0.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next@14.0.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 14.0.2
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
       caniuse-lite: 1.0.30001554
       postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      styled-jsx: 5.1.1(react@18.3.1)
       watchpack: 2.4.0
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.0.2
@@ -18102,18 +18096,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.3.1(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
-      scheduler: 0.23.0
+      react: 18.3.1
+      scheduler: 0.23.2
 
-  react-element-to-jsx-string@15.0.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-element-to-jsx-string@15.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@base2/pretty-print-object': 1.0.1
       is-plain-object: 5.0.0
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
       react-is: 18.1.0
 
   react-error-overlay@6.0.10: {}
@@ -18130,7 +18124,7 @@ snapshots:
 
   react-refresh@0.14.2: {}
 
-  react-scripts@5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1):
+  react-scripts@5.0.0(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.0))(@babel/plugin-transform-react-jsx@7.24.7(@babel/core@7.24.0))(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/babel__core@7.20.5)(@types/express@4.17.13)(autoprefixer@10.4.2(postcss@8.4.31))(eslint@8.57.0)(react@18.3.1)(ts-node@10.9.1(@swc/core@1.3.95(@swc/helpers@0.5.2))(@types/node@20.14.15)(typescript@4.9.3))(type-fest@2.19.0)(typescript@4.9.3)(webpack-hot-middleware@2.25.1):
     dependencies:
       '@babel/core': 7.24.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.4(react-refresh@0.11.0)(type-fest@2.19.0)(webpack-dev-server@4.7.3(@types/express@4.17.13)(webpack@5.74.0(@swc/core@1.3.95(@swc/helpers@0.5.2))))(webpack-hot-middleware@2.25.1)(webpack@5.74.0(@swc/core@1.3.95(@swc/helpers@0.5.2)))
@@ -18164,7 +18158,7 @@ snapshots:
       postcss-normalize: 10.0.1(browserslist@4.20.3)(postcss@8.4.31)
       postcss-preset-env: 7.2.3(postcss@8.4.31)
       prompts: 2.4.2
-      react: 18.2.0
+      react: 18.3.1
       react-app-polyfill: 3.0.0
       react-dev-utils: 12.0.0(eslint@8.57.0)(typescript@4.9.3)(webpack@5.74.0(@swc/core@1.3.95(@swc/helpers@0.5.2)))
       react-refresh: 0.11.0
@@ -18217,7 +18211,7 @@ snapshots:
       - webpack-hot-middleware
       - webpack-plugin-serve
 
-  react@18.2.0:
+  react@18.3.1:
     dependencies:
       loose-envify: 1.4.0
 
@@ -18512,7 +18506,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  scheduler@0.23.0:
+  scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
 
@@ -18866,10 +18860,10 @@ snapshots:
     dependencies:
       webpack: 5.93.0(@swc/core@1.3.95(@swc/helpers@0.5.2))(esbuild@0.18.20)
 
-  styled-jsx@5.1.1(react@18.2.0):
+  styled-jsx@5.1.1(react@18.3.1):
     dependencies:
       client-only: 0.0.1
-      react: 18.2.0
+      react: 18.3.1
 
   stylehacks@5.0.2(postcss@8.4.35):
     dependencies:

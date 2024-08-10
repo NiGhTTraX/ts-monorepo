@@ -6,8 +6,8 @@
   "dependencies": {
     "@nighttrax/foo": "workspace:*",
     "@nighttrax/components": "workspace:*",
-    "react": "~18.2.0",
-    "react-dom": "~18.2.0"
+    "react": "~18.3.0",
+    "react-dom": "~18.3.0"
   },
   "devDependencies": {
     "@types/node": "~20.14.0",
@@ -17,8 +17,8 @@
     "@craco/craco": "~7.1.0",
     "@types/express": "~4.17.13",
     "@types/jest": "~29.5.0",
-    "@types/react": "~18.2.0",
-    "@types/react-dom": "~18.2.0",
+    "@types/react": "~18.3.0",
+    "@types/react-dom": "~18.3.0",
     "autoprefixer": "~10.4.0",
     "cross-env": "~7.0.2",
     "jest": "~29.7.0",
