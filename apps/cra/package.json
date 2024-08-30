@@ -10,7 +10,7 @@
     "react-dom": "~18.3.0"
   },
   "devDependencies": {
-    "@types/node": "~20.14.0",
+    "@types/node": "~20.15.0",
     "@babel/core": "~7.25.0",
     "@babel/plugin-syntax-flow": "~7.24.0",
     "@babel/plugin-transform-react-jsx": "~7.25.0",
