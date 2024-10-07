@@ -231,8 +231,8 @@ importers:
         version: link:../../packages/foo
     devDependencies:
       '@rollup/plugin-typescript':
-        specifier: ~11.1.5
-        version: 11.1.5(rollup@4.22.4)(tslib@2.7.0)(typescript@4.9.3)
+        specifier: ~12.1.0
+        version: 12.1.0(rollup@4.22.4)(tslib@2.7.0)(typescript@4.9.3)
       '@types/node':
         specifier: ~20.16.0
         version: 20.16.2
@@ -377,7 +377,7 @@ importers:
         version: 6.0.1
       ts-loader:
         specifier: ~9.5.0
-        version: 9.5.0(typescript@4.9.3)(webpack@5.94.0(webpack-cli@5.1.0))
+        version: 9.5.0(typescript@4.9.3)(webpack@5.94.0)
       tsconfig-paths-webpack-plugin:
         specifier: ~4.1.0
         version: 4.1.0
@@ -2225,8 +2225,8 @@ packages:
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
 
-  '@rollup/plugin-typescript@11.1.5':
-    resolution: {integrity: sha512-rnMHrGBB0IUEv69Q8/JGRD/n4/n6b3nfpufUu26axhUcboUzv/twfZU8fIBbTOphRAe0v8EyxzeDpKXqGHfyDA==}
+  '@rollup/plugin-typescript@12.1.0':
+    resolution: {integrity: sha512-Kzs8KGJofe7cfTRODsnG1jNGxSvU8gVoNNd7Z/QaY25AYwe2LSSUpx/kPxqF38NYkpR8de3m51r9uwJpDlz6dg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.14.0||^3.0.0||^4.0.0
@@ -4755,6 +4755,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -11028,19 +11029,19 @@ snapshots:
   '@next/swc-win32-x64-msvc@14.2.7':
     optional: true
 
-  '@nighttrax/eslint-config-base@11.0.0-alpha.1(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint-plugin-prettier@4.2.1(eslint@8.57.0)(prettier@2.8.5))(eslint@8.57.0)(prettier@2.8.5)':
+  '@nighttrax/eslint-config-base@11.0.0-alpha.1(eslint-plugin-import@2.27.0)(eslint-plugin-prettier@4.2.1(eslint@8.57.0)(prettier@2.8.5))(eslint@8.57.0)(prettier@2.8.5)':
     dependencies:
       eslint: 8.57.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint@8.57.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.27.0)(eslint@8.57.0)
       eslint-config-prettier: 8.7.0(eslint@8.57.0)
       eslint-plugin-import: 2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0)
       eslint-plugin-prettier: 4.2.1(eslint@8.57.0)(prettier@2.8.5)
       prettier: 2.8.5
 
-  '@nighttrax/eslint-config-react@10.0.0-alpha.0(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0)':
+  '@nighttrax/eslint-config-react@10.0.0-alpha.0(eslint-plugin-import@2.27.0)(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0)':
     dependencies:
       eslint: 8.57.0
-      eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0)
+      eslint-config-airbnb: 19.0.4(eslint-plugin-import@2.27.0)(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0)
       eslint-plugin-import: 2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.57.0)
       eslint-plugin-react: 7.32.2(eslint@8.57.0)
@@ -11048,8 +11049,8 @@ snapshots:
 
   '@nighttrax/eslint-config-tsx@12.0.0-alpha.2(eslint@8.57.0)(typescript@4.9.3)':
     dependencies:
-      '@nighttrax/eslint-config-base': 11.0.0-alpha.1(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint-plugin-prettier@4.2.1(eslint@8.57.0)(prettier@2.8.5))(eslint@8.57.0)(prettier@2.8.5)
-      '@nighttrax/eslint-config-react': 10.0.0-alpha.0(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0)
+      '@nighttrax/eslint-config-base': 11.0.0-alpha.1(eslint-plugin-import@2.27.0)(eslint-plugin-prettier@4.2.1(eslint@8.57.0)(prettier@2.8.5))(eslint@8.57.0)(prettier@2.8.5)
+      '@nighttrax/eslint-config-react': 10.0.0-alpha.0(eslint-plugin-import@2.27.0)(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0)
       '@rushstack/eslint-patch': 1.2.0
       '@typescript-eslint/eslint-plugin': 5.55.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint@8.57.0)(typescript@4.9.3)
       '@typescript-eslint/parser': 5.55.0(eslint@8.57.0)(typescript@4.9.3)
@@ -11162,7 +11163,7 @@ snapshots:
       magic-string: 0.25.7
       rollup: 2.79.1
 
-  '@rollup/plugin-typescript@11.1.5(rollup@4.22.4)(tslib@2.7.0)(typescript@4.9.3)':
+  '@rollup/plugin-typescript@12.1.0(rollup@4.22.4)(tslib@2.7.0)(typescript@4.9.3)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.22.4)
       resolve: 1.22.8
@@ -12420,17 +12421,17 @@ snapshots:
       '@webassemblyjs/ast': 1.12.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@2.1.0(webpack-cli@5.1.0(webpack@5.94.0))(webpack@5.94.0(webpack-cli@5.1.0))':
+  '@webpack-cli/configtest@2.1.0(webpack-cli@5.1.0)(webpack@5.94.0)':
     dependencies:
       webpack: 5.94.0(webpack-cli@5.1.0)
       webpack-cli: 5.1.0(webpack@5.94.0)
 
-  '@webpack-cli/info@2.0.1(webpack-cli@5.1.0(webpack@5.94.0))(webpack@5.94.0(webpack-cli@5.1.0))':
+  '@webpack-cli/info@2.0.1(webpack-cli@5.1.0)(webpack@5.94.0)':
     dependencies:
       webpack: 5.94.0(webpack-cli@5.1.0)
       webpack-cli: 5.1.0(webpack@5.94.0)
 
-  '@webpack-cli/serve@2.0.3(webpack-cli@5.1.0(webpack@5.94.0))(webpack@5.94.0(webpack-cli@5.1.0))':
+  '@webpack-cli/serve@2.0.3(webpack-cli@5.1.0)(webpack@5.94.0)':
     dependencies:
       webpack: 5.94.0(webpack-cli@5.1.0)
       webpack-cli: 5.1.0(webpack@5.94.0)
@@ -14193,7 +14194,7 @@ snapshots:
     optionalDependencies:
       source-map: 0.6.1
 
-  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint@8.57.0):
+  eslint-config-airbnb-base@15.0.0(eslint-plugin-import@2.27.0)(eslint@8.57.0):
     dependencies:
       confusing-browser-globals: 1.0.11
       eslint: 8.57.0
@@ -14202,10 +14203,10 @@ snapshots:
       object.entries: 1.1.6
       semver: 6.3.1
 
-  eslint-config-airbnb@19.0.4(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0):
+  eslint-config-airbnb@19.0.4(eslint-plugin-import@2.27.0)(eslint-plugin-jsx-a11y@6.7.1(eslint@8.57.0))(eslint-plugin-react-hooks@4.6.0(eslint@8.57.0))(eslint-plugin-react@7.32.2(eslint@8.57.0))(eslint@8.57.0):
     dependencies:
       eslint: 8.57.0
-      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0))(eslint@8.57.0)
+      eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.27.0)(eslint@8.57.0)
       eslint-plugin-import: 2.27.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.57.0)
       eslint-plugin-react: 7.32.2(eslint@8.57.0)
@@ -14286,7 +14287,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.8.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.5.2(eslint-plugin-import@2.27.0)(eslint@8.57.0))(eslint@8.57.0):
+  eslint-module-utils@2.8.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -14313,7 +14314,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.5.2(eslint-plugin-import@2.27.0)(eslint@8.57.0))(eslint@8.57.0)
+      eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.55.0(eslint@8.57.0)(typescript@4.9.3))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.5.2)(eslint@8.57.0)
       has: 1.0.3
       is-core-module: 2.13.1
       is-glob: 4.0.3
@@ -18341,13 +18342,13 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
   resolve@2.0.0-next.4:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -19057,7 +19058,7 @@ snapshots:
     optionalDependencies:
       '@swc/core': 1.3.95(@swc/helpers@0.5.5)
 
-  terser-webpack-plugin@5.3.10(webpack@5.94.0(webpack-cli@5.1.0)):
+  terser-webpack-plugin@5.3.10(webpack@5.94.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       jest-worker: 27.5.0
@@ -19179,7 +19180,7 @@ snapshots:
       '@jest/types': 29.6.3
       babel-jest: 29.7.0(@babel/core@7.25.2)
 
-  ts-loader@9.5.0(typescript@4.9.3)(webpack@5.94.0(webpack-cli@5.1.0)):
+  ts-loader@9.5.0(typescript@4.9.3)(webpack@5.94.0):
     dependencies:
       chalk: 4.1.2
       enhanced-resolve: 5.15.0
@@ -19579,9 +19580,9 @@ snapshots:
   webpack-cli@5.1.0(webpack@5.94.0):
     dependencies:
       '@discoveryjs/json-ext': 0.5.6
-      '@webpack-cli/configtest': 2.1.0(webpack-cli@5.1.0(webpack@5.94.0))(webpack@5.94.0(webpack-cli@5.1.0))
-      '@webpack-cli/info': 2.0.1(webpack-cli@5.1.0(webpack@5.94.0))(webpack@5.94.0(webpack-cli@5.1.0))
-      '@webpack-cli/serve': 2.0.3(webpack-cli@5.1.0(webpack@5.94.0))(webpack@5.94.0(webpack-cli@5.1.0))
+      '@webpack-cli/configtest': 2.1.0(webpack-cli@5.1.0)(webpack@5.94.0)
+      '@webpack-cli/info': 2.0.1(webpack-cli@5.1.0)(webpack@5.94.0)
+      '@webpack-cli/serve': 2.0.3(webpack-cli@5.1.0)(webpack@5.94.0)
       colorette: 2.0.19
       commander: 10.0.1
       cross-spawn: 7.0.3
@@ -19849,7 +19850,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.94.0(webpack-cli@5.1.0))
+      terser-webpack-plugin: 5.3.10(webpack@5.94.0)
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     optionalDependencies:
