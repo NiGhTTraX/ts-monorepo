@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/jest": "~29.5.0",
     "@jest/types": "~29.6.0",
-    "@types/node": "~22.8.0",
+    "@types/node": "~22.9.0",
     "jest": "~29.7.0",
     "ts-jest": "~29.2.0",
     "ts-node": "~10.9.0",
