@@ -21,7 +21,7 @@
     "require-from-string": "~2.0.2",
     "rimraf": "~6.0.0",
     "storybook": "~7.6.0",
-    "tsconfig-paths-webpack-plugin": "~4.1.0",
+    "tsconfig-paths-webpack-plugin": "~4.2.0",
     "typescript": "~4.9.0",
     "webpack": "~5.96.0"
   },
