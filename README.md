@@ -24,11 +24,11 @@ Template project for setting up a TypeScript monorepo
   - [Babel](#babel)
   - [webpack](#webpack)
   - [jest](#jest)
-  - [create-react-app](#create-react-app)
   - [Vite](#vite)
   - [NextJS](#nextjs)
   - [NestJS](#nestjs)
   - [Storybook](#storybook)
+  - [create-react-app](#create-react-app)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -162,35 +162,6 @@ module.exports = {
 
 See the full example [here](apps/jest-tsjest).
 
-### create-react-app
-
-Use [craco](https://www.npmjs.com/package/@craco/craco) or [react-app-rewired](https://www.npmjs.com/package/react-app-rewired) to extend CRA's webpack config and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
-
-```js
-const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
-
-module.exports = (config) => {
-  // Remove the ModuleScopePlugin which throws when we
-  // try to import something outside of src/.
-  config.resolve.plugins.pop();
-
-  // Resolve the path aliases.
-  config.resolve.plugins.push(new TsconfigPathsPlugin());
-
-  // Let Babel compile outside of src/.
-  const oneOfRule = config.module.rules.find((rule) => rule.oneOf);
-    const tsRule = oneOfRule.oneOf.find((rule) =>
-      rule.test.toString().includes("ts|tsx")
-    );
-  tsRule.include = undefined;
-  tsRule.exclude = /node_modules/;
-
-  return config;
-};
-```
-
-See the full example [here](apps/cra). For tests, see the [jest example](#jest).
-
 ### Vite
 
 Use [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) in the Vite config:
@@ -266,3 +237,34 @@ module.exports = {
 ```
 
 See the full example [here](apps/storybook).
+
+### create-react-app
+
+> Note: this is not supported anymore.
+
+Use [craco](https://www.npmjs.com/package/@craco/craco) or [react-app-rewired](https://www.npmjs.com/package/react-app-rewired) to extend CRA's webpack config and apply the [tsconfig-paths-webpack-plugin](https://www.npmjs.com/package/tsconfig-paths-webpack-plugin):
+
+```js
+const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
+
+module.exports = (config) => {
+  // Remove the ModuleScopePlugin which throws when we
+  // try to import something outside of src/.
+  config.resolve.plugins.pop();
+
+  // Resolve the path aliases.
+  config.resolve.plugins.push(new TsconfigPathsPlugin());
+
+  // Let Babel compile outside of src/.
+  const oneOfRule = config.module.rules.find((rule) => rule.oneOf);
+    const tsRule = oneOfRule.oneOf.find((rule) =>
+      rule.test.toString().includes("ts|tsx")
+    );
+  tsRule.include = undefined;
+  tsRule.exclude = /node_modules/;
+
+  return config;
+};
+```
+
+See the full example [here](https://github.com/NiGhTTraX/ts-monorepo/tree/4222f84e1879a85ffd352fc33c4a8c5167225184/apps/cra). For tests, see the [jest example](#jest).
