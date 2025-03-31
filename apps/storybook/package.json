@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "dependencies": {
     "@nighttrax/components": "workspace:*",
-    "react": "~18.3.0",
-    "react-dom": "~18.3.0"
+    "react": "~19.0.0",
+    "react-dom": "~19.0.0"
   },
   "devDependencies": {
     "@babel/core": "~7.26.0",
@@ -16,8 +16,8 @@
     "@storybook/core-common": "~8.6.11",
     "@storybook/react": "~8.6.11",
     "@storybook/react-webpack5": "~8.6.11",
-    "@types/react": "~18.3.0",
-    "@types/react-dom": "~18.3.0",
+    "@types/react": "~19.0.0",
+    "@types/react-dom": "~19.0.0",
     "babel-loader": "~10.0.0",
     "require-from-string": "~2.0.2",
     "rimraf": "~6.0.0",
