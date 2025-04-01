@@ -42,17 +42,17 @@ Template project for setting up a TypeScript monorepo
 
 ![build-output](./media/build-output.png)
 
-> Everything else is kept to a **minimum**. Apart from my personal [ESLint config](.eslintrc.js) to keep the code clean, there are no extra tools included — you're free to customize this to your own needs after cloning. Compilation targets, module systems, tree shaking etc. are left up to you to decide.
-
 ## Setup
+
+Click the `Use this template` button at the top of the GitHub page.
 
 This repo uses [pnpm](https://pnpm.io/), but should work fine with any of the following:
 
 - [yarn workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
-- [npm 7 workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces)
+- [npm 7+ workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces)
 - [npm < 7 and `lerna bootstrap`](https://github.com/lerna/lerna/blob/main/commands/bootstrap/README.md)
 
-I strongly recommend `pnpm` over the other solutions, not only because it's usually faster, but because it avoids dependency problems caused by hoisting (see https://github.com/NiGhTTraX/ts-monorepo/commit/d93139166b25fab15e9538df58a7d06270b846c9 as an example).
+I strongly recommend `pnpm`, not only because it's usually faster, but because it avoids dependency problems caused by hoisting (see https://github.com/NiGhTTraX/ts-monorepo/commit/d93139166b25fab15e9538df58a7d06270b846c9 as an example).
 
 ```sh
 # Install pnpm with your preferred method: https://pnpm.io/installation.
@@ -61,6 +61,8 @@ npm i -g pnpm
 # Install all dependencies.
 pnpm i
 ```
+
+Then customize the template to your own needs, removing examples you don't need, and adding the tools you do need. Compilation targets, module systems, tree shaking etc. are left up to you to decide.
 
 ## Docs
 
