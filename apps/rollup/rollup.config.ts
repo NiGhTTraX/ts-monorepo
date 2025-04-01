@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import typescript from "@rollup/plugin-typescript";
 import { defineConfig } from "rollup";
 import pkg from "./package.json";

@@ -1,4 +1,3 @@
-/* eslint-disable no-alert */
 import { meaningOfLife } from "@nighttrax/foo";
 import React, { FC } from "react";
 

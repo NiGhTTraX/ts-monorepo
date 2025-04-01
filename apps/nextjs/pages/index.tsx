@@ -1,4 +1,6 @@
-import React from "react";
 import { Button } from "@nighttrax/components/button";
+import React from "react";
 
-export default () => <Button />;
+const Home = () => <Button />;
+
+export default Home;
