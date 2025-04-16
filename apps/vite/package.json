@@ -17,8 +17,8 @@
     "react-dom": "~19.1.0"
   },
   "devDependencies": {
-    "@types/react": "~19.0.0",
-    "@types/react-dom": "~19.0.0",
+    "@types/react": "~19.1.0",
+    "@types/react-dom": "~19.1.0",
     "@vitejs/plugin-react": "~4.3.4",
     "rimraf": "~6.0.0",
     "typescript": "~5.8.0",

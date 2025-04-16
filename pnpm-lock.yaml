@@ -151,11 +151,11 @@ importers:
         specifier: ~22.13.0
         version: 22.13.4
       '@types/react':
-        specifier: ~19.0.0
-        version: 19.0.12
+        specifier: ~19.1.0
+        version: 19.1.2
       '@types/react-dom':
-        specifier: ~19.0.0
-        version: 19.0.4(@types/react@19.0.12)
+        specifier: ~19.1.0
+        version: 19.1.2(@types/react@19.1.2)
       rimraf:
         specifier: ~6.0.0
         version: 6.0.1
@@ -225,11 +225,11 @@ importers:
         specifier: ~8.6.11
         version: 8.6.11(@swc/core@1.11.13(@swc/helpers@0.5.15))(esbuild@0.25.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.11(prettier@3.5.3))(typescript@5.8.2)
       '@types/react':
-        specifier: ~19.0.0
-        version: 19.0.12
+        specifier: ~19.1.0
+        version: 19.1.2
       '@types/react-dom':
-        specifier: ~19.0.0
-        version: 19.0.4(@types/react@19.0.12)
+        specifier: ~19.1.0
+        version: 19.1.2(@types/react@19.1.2)
       babel-loader:
         specifier: ~10.0.0
         version: 10.0.0(@babel/core@7.26.0)(webpack@5.98.0(@swc/core@1.11.13(@swc/helpers@0.5.15))(esbuild@0.25.2))
@@ -287,11 +287,11 @@ importers:
         version: 19.1.0(react@19.1.0)
     devDependencies:
       '@types/react':
-        specifier: ~19.0.0
-        version: 19.0.12
+        specifier: ~19.1.0
+        version: 19.1.2
       '@types/react-dom':
-        specifier: ~19.0.0
-        version: 19.0.4(@types/react@19.0.12)
+        specifier: ~19.1.0
+        version: 19.1.2(@types/react@19.1.2)
       '@vitejs/plugin-react':
         specifier: ~4.3.4
         version: 4.3.4(vite@6.2.6(@types/node@22.13.4)(terser@5.39.0))
@@ -353,8 +353,8 @@ importers:
         version: link:../foo
     devDependencies:
       '@types/react':
-        specifier: ~19.0.0
-        version: 19.0.12
+        specifier: ~19.1.0
+        version: 19.1.2
       react:
         specifier: ~19.1.0
         version: 19.1.0
@@ -2276,13 +2276,13 @@ packages:
   '@types/range-parser@1.2.4':
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
 
-  '@types/react-dom@19.0.4':
-    resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==}
+  '@types/react-dom@19.1.2':
+    resolution: {integrity: sha512-XGJkWF41Qq305SKWEILa1O8vzhb3aOo3ogBlSmiqNko/WmRb6QIaweuZCXjKygVDXpzXb5wyxKTSOsmkuqj+Qw==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.12':
-    resolution: {integrity: sha512-V6Ar115dBDrjbtXSrS+/Oruobc+qVbbUxDFC1RSbRqLt5SYvxxyIDrSC85RWml54g+jfNeEMZhEj7wW07ONQhA==}
+  '@types/react@19.1.2':
+    resolution: {integrity: sha512-oxLPMytKchWGbnQM9O7D67uPa9paTNxO7jVoNMXgkkErULBPhPARCfkKL9ytcIJJRGjbsVwW4ugJzyFFvm/Tiw==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -8228,11 +8228,11 @@ snapshots:
 
   '@types/range-parser@1.2.4': {}
 
-  '@types/react-dom@19.0.4(@types/react@19.0.12)':
+  '@types/react-dom@19.1.2(@types/react@19.1.2)':
     dependencies:
-      '@types/react': 19.0.12
+      '@types/react': 19.1.2
 
-  '@types/react@19.0.12':
+  '@types/react@19.1.2':
     dependencies:
       csstype: 3.0.10
 
