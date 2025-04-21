@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "rimraf": "~6.0.0",
-    "webpack": "~5.98.0",
+    "webpack": "~5.99.0",
     "webpack-cli": "~6.0.0",
     "ts-loader": "~9.5.0",
     "tsconfig-paths-webpack-plugin": "~4.2.0",
