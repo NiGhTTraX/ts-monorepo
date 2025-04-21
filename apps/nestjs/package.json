@@ -10,7 +10,7 @@
     "start:dev": "nest start --watch"
   },
   "dependencies": {
-    "@nestjs/common": "~11.0.0",
+    "@nestjs/common": "~11.0.16",
     "@nestjs/core": "~11.0.0",
     "@nestjs/platform-express": "~11.0.0",
     "@nighttrax/foo": "workspace:*",
