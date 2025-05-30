@@ -14,9 +14,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@eslint/js": "~9.26.0",
+    "@eslint/js": "~9.27.0",
     "doctoc": "~2.2.0",
-    "eslint": "~9.26.0",
+    "eslint": "~9.27.0",
     "eslint-plugin-prettier": "~5.4.0",
     "eslint-plugin-react": "~7.37.4",
     "globals": "~16.1.0",
