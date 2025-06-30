@@ -10,7 +10,7 @@
     "@nighttrax/foo": "workspace:*"
   },
   "devDependencies": {
-    "@types/jest": "~29.5.0",
+    "@types/jest": "~30.0.0",
     "@jest/types": "~30.0.0",
     "@types/node": "~22.15.0",
     "jest": "~30.0.0",
