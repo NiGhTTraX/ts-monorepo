@@ -18,8 +18,8 @@ importers:
         specifier: ~9.29.0
         version: 9.29.0
       eslint-plugin-prettier:
-        specifier: ~5.4.0
-        version: 5.4.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.1(eslint@9.29.0))(eslint@9.29.0)(prettier@3.5.3)
+        specifier: ~5.5.0
+        version: 5.5.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.1(eslint@9.29.0))(eslint@9.29.0)(prettier@3.5.3)
       eslint-plugin-react:
         specifier: ~7.37.4
         version: 7.37.5(eslint@9.29.0)
@@ -3547,8 +3547,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-prettier@5.4.1:
-    resolution: {integrity: sha512-9dF+KuU/Ilkq27A8idRP7N2DH8iUR6qXcjF3FR2wETY21PZdBrIjwCau8oboyGj9b7etWmTGEeM8e7oOed6ZWg==}
+  eslint-plugin-prettier@5.5.1:
+    resolution: {integrity: sha512-dobTkHT6XaEVOo8IO90Q4DOSxnm3Y151QxPJlM/vKC0bVy+d6cVWQZLlFiuZPP0wS6vZwSKeJgKkcS+KfMBlRw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       '@types/eslint': '>=8.0.0'
@@ -9786,7 +9786,7 @@ snapshots:
       eslint: 9.29.0
     optional: true
 
-  eslint-plugin-prettier@5.4.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.1(eslint@9.29.0))(eslint@9.29.0)(prettier@3.5.3):
+  eslint-plugin-prettier@5.5.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.1(eslint@9.29.0))(eslint@9.29.0)(prettier@3.5.3):
     dependencies:
       eslint: 9.29.0
       prettier: 3.5.3
