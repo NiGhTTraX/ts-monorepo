@@ -8,6 +8,5 @@
       "@nighttrax/*": ["packages/*/src"]
     },
     "noEmit": true
-  },
-  "include": ["**/*.ts", "**/*.tsx"],
+  }
 }
