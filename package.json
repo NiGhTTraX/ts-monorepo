@@ -20,7 +20,7 @@
     "eslint-plugin-prettier": "~5.5.0",
     "eslint-plugin-react": "~7.37.4",
     "globals": "~16.2.0",
-    "prettier": "~3.5.3",
+    "prettier": "~3.6.0",
     "typescript": "~5.8.0",
     "typescript-eslint": "~8.34.0"
   },
