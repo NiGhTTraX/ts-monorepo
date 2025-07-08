@@ -13,7 +13,6 @@
     "@babel/preset-react": "~7.27.0",
     "@babel/preset-typescript": "~7.27.0",
     "@storybook/addon-webpack5-compiler-swc": "~3.0.0",
-    "@storybook/core-common": "~8.6.11",
     "@storybook/react": "~9.0.0",
     "@storybook/react-webpack5": "~9.0.0",
     "@types/react": "~19.1.0",
