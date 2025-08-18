@@ -24,6 +24,6 @@
     "@types/node": "~22.16.0",
     "ts-node": "~10.9.0",
     "tsconfig-paths": "~4.2.0",
-    "typescript": "~5.8.0"
+    "typescript": "~5.9.0"
   }
 }
