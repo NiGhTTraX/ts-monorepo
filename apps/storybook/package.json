@@ -12,7 +12,7 @@
     "@babel/preset-env": "~7.28.0",
     "@babel/preset-react": "~7.27.0",
     "@babel/preset-typescript": "~7.27.0",
-    "@storybook/addon-webpack5-compiler-swc": "~3.0.0",
+    "@storybook/addon-webpack5-compiler-swc": "~4.0.0",
     "@storybook/react": "~9.1.0",
     "@storybook/react-webpack5": "~9.1.0",
     "@types/react": "~19.1.0",
