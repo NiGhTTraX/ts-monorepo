@@ -22,7 +22,7 @@
     "globals": "~16.4.0",
     "prettier": "~3.6.0",
     "typescript": "~5.9.0",
-    "typescript-eslint": "~8.45.0"
+    "typescript-eslint": "~8.46.0"
   },
   "packageManager": "pnpm@10.18.1"
 }
