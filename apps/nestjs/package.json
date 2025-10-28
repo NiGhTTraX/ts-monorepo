@@ -21,7 +21,7 @@
   "devDependencies": {
     "@nestjs/cli": "~11.0.0",
     "@types/express": "~5.0.0",
-    "@types/node": "~22.16.0",
+    "@types/node": "~22.18.0",
     "ts-node": "~10.9.0",
     "tsconfig-paths": "~4.2.0",
     "typescript": "~5.9.0"
