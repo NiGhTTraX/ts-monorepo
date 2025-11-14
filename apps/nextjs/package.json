@@ -17,7 +17,7 @@
     "@types/node": "~22.18.0",
     "@types/react": "~19.2.0",
     "@types/react-dom": "~19.2.0",
-    "rimraf": "~6.0.0",
+    "rimraf": "~6.1.0",
     "typescript": "~5.9.0"
   }
 }
