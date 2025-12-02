@@ -23,7 +23,7 @@
     "storybook": "~10.0.0",
     "tsconfig-paths-webpack-plugin": "~4.2.0",
     "typescript": "~5.9.0",
-    "webpack": "~5.102.0"
+    "webpack": "~5.103.0"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
