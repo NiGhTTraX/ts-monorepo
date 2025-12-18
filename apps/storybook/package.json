@@ -20,7 +20,7 @@
     "babel-loader": "~10.0.0",
     "require-from-string": "~2.0.2",
     "rimraf": "~6.1.0",
-    "storybook": "~10.1.0",
+    "storybook": "~10.1.10",
     "tsconfig-paths-webpack-plugin": "~4.2.0",
     "typescript": "~5.9.0",
     "webpack": "~5.103.0"
