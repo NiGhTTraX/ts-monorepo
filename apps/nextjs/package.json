@@ -8,7 +8,7 @@
     "build": "next build"
   },
   "dependencies": {
-    "next": "~16.1.0",
+    "next": "~16.1.5",
     "react": "~19.2.0",
     "react-dom": "~19.2.0",
     "@nighttrax/components": "workspace:*"
