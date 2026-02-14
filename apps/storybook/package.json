@@ -8,8 +8,8 @@
     "react-dom": "~19.2.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.28.0",
-    "@babel/preset-env": "~7.28.0",
+    "@babel/core": "~7.29.0",
+    "@babel/preset-env": "~7.29.0",
     "@babel/preset-react": "~7.28.0",
     "@babel/preset-typescript": "~7.28.0",
     "@storybook/addon-webpack5-compiler-swc": "~4.0.0",
