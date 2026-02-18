@@ -1,12 +1,12 @@
-import type { Config } from "@jest/types";
 import { pathsToModuleNameMapper } from "ts-jest";
 // Load the config which holds the path aliases.
-import { compilerOptions } from "../../tsconfig.json";
+import tsConfig from "../../tsconfig.json" with { type: "json" };
 
-const config: Config.InitialOptions = {
+/** @type {import('@jest/types').Config} */
+const config = {
   preset: "ts-jest",
 
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, {
+  moduleNameMapper: pathsToModuleNameMapper(tsConfig.compilerOptions.paths, {
     // This has to match the baseUrl defined in tsconfig.json.
     prefix: "<rootDir>/../../",
   }),
