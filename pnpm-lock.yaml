@@ -302,8 +302,8 @@ importers:
         specifier: ~7.3.0
         version: 7.3.0(@types/node@24.10.13)(terser@5.40.0)
       vite-tsconfig-paths:
-        specifier: ~6.0.0
-        version: 6.0.3(typescript@5.9.2)(vite@7.3.0(@types/node@24.10.13)(terser@5.40.0))
+        specifier: ~6.1.0
+        version: 6.1.1(typescript@5.9.2)(vite@7.3.0(@types/node@24.10.13)(terser@5.40.0))
 
   apps/webpack:
     dependencies:
@@ -6009,13 +6009,10 @@ packages:
   vfile@4.2.1:
     resolution: {integrity: sha512-O6AE4OskCG5S1emQ/4gl8zK586RqA3srz3nfK/Viy0UPToBc5Trp9BVFb1u0CjsKrAWwnpr4ifM/KBXPWwJbCA==}
 
-  vite-tsconfig-paths@6.0.3:
-    resolution: {integrity: sha512-7bL7FPX/DSviaZGYUKowWF1AiDVWjMjxNbE8lyaVGDezkedWqfGhlnQ4BZXre0ZN5P4kAgIJfAlgFDVyjrCIyg==}
+  vite-tsconfig-paths@6.1.1:
+    resolution: {integrity: sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==}
     peerDependencies:
       vite: '*'
-    peerDependenciesMeta:
-      vite:
-        optional: true
 
   vite@7.3.0:
     resolution: {integrity: sha512-dZwN5L1VlUBewiP6H9s2+B3e3Jg96D0vzN+Ry73sOefebhYr9f94wwkMNN/9ouoU8pV1BqA1d1zGk8928cx0rg==}
@@ -12987,12 +12984,11 @@ snapshots:
       unist-util-stringify-position: 2.0.3
       vfile-message: 2.0.4
 
-  vite-tsconfig-paths@6.0.3(typescript@5.9.2)(vite@7.3.0(@types/node@24.10.13)(terser@5.40.0)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.2)(vite@7.3.0(@types/node@24.10.13)(terser@5.40.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.9.2)
-    optionalDependencies:
       vite: 7.3.0(@types/node@24.10.13)(terser@5.40.0)
     transitivePeerDependencies:
       - supports-color
