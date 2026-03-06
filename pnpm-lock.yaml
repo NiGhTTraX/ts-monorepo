@@ -12,8 +12,8 @@ importers:
         specifier: ~9.39.0
         version: 9.39.1
       doctoc:
-        specifier: ~2.2.0
-        version: 2.2.1
+        specifier: ~2.3.0
+        version: 2.3.0
       eslint:
         specifier: ~9.39.0
         version: 9.39.1
@@ -2878,8 +2878,8 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  anchor-markdown-header@0.6.0:
-    resolution: {integrity: sha512-v7HJMtE1X7wTpNFseRhxsY/pivP4uAJbidVhPT+yhz4i/vV1+qx371IXuV9V7bN6KjFtheLJxqaSm0Y/8neJTA==}
+  anchor-markdown-header@0.8.2:
+    resolution: {integrity: sha512-ix0Hx6ARkHOsQRmt1++ZmjURq4Pr5MGXQJjh0lQ/l5jTpTURn4aqhbZ+AJMpZ/Sd3JiyNwi7KaeiF64OsMGCPg==}
 
   ansi-colors@4.1.3:
     resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
@@ -3504,8 +3504,8 @@ packages:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
 
-  doctoc@2.2.1:
-    resolution: {integrity: sha512-qNJ1gsuo7hH40vlXTVVrADm6pdg30bns/Mo7Nv1SxuXSM1bwF9b4xQ40a6EFT/L1cI+Yylbyi8MPI4G4y7XJzQ==}
+  doctoc@2.3.0:
+    resolution: {integrity: sha512-duuDNVnRHE5mFGYlI+oDf1vguML8PIhKnbUCs7iKPHIEdzYhkCldk6MQeX3ZeXQStRtZxGspSHImtgOMQPIS4A==}
     hasBin: true
 
   doctrine@2.1.0:
@@ -3528,15 +3528,8 @@ packages:
   dom-serializer@1.3.2:
     resolution: {integrity: sha512-5c54Bk5Dw4qAxNOI1pFEizPSjVsx5+bpJKmL2kPn8JhBUq2q09tTCa3mjijun2NfK78NMouDYNMBkOrPZiS+ig==}
 
-  domelementtype@2.2.0:
-    resolution: {integrity: sha512-DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==}
-
   domelementtype@2.3.0:
     resolution: {integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==}
-
-  domhandler@4.3.0:
-    resolution: {integrity: sha512-fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g==}
-    engines: {node: '>= 4'}
 
   domhandler@4.3.1:
     resolution: {integrity: sha512-GrwoxYN+uWlzO8uhUXRl0P+kHE4GtVPfYzVLcUxPL7KNdHKj66vvlhiweIHqYYXWlw+T8iLMp42Lm67ghw4WMQ==}
@@ -3570,8 +3563,8 @@ packages:
     resolution: {integrity: sha512-DeWwawk6r5yR9jFgnDKYt4sLS0LmHJJi3ZOnb5/JdbYwj3nW+FxQnHIjhBKz8YLC7oRNPVM9NQ47I3CVx34eqQ==}
     engines: {node: '>=12'}
 
-  emoji-regex@10.1.0:
-    resolution: {integrity: sha512-xAEnNCT3w2Tg6MA7ly6QqYJvEoY1tm9iIjJ3yMKK9JPlWuRHAMoe5iETwQnx3M9TVbFMfsrBgWKR+IsmswwNjg==}
+  emoji-regex@10.6.0:
+    resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -5465,6 +5458,9 @@ packages:
 
   remark-parse@9.0.0:
     resolution: {integrity: sha512-geKatMwSzEXKHuzBNU1z676sGcDcFoChMK38TgdHJNAYfFtsfHDQG7MoJAjs6sgYMqyLduCYWDIWZIxiPeafEw==}
+
+  remove-markdown@0.6.3:
+    resolution: {integrity: sha512-Qvp2p0Q1irE7AaJO7QemJe04HdObHylJrG+q4hszvPlYp7q4EvfINpEIaIEFdB+3XTDp1h6fiyT60ae00gmRow==}
 
   renderkid@3.0.0:
     resolution: {integrity: sha512-q/7VIQA8lmM1hF+jn+sFSPWGlMkSAeNYcPLmDQx2zzuiDfaLrOmumR8iaUKlenFgh0XRPIUeSPlH3A+AW3Z5pg==}
@@ -9039,9 +9035,10 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  anchor-markdown-header@0.6.0:
+  anchor-markdown-header@0.8.2:
     dependencies:
-      emoji-regex: 10.1.0
+      emoji-regex: 10.6.0
+      remove-markdown: 0.6.3
 
   ansi-colors@4.1.3: {}
 
@@ -9706,12 +9703,12 @@ snapshots:
 
   diff@4.0.2: {}
 
-  doctoc@2.2.1:
+  doctoc@2.3.0:
     dependencies:
       '@textlint/markdown-to-ast': 12.1.1
-      anchor-markdown-header: 0.6.0
+      anchor-markdown-header: 0.8.2
       htmlparser2: 7.2.0
-      minimist: 1.2.6
+      minimist: 1.2.8
       underscore: 1.13.3
       update-section: 0.3.3
     transitivePeerDependencies:
@@ -9735,17 +9732,11 @@ snapshots:
 
   dom-serializer@1.3.2:
     dependencies:
-      domelementtype: 2.2.0
-      domhandler: 4.3.0
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
       entities: 2.2.0
 
-  domelementtype@2.2.0: {}
-
   domelementtype@2.3.0: {}
-
-  domhandler@4.3.0:
-    dependencies:
-      domelementtype: 2.2.0
 
   domhandler@4.3.1:
     dependencies:
@@ -9754,8 +9745,8 @@ snapshots:
   domutils@2.8.0:
     dependencies:
       dom-serializer: 1.3.2
-      domelementtype: 2.2.0
-      domhandler: 4.3.0
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
 
   dot-case@3.0.4:
     dependencies:
@@ -9780,7 +9771,7 @@ snapshots:
 
   emittery@0.13.1: {}
 
-  emoji-regex@10.1.0: {}
+  emoji-regex@10.6.0: {}
 
   emoji-regex@8.0.0: {}
 
@@ -10653,8 +10644,8 @@ snapshots:
 
   htmlparser2@7.2.0:
     dependencies:
-      domelementtype: 2.2.0
-      domhandler: 4.3.0
+      domelementtype: 2.3.0
+      domhandler: 4.3.1
       domutils: 2.8.0
       entities: 3.0.1
 
@@ -12250,6 +12241,8 @@ snapshots:
       mdast-util-from-markdown: 0.8.5
     transitivePeerDependencies:
       - supports-color
+
+  remove-markdown@0.6.3: {}
 
   renderkid@3.0.0:
     dependencies:
