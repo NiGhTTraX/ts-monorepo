@@ -228,8 +228,8 @@ importers:
         specifier: ~19.2.0
         version: 19.2.2(@types/react@19.2.2)
       babel-loader:
-        specifier: ~10.0.0
-        version: 10.0.0(@babel/core@7.29.0)(webpack@5.105.2(@swc/core@1.13.5))
+        specifier: ~10.1.0
+        version: 10.1.1(@babel/core@7.29.0)(webpack@5.105.2(@swc/core@1.13.5))
       require-from-string:
         specifier: ~2.0.2
         version: 2.0.2
@@ -3001,12 +3001,18 @@ packages:
     peerDependencies:
       '@babel/core': ^7.11.0 || ^8.0.0-0
 
-  babel-loader@10.0.0:
-    resolution: {integrity: sha512-z8jt+EdS61AMw22nSfoNJAZ0vrtmhPRVi6ghL3rCeRZI8cdNYFiV5xeV3HbE7rlZZNmGH8BVccwWt8/ED0QOHA==}
+  babel-loader@10.1.1:
+    resolution: {integrity: sha512-JwKSzk2kjIe7mgPK+/lyZ2QAaJcpahNAdM+hgR2HI8D0OJVkdj8Rl6J3kaLYki9pwF7P2iWnD8qVv80Lq1ABtg==}
     engines: {node: ^18.20.0 || ^20.10.0 || >=22.0.0}
     peerDependencies:
-      '@babel/core': ^7.12.0
+      '@babel/core': ^7.12.0 || ^8.0.0-beta.1
+      '@rspack/core': ^1.0.0 || ^2.0.0-0
       webpack: '>=5.61.0'
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      webpack:
+        optional: true
 
   babel-plugin-istanbul@7.0.1:
     resolution: {integrity: sha512-D8Z6Qm8jCvVXtIRkBnqNHX0zJ37rQcFJ9u8WOS6tkYOsRdHBzypCstaxWiu5ZIlqQtviRYbgnRLSoCEvjqcqbA==}
@@ -9222,10 +9228,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-loader@10.0.0(@babel/core@7.29.0)(webpack@5.105.2(@swc/core@1.13.5)):
+  babel-loader@10.1.1(@babel/core@7.29.0)(webpack@5.105.2(@swc/core@1.13.5)):
     dependencies:
       '@babel/core': 7.29.0
       find-up: 5.0.0
+    optionalDependencies:
       webpack: 5.105.2(@swc/core@1.13.5)
 
   babel-plugin-istanbul@7.0.1:
