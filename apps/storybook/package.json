@@ -22,7 +22,7 @@
     "rimraf": "~6.1.0",
     "storybook": "~10.3.0",
     "tsconfig-paths-webpack-plugin": "~4.2.0",
-    "typescript": "~5.9.0",
+    "typescript": "~6.0.0",
     "webpack": "~5.106.0"
   },
   "scripts": {
