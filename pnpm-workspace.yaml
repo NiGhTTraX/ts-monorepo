@@ -1,3 +1,9 @@
 packages:
   - 'packages/**'
   - 'apps/**'
+allowBuilds:
+  '@nestjs/core': false
+  '@swc/core': false
+  esbuild: false
+  sharp: false
+  unrs-resolver: false
