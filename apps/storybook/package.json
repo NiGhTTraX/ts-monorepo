@@ -8,22 +8,13 @@
     "react-dom": "~19.2.0"
   },
   "devDependencies": {
-    "@babel/core": "~7.29.0",
-    "@babel/preset-env": "~7.29.0",
-    "@babel/preset-react": "~7.28.0",
-    "@babel/preset-typescript": "~7.28.0",
-    "@storybook/addon-webpack5-compiler-swc": "~4.0.0",
-    "@storybook/react": "~10.3.0",
-    "@storybook/react-webpack5": "~10.3.0",
+    "@testing-library/dom": "~10.4.1",
     "@types/react": "~19.2.0",
     "@types/react-dom": "~19.2.0",
-    "babel-loader": "~10.1.0",
-    "require-from-string": "~2.0.2",
     "rimraf": "~6.1.0",
-    "storybook": "~10.3.0",
-    "tsconfig-paths-webpack-plugin": "~4.2.0",
-    "typescript": "~5.9.0",
-    "webpack": "~5.106.0"
+    "storybook": "~10.4.1",
+    "@storybook/react-vite": "~10.4.1",
+    "typescript": "~5.9.0"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
