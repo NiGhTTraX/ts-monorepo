@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
@@ -17,9 +17,12 @@ importers:
       eslint:
         specifier: ~9.39.0
         version: 9.39.1
+      eslint-config-prettier:
+        specifier: ~10.1.8
+        version: 10.1.8(eslint@9.39.1)
       eslint-plugin-prettier:
         specifier: ~5.5.0
-        version: 5.5.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.1(eslint@9.39.1))(eslint@9.39.1)(prettier@3.8.1)
+        version: 5.5.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.8(eslint@9.39.1))(eslint@9.39.1)(prettier@3.8.1)
       eslint-plugin-react:
         specifier: ~7.37.4
         version: 7.37.5(eslint@9.39.1)
@@ -3640,8 +3643,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@10.1.1:
-    resolution: {integrity: sha512-4EQQr6wXwS+ZJSzaR5ZCrYgLxqvUjdXctaEtBqHcbkW944B1NQyO4qpdHQbXBONfwxXdkAY81HH4+LUfrg+zPw==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -9826,12 +9829,11 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@10.1.1(eslint@9.39.1):
+  eslint-config-prettier@10.1.8(eslint@9.39.1):
     dependencies:
       eslint: 9.39.1
-    optional: true
 
-  eslint-plugin-prettier@5.5.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.1(eslint@9.39.1))(eslint@9.39.1)(prettier@3.8.1):
+  eslint-plugin-prettier@5.5.1(@types/eslint@8.4.1)(eslint-config-prettier@10.1.8(eslint@9.39.1))(eslint@9.39.1)(prettier@3.8.1):
     dependencies:
       eslint: 9.39.1
       prettier: 3.8.1
@@ -9839,7 +9841,7 @@ snapshots:
       synckit: 0.11.8
     optionalDependencies:
       '@types/eslint': 8.4.1
-      eslint-config-prettier: 10.1.1(eslint@9.39.1)
+      eslint-config-prettier: 10.1.8(eslint@9.39.1)
 
   eslint-plugin-react@7.37.5(eslint@9.39.1):
     dependencies:

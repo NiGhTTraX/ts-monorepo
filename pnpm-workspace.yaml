@@ -1,6 +1,8 @@
 packages:
   - 'packages/**'
   - 'apps/**'
+strictPeerDependencies: true
+autoInstallPeers: false
 allowBuilds:
   '@nestjs/core': false
   '@swc/core': false
