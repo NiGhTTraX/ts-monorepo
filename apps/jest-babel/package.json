@@ -12,7 +12,7 @@
   "devDependencies": {
     "@babel/core": "~7.29.0",
     "@babel/preset-env": "~7.29.0",
-    "@babel/preset-typescript": "~7.28.0",
+    "@babel/preset-typescript": "~7.29.0",
     "@types/jest": "~30.0.0",
     "babel-plugin-module-resolver": "~5.0.0",
     "jest": "~30.4.0"
