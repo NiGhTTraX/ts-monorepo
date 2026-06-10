@@ -1,7 +1,6 @@
 import globals from "globals";
 import js from "@eslint/js";
 import tsEslint from "typescript-eslint";
-import pluginReact from "eslint-plugin-react";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 
 export default tsEslint.config(
@@ -27,12 +26,6 @@ export default tsEslint.config(
       "packages/{components}/**/*.{jsx,tsx}",
     ],
     languageOptions: { globals: globals.browser },
-    extends: [pluginReact.configs.flat.recommended],
-    settings: {
-      react: {
-        version: "detect",
-      },
-    },
   },
 
   eslintPluginPrettierRecommended,
