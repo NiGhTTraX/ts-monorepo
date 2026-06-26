@@ -12,8 +12,8 @@ importers:
         specifier: ~10.0.1
         version: 10.0.1(eslint@10.4.1)
       doctoc:
-        specifier: ~2.4.0
-        version: 2.4.1
+        specifier: ~2.5.0
+        version: 2.5.0
       eslint:
         specifier: ~10.4.1
         version: 10.4.1
@@ -2507,11 +2507,11 @@ packages:
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
 
-  '@textlint/ast-node-types@15.5.4':
-    resolution: {integrity: sha512-bVtB6VEy9U9DpW8cTt25k5T+lz86zV5w6ImePZqY1AXzSuPhqQNT77lkMPxonXzUducEIlSvUu3o7sKw3y9+Sw==}
+  '@textlint/ast-node-types@15.7.1':
+    resolution: {integrity: sha512-Wii5UgUKFEh9Uv6wbq1zr4/Kf+dtjiUuzPrrXzKp8H+ifkvKNzi23V4Nz+6wVyHQn5T28AFuc8VH8OtzvGYecA==}
 
-  '@textlint/markdown-to-ast@15.5.4':
-    resolution: {integrity: sha512-BBAmPYAQ2Y3sqJoivT7S+tTqksoKKi2qwLOPRYVPcAM55B3x/8eLxQDd0qARo7XvJKscDawwpfAGcLOR9n6SBQ==}
+  '@textlint/markdown-to-ast@15.7.1':
+    resolution: {integrity: sha512-9DLSah7g6mYNHvO6pssLdFvFPAl3HHyEIm4RE5of/1QN9FXJXDgdOcVV3YpQmbYT/YntuIvOQiqOndCSPWTW2A==}
 
   '@tokenizer/inflate@0.2.7':
     resolution: {integrity: sha512-MADQgmZT1eKjp06jpI2yozxaU9uVs4GzzgSL+uEq7bVcJ9V1ZXQkeGNql1fsSI0gMy1vhvNTNbUqrx+pZfJVmg==}
@@ -2955,8 +2955,8 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  anchor-markdown-header@0.8.3:
-    resolution: {integrity: sha512-i2JealiBR1stamxKBE+LDebJ5p/0GPffwEs05KaYqG+3oS25Semk4AE+YG5lUsCGZNYp70I9K57tfqsm8Pdwxg==}
+  anchor-markdown-header@0.8.4:
+    resolution: {integrity: sha512-20eMBMpts7k5rXAAj67geSqc/tsexHZOZJDWQD214YcDuNtyizDa7Q77sYa5rkao2FwsQP1WKRt2X6mphwmhbg==}
 
   ansi-colors@4.1.3:
     resolution: {integrity: sha512-/6w/C21Pm1A7aZitlI5Ni/2J6FFQN8i1Cvz3kHABAAbw93v/NlvKdVOqz7CCWz/3iv/JplRSEEZ83XION15ovw==}
@@ -3416,8 +3416,8 @@ packages:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
 
-  doctoc@2.4.1:
-    resolution: {integrity: sha512-vDasMUactdtJCpQgeVleLPlSQCB6RORauWJDwNetJDAhMR5uSuw7IGtHX/6k+E1rHCI4rLrPx8dKSznYCNwehA==}
+  doctoc@2.5.0:
+    resolution: {integrity: sha512-xWb2P8mQw9x+T9xPYToytRP0/bA68oexdsY0anMG72RdhZGTVPx6oHJfI57gbZe9LsOSfQUNNLwxSspdoTlJIQ==}
     hasBin: true
 
   doctrine@3.0.0:
@@ -8149,11 +8149,11 @@ snapshots:
     dependencies:
       '@testing-library/dom': 10.4.1
 
-  '@textlint/ast-node-types@15.5.4': {}
+  '@textlint/ast-node-types@15.7.1': {}
 
-  '@textlint/markdown-to-ast@15.5.4':
+  '@textlint/markdown-to-ast@15.7.1':
     dependencies:
-      '@textlint/ast-node-types': 15.5.4
+      '@textlint/ast-node-types': 15.7.1
       debug: 4.4.3
       mdast-util-gfm-autolink-literal: 0.1.3
       neotraverse: 0.6.18
@@ -8649,7 +8649,7 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  anchor-markdown-header@0.8.3:
+  anchor-markdown-header@0.8.4:
     dependencies:
       emoji-regex: 10.6.0
       remove-markdown: 0.6.3
@@ -9127,10 +9127,10 @@ snapshots:
 
   diff@4.0.2: {}
 
-  doctoc@2.4.1:
+  doctoc@2.5.0:
     dependencies:
-      '@textlint/markdown-to-ast': 15.5.4
-      anchor-markdown-header: 0.8.3
+      '@textlint/markdown-to-ast': 15.7.1
+      anchor-markdown-header: 0.8.4
       htmlparser2: 7.2.0
       loglevel: 1.9.2
       minimist: 1.2.8
