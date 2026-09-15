@@ -125,8 +125,8 @@ importers:
         specifier: ~5.5.0
         version: 5.5.1(eslint-config-prettier@10.1.8(eslint@10.9.1(supports-color@8.1.1)))(eslint@10.9.1(supports-color@8.1.1))(prettier@3.9.5)
       globals:
-        specifier: ~17.11.0
-        version: 17.11.0
+        specifier: ~17.12.0
+        version: 17.12.0
       prettier:
         specifier: ~3.9.0
         version: 3.9.5
@@ -3835,8 +3835,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
-  globals@17.11.0:
-    resolution: {integrity: sha512-Z2I8hM+PbJDXQDq3Icgpzv+mPdwr68iZUU9d5WW4FuXfDUQfkZaZuvjMv42/5crNyw154+9+VWXbYrUgDXbxNw==}
+  globals@17.12.0:
+    resolution: {integrity: sha512-cezEd/DTyyht9cvSSURyygXPfy04GtWO/5e6ZPvH7fCtjKz9PYOmuawphw1Ctd1f6C+5JypXfGD7ahNMXvevBA==}
     engines: {node: '>=18'}
 
   globrex@0.1.2:
@@ -9063,7 +9063,7 @@ snapshots:
       minipass: 4.2.8
       path-scurry: 1.11.1
 
-  globals@17.11.0: {}
+  globals@17.12.0: {}
 
   globrex@0.1.2: {}
 
