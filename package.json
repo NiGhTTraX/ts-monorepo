@@ -2,10 +2,6 @@
   "name": "ts-monorepo",
   "description": "Template for setting up a TypeScript monorepo",
   "private": true,
-  "workspaces": [
-    "packages/*",
-    "apps/*"
-  ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "pnpm run -r clean",
@@ -24,5 +20,5 @@
     "typescript": "~5.9.0",
     "typescript-eslint": "~8.70.0"
   },
-  "packageManager": "pnpm@12.6.0"
+  "packageManager": "pnpm@12.7.0"
 }
