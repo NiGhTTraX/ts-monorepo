@@ -1,6 +1,7 @@
 packages:
   - 'packages/**'
   - 'apps/**'
+  - '!apps/nextjs/.next' # Contains a package.json
 strictPeerDependencies: true
 autoInstallPeers: false
 allowBuilds:
