@@ -5,6 +5,7 @@ strictPeerDependencies: true
 autoInstallPeers: false
 allowBuilds:
   '@nestjs/core': false
+  '@parcel/watcher': true
   '@swc/core': false
   esbuild: false
   sharp: false
