@@ -360,7 +360,7 @@ importers:
     devDependencies:
       '@storybook/react-vite':
         specifier: ~10.6.0
-        version: 10.6.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rollup@4.64.7)(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
+        version: 10.6.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rollup@4.64.7)(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
       '@testing-library/dom':
         specifier: ~10.4.1
         version: 10.4.1
@@ -422,7 +422,7 @@ importers:
         version: 19.3.0(@types/react@19.3.0)
       '@vitejs/plugin-react':
         specifier: ~6.1.0
-        version: 6.1.1(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
+        version: 6.1.1(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
       rimraf:
         specifier: ~6.1.0
         version: 6.1.0
@@ -431,10 +431,10 @@ importers:
         version: 5.9.2
       vite:
         specifier: ~8.3.0
-        version: 8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
+        version: 8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
       vite-tsconfig-paths:
         specifier: ~6.1.0
-        version: 6.1.1(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
+        version: 6.1.1(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
 
   apps/webpack:
     dependencies:
@@ -5682,8 +5682,8 @@ packages:
     peerDependencies:
       vite: '*'
 
-  vite@8.3.1:
-    resolution: {integrity: sha512-/bvH9E9tmCXRGp2uXY3WbOldqpTwFkbha/8ANaEQ6VkxhH60KyqLwgZq6lG2y+4uT55x9+9eUHMpQ7uGnOCKjA==}
+  vite@8.3.3:
+    resolution: {integrity: sha512-cTAldKPImjg6c+gk48U19POPn3GCBzZwpdsN8ZMEEcbpes+6/wvfqUd0C2y3qYY4wsj8PwgFwrZ/1jBPVttMSg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -7355,11 +7355,11 @@ snapshots:
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
-  '@joshwooding/vite-plugin-react-docgen-typescript@0.7.0(typescript@5.9.2)(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
+  '@joshwooding/vite-plugin-react-docgen-typescript@0.7.0(typescript@5.9.2)(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
     dependencies:
       glob: 13.0.6
       react-docgen-typescript: 2.2.2(typescript@5.9.2)
-      vite: 8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
+      vite: 8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
     optionalDependencies:
       typescript: 5.9.2
 
@@ -7872,11 +7872,11 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@storybook/builder-vite@10.6.0(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
+  '@storybook/builder-vite@10.6.0(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
     dependencies:
       storybook: 10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       ts-dedent: 2.2.0
-      vite: 8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
+      vite: 8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
 
   '@storybook/global@5.0.0': {}
 
@@ -7894,11 +7894,11 @@ snapshots:
       '@types/react': 19.3.0
       '@types/react-dom': 19.3.0(@types/react@19.3.0)
 
-  '@storybook/react-vite@10.6.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rollup@4.64.7)(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
+  '@storybook/react-vite@10.6.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(rollup@4.64.7)(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.7.0(typescript@5.9.2)(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.7.0(typescript@5.9.2)(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
       '@rollup/pluginutils': 5.1.0(rollup@4.64.7)
-      '@storybook/builder-vite': 10.6.0(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
+      '@storybook/builder-vite': 10.6.0(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))
       '@storybook/react': 10.6.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(storybook@10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(supports-color@8.1.1)(typescript@5.9.2)
       empathic: 2.0.1
       magic-string: 1.4.1
@@ -7908,7 +7908,7 @@ snapshots:
       resolve: 1.22.11
       storybook: 10.6.2(@types/react@19.3.0)(prettier@3.9.5)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       tsconfig-paths: 4.2.0
-      vite: 8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
+      vite: 8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
     optionalDependencies:
       typescript: 5.9.2
     transitivePeerDependencies:
@@ -8294,10 +8294,10 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.12.2':
     optional: true
 
-  '@vitejs/plugin-react@6.1.1(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
+  '@vitejs/plugin-react@6.1.1(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
-      vite: 8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
+      vite: 8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
 
   '@vitest/expect@3.2.4':
     dependencies:
@@ -11376,17 +11376,17 @@ snapshots:
       unist-util-stringify-position: 2.0.3
       vfile-message: 2.0.4
 
-  vite-tsconfig-paths@6.1.1(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)):
+  vite-tsconfig-paths@6.1.1(supports-color@8.1.1)(typescript@5.9.2)(vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)):
     dependencies:
       debug: 4.4.3(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 3.1.5(typescript@5.9.2)
-      vite: 8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
+      vite: 8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@8.3.1(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2):
+  vite@8.3.3(@types/node@24.13.2)(esbuild@0.27.3)(terser@5.51.2):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
