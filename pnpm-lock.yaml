@@ -456,10 +456,10 @@ importers:
         version: 5.9.2
       webpack:
         specifier: ~5.112.0
-        version: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@24.13.2))(webpack-cli@7.2.1)
+        version: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@24.13.2))(webpack-cli@7.3.1)
       webpack-cli:
-        specifier: ~7.2.0
-        version: 7.2.1(json5@2.2.3)(webpack@5.112.2)
+        specifier: ~7.3.0
+        version: 7.3.1(json5@2.2.3)(webpack@5.112.2)
 
   packages/bar:
     dependencies:
@@ -5069,9 +5069,9 @@ packages:
     resolution: {integrity: sha512-YTUo+Flmw4ZXiWfQKGcwwc11KnoRAYgzAE2E7mXKCjSviTKShtxBsN6YUUBB2gtaBzKzeKunxhUwNHQuRryhWA==}
     engines: {node: '>= 4'}
 
-  rechoir@0.8.0:
-    resolution: {integrity: sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==}
-    engines: {node: '>= 10.13.0'}
+  rechoir@1.0.0:
+    resolution: {integrity: sha512-vyBa7bWz11iJRwzJR0nGLt6r45bymWfYXAgd1FmP08BNP/DHAVabgpGPyEXQmBtKvhgxi17SQz2szhvkberQsg==}
+    engines: {node: '>= 22.15.0'}
 
   redent@3.0.0:
     resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==}
@@ -5723,18 +5723,21 @@ packages:
     resolution: {integrity: sha512-s3NZy0QpTY9qGqzc0wtz4qI28z3+5qKbbAec4MV4G9N3CfgZ9wgvQRr0cl2jh/tqkWG1NWHkmVMHZpCamev5Wg==}
     engines: {node: '>=10.13.0'}
 
-  webpack-cli@7.2.1:
-    resolution: {integrity: sha512-YwSGbcZdfz12DM8JIseVPr3oBb09IgVCVc4vY3oDvZnI/mALTGPAP1QiqOi4/bBLSJrRHaqDIXeHcNA0+G38aw==}
+  webpack-cli@7.3.1:
+    resolution: {integrity: sha512-enXzN0/2fWHX3tP2gpTV6U8/zz5RSbfWjSAc0VXOi0+hOY4ePdHanA+2kxrAC/SX0LHO4fOX5c9G1TdwpvUj/g==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
+      '@bomb.sh/tab': ^0.0.22
       js-yaml: ^4.0.0 || ^5.0.0
       json5: ^2.2.3
-      toml: ^3.0.0 || ^4.0.0
+      toml: ^3.0.0 || ^4.0.0 || ^5.0.0
       webpack: ^5.101.0
       webpack-bundle-analyzer: ^4.0.0 || ^5.0.0
       webpack-dev-server: ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
+      '@bomb.sh/tab':
+        optional: true
       js-yaml:
         optional: true
       json5:
@@ -7441,7 +7444,7 @@ snapshots:
     optionalDependencies:
       ts-loader: 9.6.0(typescript@5.9.2)(webpack@5.112.2)
       tsconfig-paths-webpack-plugin: 4.2.0
-      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.2.1)
+      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.3.1)
     transitivePeerDependencies:
       - '@types/node'
       - prettier
@@ -10245,7 +10248,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.8.1(webpack@5.112.2)
       terser: 5.51.2
-      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@24.13.2))(webpack-cli@7.2.1)
+      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@24.13.2))(webpack-cli@7.3.1)
     optionalDependencies:
       esbuild: 0.27.3
       lightningcss: 1.33.0
@@ -10258,7 +10261,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.8.1(webpack@5.112.2)
       terser: 5.51.2
-      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.2.1)
+      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.3.1)
     optionalDependencies:
       esbuild: 0.27.3
       lightningcss: 1.33.0
@@ -10628,9 +10631,7 @@ snapshots:
       tiny-invariant: 1.3.3
       tslib: 2.9.1
 
-  rechoir@0.8.0:
-    dependencies:
-      resolve: 1.22.11
+  rechoir@1.0.0: {}
 
   redent@3.0.0:
     dependencies:
@@ -10803,7 +10804,7 @@ snapshots:
       ajv-formats: 3.0.1
       ajv-keywords: 5.1.0(ajv@8.20.0)
     optionalDependencies:
-      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.2.1)
+      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.3.1)
 
   semver@6.3.1: {}
 
@@ -11161,7 +11162,7 @@ snapshots:
       semver: 7.8.5
       source-map: 0.7.6
       typescript: 5.9.2
-      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.2.1)
+      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.3.1)
 
   ts-node@10.9.2(@types/node@24.13.2)(typescript@5.9.3):
     dependencies:
@@ -11396,16 +11397,14 @@ snapshots:
     dependencies:
       graceful-fs: 4.2.11
 
-  webpack-cli@7.2.1(json5@2.2.3)(webpack@5.112.2):
+  webpack-cli@7.3.1(json5@2.2.3)(webpack@5.112.2):
     dependencies:
       '@discoveryjs/json-ext': 1.1.0
       commander: 14.0.3
-      cross-spawn: 7.0.6
       envinfo: 7.21.0
-      import-local: 3.2.0
       interpret: 3.1.1
-      rechoir: 0.8.0
-      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.2.1)
+      rechoir: 1.0.0
+      webpack: 5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.3.1)
       webpack-merge: 6.0.1
     optionalDependencies:
       json5: 2.2.3
@@ -11418,7 +11417,7 @@ snapshots:
 
   webpack-sources@3.6.0: {}
 
-  webpack@5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@24.13.2))(webpack-cli@7.2.1):
+  webpack@5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@24.13.2))(webpack-cli@7.3.1):
     dependencies:
       '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
@@ -11438,7 +11437,7 @@ snapshots:
       watchpack: 2.6.3
       webpack-sources: 3.6.0
     optionalDependencies:
-      webpack-cli: 7.2.1(json5@2.2.3)(webpack@5.112.2)
+      webpack-cli: 7.3.1(json5@2.2.3)(webpack@5.112.2)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@napi-rs/image'
@@ -11457,7 +11456,7 @@ snapshots:
       - svgo
       - uglify-js
 
-  webpack@5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.2.1):
+  webpack@5.112.2(esbuild@0.27.3)(lightningcss@1.33.0)(postcss@8.5.28)(sharp@0.35.5(@types/node@26.6.5))(webpack-cli@7.3.1):
     dependencies:
       '@types/estree': 1.0.9
       '@types/json-schema': 7.0.15
@@ -11477,7 +11476,7 @@ snapshots:
       watchpack: 2.6.3
       webpack-sources: 3.6.0
     optionalDependencies:
-      webpack-cli: 7.2.1(json5@2.2.3)(webpack@5.112.2)
+      webpack-cli: 7.3.1(json5@2.2.3)(webpack@5.112.2)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@napi-rs/image'
