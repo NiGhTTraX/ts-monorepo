@@ -10,7 +10,7 @@
     "@nighttrax/foo": "workspace:*"
   },
   "devDependencies": {
-    "@babel/core": "~8.0.0",
+    "@babel/core": "~8.1.0",
     "@babel/preset-env": "~8.0.0",
     "@babel/preset-typescript": "~8.0.0",
     "@types/jest": "~30.0.0",
