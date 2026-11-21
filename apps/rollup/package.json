@@ -15,7 +15,7 @@
     "@rollup/plugin-typescript": "~12.3.0",
     "@types/node": "~26.6.0",
     "rimraf": "~6.1.0",
-    "rollup": "~4.67.0",
+    "rollup": "~4.68.0",
     "tslib": "~2.9.0",
     "typescript": "~5.9.0"
   }
